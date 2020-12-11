@@ -1,0 +1,5645 @@
+
+  	*****************************************************************
+	*								*
+	*    GAAMP - GENERAL AUTOMATED ATOMIC MODEL PARAMETERIZATION    *
+	*   			Version 1.0				*
+	*								*
+	*****************************************************************
+
+	3SW4_Pose1 
+	Wed Mar 28 15:25:10 CDT 2018
+		
+	Will parameterizes the molecule in file mol.pdb of format pdb
+
+	With the CHARMM additive force field
+
+		n1c(C)c(c2nc(ncc2)Nc2ccc(N(C)C)cc2)sc1N
+
+# 010-preoptimize STARTED
+Preoptimizing structure using Gaussian
+%mem=1GB
+# opt ram1 
+ 
+Mol 
+ 
+0 1
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000010     0.000450     YES
+ RMS     Force            0.000003     0.000300     YES
+ Maximum Displacement     0.001628     0.001800     YES
+ RMS     Displacement     0.000336     0.001200     YES
+ Predicted change in Energy=-2.008242D-08
+ Optimization completed.
+# 010-preoptimize FINISHED in 0:20
+# 020-initial_parameters STARTED
+Using antechamber to guess initial parameters
+
+
+
+
+
+Warning: the antechamber program automatically changes the prediction type from '0' to '4' for bcc calculations !
+
+# 020-initial_parameters FINISHED in 0:16
+# 030-generate_structure STARTED
+	Equivalent atoms are automaticaly determined
+#    CALL equiv_atom
+#    DONE equiv_atom
+equivalent   16  22
+equivalent   17  21
+equivalent   19  20
+equivalent   24  25  26
+equivalent   27  28
+equivalent   32  41
+equivalent   33  40
+equivalent   34  35  36  37  38  39
+	No neutral group will be used
+	Will read fixed charges from fixq
+#    CALL add-tip3
+#    DONE add-tip3
+#    CALL gen_xpsf
+#    DONE gen_xpsf
+#    CALL gen_xpsf
+#    DONE gen_xpsf
+#    CALL pdb_to_crd
+#    DONE pdb_to_crd
+# 030-generate_structure FINISHED in 0:1
+# 110-esp STARTED
+#    CALL gen-esp
+Gen-Crd_file> Finished geometry optimization.
+#    DONE gen-esp
+#    CALL check-b0-theta0
+EBond   =       6.019970292099627862
+E_Angle =     11.649814896027555378
+E_UreyB =       0.000000000000000000
+E_Dihed =       9.889571502094554489
+E_Impro =       0.000000000000000000
+E_VDW   =      15.152398929892660462
+E_Elec  =    -436.387780619880970789
+E_CMap  =       0.000000000000000000
+
+E_Total =    -393.676024999766582368
+
+EBond   =       2.857518693262091958
+E_Angle =     13.728122834800624119
+E_UreyB =       0.000000000000000000
+E_Dihed =       7.179745005834644367
+E_Impro =       0.000000000000000000
+E_VDW   =      15.011433384409905045
+E_Elec  =    -451.223100839923517924
+E_CMap  =       0.000000000000000000
+
+E_Total =    -412.446280921616221349
+
+Bond       NH       CA   1.3640 1.3657 1.4165
+changed: bond  9
+
+
+EBond   =       2.876655207818044957
+E_Angle =     13.487524294268011360
+E_UreyB =       0.000000000000000000
+E_Dihed =       7.066411901315184707
+E_Impro =       0.000000000000000000
+E_VDW   =      14.836065781664318664
+E_Elec  =    -450.774272331709653372
+E_CMap  =       0.000000000000000000
+
+E_Total =    -412.507615146644070592
+
+
+
+Angle       NC       CD       NH   120.11 114.13 123.31
+Angle       CA       NH       HN   116.13 105.70 114.04
+
+
+After adjusting theta_0:
+
+EBond   =       2.876655207818044957
+E_Angle =     13.487524294268011360
+E_UreyB =       0.000000000000000000
+E_Dihed =       7.066411901315184707
+E_Impro =       0.000000000000000000
+E_VDW   =      14.836065781664318664
+E_Elec  =    -450.774272331709653372
+E_CMap  =       0.000000000000000000
+
+E_Total =    -412.507615146644070592
+
+Angle       NC       CD       NH
+Angle       CA       NH       HN
+
+EBond   =       2.876655204912309305
+E_Angle =     13.971445077727981499
+E_UreyB =       0.000000000000000000
+E_Dihed =       7.066411902001422440
+E_Impro =       0.000000000000000000
+E_VDW   =      14.836065780805270720
+E_Elec  =    -450.774272331987162943
+E_CMap  =       0.000000000000000000
+
+E_Total =    -412.023694366540155443
+
+Replacing the atom type of atom 4 from       NH to     NH_0
+ATOM  N3     NH      -0.695300 
+ATOM N3     NH_0     -0.695300    !  NH
+Replacing the atom type of atom 15 from       CA to     CA_0
+ATOM  C8     CA      0.077600  
+ATOM C8     CA_0      0.077600    !  CA
+
+
+Read in modified prm and xpsf files, 
+EBond   =       2.876655204912309749
+E_Angle =     12.901678367976519013
+E_UreyB =       0.000000000000000000
+E_Dihed =       7.066411902001422440
+E_Impro =       0.000000000000000000
+E_VDW   =      14.836065780805270720
+E_Elec  =    -450.774272331987162943
+E_CMap  =       0.000000000000000000
+
+E_Total =    -413.093461076291646350
+
+#    DONE check-b0-theta0
+# 110-esp FINISHED in 14:2
+# 120-fit_esp STARTED
+#    CALL fitcharge
+Warning: para-opt-start.dat does not exist. Using the charges in xpsf as the initial parameters.
+#    DONE fitcharge
+#    CALL update-xpsf
+#    DONE update-xpsf
+# 120-fit_esp FINISHED in 0:4
+# 150-fit_water STARTED
+#    CALL acceptor
+Read previous charges.
+Obj_Min =    -7.1621375368
+Obj_Min =    -7.1621375368
+Obj_Min =    -7.1621375368
+Obj_Min =    -7.1621375368
+Obj_Min =    -7.1621375368
+Obj_Min =    -7.1621375368
+Obj_Min =    -4.9993252624
+Obj_Min =    -4.9993252624
+Obj_Min =    -4.9993252624
+Obj_Min =    -4.9993252624
+Obj_Min =    -4.9993252624
+Obj_Min =    -4.9993252624
+Obj_Min =    -7.5381882525
+Obj_Min =    -7.5381882525
+Obj_Min =    -7.5381882525
+Obj_Min =    -7.5381882525
+Obj_Min =    -7.5381882525
+Obj_Min =    -7.5381882525
+Obj_Min =    -4.6598017126
+Obj_Min =    -4.6598017126
+Obj_Min =    -4.6598017126
+Obj_Min =    -4.6598017126
+Obj_Min =    -4.6598017126
+Obj_Min =    -4.6598017126
+Obj_Min =  3908.5213370225
+Obj_Min =  3908.5213370225
+Obj_Min =  3913.3735764522
+Obj_Min =  3913.3735764522
+Obj_Min =   588.4451789909
+Obj_Min =  3908.5213370225
+Obj_Min =   274.0550961528
+Obj_Min =   274.0550961528
+Obj_Min =   274.0550961528
+Obj_Min =   274.0550961528
+Obj_Min =   274.0550961528
+Obj_Min =   274.0550961528
+Obj_Min =    37.5204348345
+Obj_Min =    37.5204348345
+Obj_Min =    37.5204348345
+Obj_Min =    37.5204348345
+Obj_Min =    37.5204348345
+Obj_Min =    37.5204348345
+#    DONE acceptor
+#    CALL donor
+Read previous charges.
+Obj_Min =    -6.9682185787
+Obj_Min =    -6.9682185787
+Obj_Min =    -6.9682185787
+Obj_Min =    -6.9682185787
+Obj_Min =    -6.9682185787
+Obj_Min =    -6.9682185787
+Obj_Min =    -5.7593356153
+Obj_Min =    -5.7593356153
+Obj_Min =    -5.7593356153
+Obj_Min =    -5.7593356153
+Obj_Min =    -5.7593356153
+Obj_Min =    -5.7593356153
+Obj_Min =    -4.4458422415
+Obj_Min =    -4.4458422415
+Obj_Min =    -4.4458422415
+Obj_Min =    -4.4458422415
+Obj_Min =    -4.4458422415
+Obj_Min =    -4.4458422415
+#    DONE donor
+#    CALL gen_soft_list
+  1   8   7  24 
+  1   9   2  27 
+  3  14   4  15 
+  6  11  10   8 
+ 14   4  15  16 
+ 17  18   5  19 
+ 18   5  19  34 
+ 18   5  20  37 
+
+
+ 27   2   9  23 
+ 15   4  14   3 
+ 23  10  11   6 
+ 14   4  15  16 
+ 19   5  18  17 
+#    DONE gen_soft_list
+#    CALL fitcharge
+Too much failed tries.
+I have tried my best.
+Quit.
+#    DONE fitcharge
+#    CALL update-xpsf
+#    DONE update-xpsf
+# 150-fit_water FINISHED in 24:38
+# 210-detect_soft_torsion STARTED
+#    CALL gen_soft_list
+  1   8   7  24 
+  1   9   2  27 
+  3  14   4  15 
+  6  11  10   8 
+ 14   4  15  16 
+ 17  18   5  19 
+ 18   5  19  34 
+ 18   5  20  37 
+
+
+ 27   2   9  23 
+ 15   4  14   3 
+ 23  10  11   6 
+ 14   4  15  16 
+ 19   5  18  17 
+#    DONE gen_soft_list
+# 210-detect_soft_torsion FINISHED in 0:0
+# 220-pes STARTED
+TORSION = 5 MAXTORSION = 8
+#    CALL mm_pes
+#    DONE mm_pes
+#    CALL clustering-phi
+Read data for 1024 configurations.
+Using data for 1024 configurations.
+k =  2 ,  0.974
+k =  3 ,  0.969
+k =  4 ,  0.839
+Phi  1   n_Correct = 2
+
+k =  2 ,  0.986
+k =  3 ,  0.758
+k =  4 ,  0.691
+Phi  2   n_Correct = 2
+
+k =  2 ,  0.923
+k =  3 ,  0.965
+k =  4 ,  0.847
+Phi  3   n_Correct = 3
+
+k =  2 ,  0.847
+k =  3 ,  0.792
+k =  4 ,  0.756
+Phi  4   n_Correct = 2
+
+k =  2 ,  0.823
+k =  3 ,  0.885
+k =  4 ,  0.984
+Phi  5   n_Correct = 4
+
+#    DONE clustering-phi
+# 220-pes FINISHED in 2:36
+# 230-qm_1d_scan STARTED
+#    CALL qm-1d-scan-para
+#    DONE qm-1d-scan-para
+# 230-qm_1d_scan FINISHED in 751:2
+# 240-1d-fitting STARTED
+#    CALL 1d-fitting
+
+Phi before MM optimization:
+ 26   1   8  22  -3.1416
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.506580
+Phi after MM optimization:
+ 26   1   8  22  -3.1416
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.9671
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.942957
+Phi after MM optimization:
+ 26   1   8  22  -2.9671
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.7925
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.261202
+Phi after MM optimization:
+ 26   1   8  22  -2.7925
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.6180
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.405196
+Phi after MM optimization:
+ 26   1   8  22  -2.6180
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.4435
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.289722
+Phi after MM optimization:
+ 26   1   8  22  -2.4435
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.2689
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.876626
+Phi after MM optimization:
+ 26   1   8  22  -2.2689
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.0944
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.156056
+Phi after MM optimization:
+ 26   1   8  22  -2.0944
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.9199
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.148309
+Phi after MM optimization:
+ 26   1   8  22  -1.9199
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.7453
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -439.904853
+Phi after MM optimization:
+ 26   1   8  22  -1.7453
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.3963
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.689987
+Phi after MM optimization:
+ 26   1   8  22  -1.3963
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.2217
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.089994
+Phi after MM optimization:
+ 26   1   8  22  -1.2217
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.0472
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.371640
+Phi after MM optimization:
+ 26   1   8  22  -1.0472
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.8727
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.531715
+Phi after MM optimization:
+ 26   1   8  22  -0.8727
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.6981
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.568534
+Phi after MM optimization:
+ 26   1   8  22  -0.6981
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5236
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.476780
+Phi after MM optimization:
+ 26   1   8  22  -0.5236
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.3491
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.248330
+Phi after MM optimization:
+ 26   1   8  22  -0.3491
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.1745
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.871325
+Phi after MM optimization:
+ 26   1   8  22  -0.1745
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.0000
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.291646
+Phi after MM optimization:
+ 26   1   8  22   0.0000
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.1745
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.925054
+Phi after MM optimization:
+ 26   1   8  22   0.1745
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.3491
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.294883
+Phi after MM optimization:
+ 26   1   8  22   0.3491
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.5236
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.510929
+Phi after MM optimization:
+ 26   1   8  22   0.5236
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.6981
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.578269
+Phi after MM optimization:
+ 26   1   8  22   0.6981
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.8727
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.509411
+Phi after MM optimization:
+ 26   1   8  22   0.8727
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.0472
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.312121
+Phi after MM optimization:
+ 26   1   8  22   1.0472
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.2217
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.998976
+Phi after MM optimization:
+ 26   1   8  22   1.2217
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.3963
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.571054
+Phi after MM optimization:
+ 26   1   8  22   1.3963
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.7453
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -440.004208
+Phi after MM optimization:
+ 26   1   8  22   1.7453
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.9199
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.237102
+Phi after MM optimization:
+ 26   1   8  22   1.9199
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.0944
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.235412
+Phi after MM optimization:
+ 26   1   8  22   2.0944
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.2689
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.945308
+Phi after MM optimization:
+ 26   1   8  22   2.2689
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.4435
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.344652
+Phi after MM optimization:
+ 26   1   8  22   2.4435
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.6180
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.452634
+Phi after MM optimization:
+ 26   1   8  22   2.6180
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.7925
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.299597
+Phi after MM optimization:
+ 26   1   8  22   2.7925
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.9671
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.956216
+Phi after MM optimization:
+ 26   1   8  22   2.9671
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -3.1416
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.507449
+Phi after MM optimization:
+ 26   1   8  22  -3.1416
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+Chi_SQ_min = 44.991864  Chi_SQ = 44.991864
+Chi_SQ_min = 44.991864  Chi_SQ = 45.235791
+Chi_SQ_min = 43.594113  Chi_SQ = 43.594113
+Chi_SQ_min = 43.594113  Chi_SQ = 44.083189
+Chi_SQ_min = 43.594113  Chi_SQ = 53.686573
+Chi_SQ_min = 43.594113  Chi_SQ = 53.804273
+Chi_SQ_min = 43.594113  Chi_SQ = 51.931452
+Chi_SQ_min = 43.594113  Chi_SQ = 52.267610
+Chi_SQ_min = 3.427246  Chi_SQ = 3.427246
+Chi_SQ_min = 3.426372  Chi_SQ = 3.426372
+Chi_SQ_min = 3.426372  Chi_SQ = 3.436448
+Chi_SQ_min = 3.426372  Chi_SQ = 3.436349
+Chi_SQ_min = 3.426372  Chi_SQ = 10.153232
+Chi_SQ_min = 3.426372  Chi_SQ = 10.129688
+Chi_SQ_min = 3.426372  Chi_SQ = 10.152288
+Chi_SQ_min = 3.426372  Chi_SQ = 10.129688
+Chi_SQ_min = 3.426372  Chi_SQ = 43.004906
+Chi_SQ_min = 3.426372  Chi_SQ = 43.185116
+Chi_SQ_min = 3.426372  Chi_SQ = 41.444305
+Chi_SQ_min = 3.426372  Chi_SQ = 41.854727
+Chi_SQ_min = 3.426372  Chi_SQ = 52.088073
+Chi_SQ_min = 3.426372  Chi_SQ = 52.165226
+Chi_SQ_min = 3.426372  Chi_SQ = 50.161005
+Chi_SQ_min = 3.426372  Chi_SQ = 50.435548
+Chi_SQ_min = 0.375085  Chi_SQ = 0.375085
+Chi_SQ_min = 0.363541  Chi_SQ = 0.363541
+Chi_SQ_min = 0.363541  Chi_SQ = 0.375295
+Chi_SQ_min = 0.363541  Chi_SQ = 0.364789
+Chi_SQ_min = 0.363541  Chi_SQ = 7.524550
+Chi_SQ_min = 0.363541  Chi_SQ = 7.465207
+Chi_SQ_min = 0.363541  Chi_SQ = 7.512450
+Chi_SQ_min = 0.363541  Chi_SQ = 7.461254
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   3.1416
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.760825
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   3.1416
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.9671
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.508606
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.9671
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.7925
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.924892
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.7925
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.6180
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.269944
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.6180
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.4435
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.432081
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.4435
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.2689
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.364400
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.2689
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.0944
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.070301
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.0944
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -1.9199
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.503441
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -1.9199
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -1.7453
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.616087
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -1.7453
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.3963
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -437.692929
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.3963
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.2217
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -438.151269
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.2217
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.0472
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -438.413980
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.0472
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.8727
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -438.494337
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.8727
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.6981
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -438.410626
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.6981
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.5236
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -438.200093
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.5236
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.3491
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -437.978699
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.3491
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.1745
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -438.753975
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.1745
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.0000
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -439.829172
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.0000
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.1745
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -440.666240
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.1745
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.3491
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.172400
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.3491
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.5236
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.487844
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.5236
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.6981
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.654005
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.6981
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.8727
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.664007
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.8727
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.0472
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.500165
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.0472
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.2217
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.133080
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.2217
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.3963
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -440.520666
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.3963
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.7453
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -440.881913
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.7453
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.9199
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.718149
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.9199
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.0944
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.174280
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.0944
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.2689
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.301511
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.2689
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.4435
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.156090
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.4435
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.6180
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.812251
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.6180
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.7925
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.391437
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.7925
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.9671
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.729276
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.9671
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   3.1416
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.759570
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   3.1416
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+Chi_SQ_min = 362.719369  Chi_SQ = 362.719369
+Chi_SQ_min = 362.719369  Chi_SQ = 367.393790
+Chi_SQ_min = 361.508160  Chi_SQ = 361.508160
+Chi_SQ_min = 361.508160  Chi_SQ = 366.915103
+Chi_SQ_min = 361.508160  Chi_SQ = 382.356729
+Chi_SQ_min = 361.508160  Chi_SQ = 386.109708
+Chi_SQ_min = 361.508160  Chi_SQ = 380.625983
+Chi_SQ_min = 361.508160  Chi_SQ = 385.228507
+Chi_SQ_min = 122.282022  Chi_SQ = 122.282022
+Chi_SQ_min = 122.282022  Chi_SQ = 122.576218
+Chi_SQ_min = 122.282022  Chi_SQ = 126.253655
+Chi_SQ_min = 122.282022  Chi_SQ = 127.169935
+Chi_SQ_min = 122.282022  Chi_SQ = 135.583721
+Chi_SQ_min = 122.282022  Chi_SQ = 135.722781
+Chi_SQ_min = 122.282022  Chi_SQ = 139.019903
+Chi_SQ_min = 122.282022  Chi_SQ = 139.598288
+Chi_SQ_min = 122.282022  Chi_SQ = 304.873292
+Chi_SQ_min = 122.282022  Chi_SQ = 308.071303
+Chi_SQ_min = 122.282022  Chi_SQ = 302.752789
+Chi_SQ_min = 122.282022  Chi_SQ = 306.831045
+Chi_SQ_min = 122.282022  Chi_SQ = 327.880215
+Chi_SQ_min = 122.282022  Chi_SQ = 330.301581
+Chi_SQ_min = 122.282022  Chi_SQ = 325.064833
+Chi_SQ_min = 122.282022  Chi_SQ = 328.426869
+Chi_SQ_min = 52.358481  Chi_SQ = 52.358481
+Chi_SQ_min = 52.358481  Chi_SQ = 52.387249
+Chi_SQ_min = 52.358481  Chi_SQ = 55.192420
+Chi_SQ_min = 52.358481  Chi_SQ = 55.453096
+Chi_SQ_min = 52.358481  Chi_SQ = 68.474424
+Chi_SQ_min = 52.358481  Chi_SQ = 68.474341
+Chi_SQ_min = 52.358481  Chi_SQ = 70.835345
+Chi_SQ_min = 52.358481  Chi_SQ = 70.926578
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -3.1416
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.402721
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -3.1416
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.9671
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.407987
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.9671
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.7925
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.418935
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.7925
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.6180
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.298278
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.6180
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.4435
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.816749
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.4435
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.2689
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.982756
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.2689
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.0944
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -440.784773
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.0944
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.9199
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -439.178737
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.9199
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.7453
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -437.200145
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.7453
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.3963
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -434.494789
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.3963
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.2217
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -435.341711
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.2217
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.0472
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -436.034033
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.0472
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.8727
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -436.532039
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.8727
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.6981
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -436.788323
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.6981
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.5236
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -436.734292
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.5236
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.3491
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -436.307875
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.3491
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.1745
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -435.541815
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.1745
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.0000
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -434.941665
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.0000
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.1745
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -436.012473
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.1745
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.3491
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -436.800346
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.3491
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.5236
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -437.212534
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.5236
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.6981
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -437.226212
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.6981
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.8727
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -436.902673
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.8727
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.0472
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -436.342939
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.0472
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.2217
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -435.584420
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.2217
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.3963
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -434.678612
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.3963
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.7453
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -437.676465
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.7453
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.9199
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -439.516803
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.9199
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.0944
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -440.946714
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.0944
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.2689
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.974944
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.2689
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.4435
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.707950
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.4435
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.6180
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.209121
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.6180
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.7925
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.449855
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.7925
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.9671
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.460943
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.9671
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   3.1416
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.401687
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   3.1416
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+Chi_SQ_min = 374.232543  Chi_SQ = 374.232543
+Chi_SQ_min = 374.232543  Chi_SQ = 375.336007
+Chi_SQ_min = 370.679884  Chi_SQ = 370.679884
+Chi_SQ_min = 370.679884  Chi_SQ = 372.566860
+Chi_SQ_min = 370.679884  Chi_SQ = 375.061440
+Chi_SQ_min = 370.679884  Chi_SQ = 376.071620
+Chi_SQ_min = 370.679884  Chi_SQ = 371.347919
+Chi_SQ_min = 370.679884  Chi_SQ = 373.145797
+Chi_SQ_min = 369.442674  Chi_SQ = 369.442674
+Chi_SQ_min = 369.442674  Chi_SQ = 370.211324
+Chi_SQ_min = 367.253166  Chi_SQ = 367.253166
+Chi_SQ_min = 367.253166  Chi_SQ = 368.582837
+Chi_SQ_min = 367.253166  Chi_SQ = 370.063359
+Chi_SQ_min = 367.253166  Chi_SQ = 370.759542
+Chi_SQ_min = 367.253166  Chi_SQ = 367.786380
+Chi_SQ_min = 367.253166  Chi_SQ = 369.041483
+Chi_SQ_min = 23.100854  Chi_SQ = 23.100854
+Chi_SQ_min = 23.100854  Chi_SQ = 23.119009
+Chi_SQ_min = 15.482280  Chi_SQ = 15.482280
+Chi_SQ_min = 15.482280  Chi_SQ = 15.873123
+Chi_SQ_min = 15.482280  Chi_SQ = 26.420345
+Chi_SQ_min = 15.482280  Chi_SQ = 26.422451
+Chi_SQ_min = 15.482280  Chi_SQ = 18.343376
+Chi_SQ_min = 15.482280  Chi_SQ = 18.655335
+Chi_SQ_min = 12.984679  Chi_SQ = 12.984679
+Chi_SQ_min = 12.969818  Chi_SQ = 12.969818
+Chi_SQ_min = 8.231115  Chi_SQ = 8.231115
+Chi_SQ_min = 8.231115  Chi_SQ = 8.326273
+Chi_SQ_min = 8.231115  Chi_SQ = 15.740330
+Chi_SQ_min = 8.231115  Chi_SQ = 15.696469
+Chi_SQ_min = 8.231115  Chi_SQ = 10.695784
+Chi_SQ_min = 8.231115  Chi_SQ = 10.752821
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   3.1416
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.212319
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   3.1416
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.9671
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.650214
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.9671
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.7925
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.276482
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.7925
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.6180
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.696186
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.6180
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.4435
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.826511
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.4435
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.2689
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.620600
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.2689
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.0944
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.118667
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.0944
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.9199
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.427534
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.9199
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.7453
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.727428
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.7453
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.3963
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.210623
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.3963
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.2217
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.011438
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.2217
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0472
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.705195
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0472
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.8727
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.984468
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.8727
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.6981
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.893495
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.6981
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.5236
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.633272
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.5236
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.3491
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.182369
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.3491
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.1745
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.584508
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.1745
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.0000
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.197463
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.0000
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.1745
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.564060
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.1745
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.3491
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.209228
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.3491
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.5236
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.715707
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.5236
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.6981
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.947407
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.6981
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.8727
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.809939
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.8727
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.0472
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.296992
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.0472
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.2217
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.536651
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.2217
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.3963
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.769046
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.3963
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.7453
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.219136
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.7453
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.9199
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.969485
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.9199
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.0944
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.625974
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.0944
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.2689
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.975953
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.2689
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.4435
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.920849
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.4435
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.6180
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.676211
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.6180
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.7925
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.287947
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.7925
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.9671
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.722370
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.9671
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   3.1416
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.209988
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   3.1416
+ 18   4  17  16  -0.3049
+Chi_SQ_min = 14.336520  Chi_SQ = 14.336520
+Chi_SQ_min = 14.018697  Chi_SQ = 14.018697
+Chi_SQ_min = 5.773605  Chi_SQ = 5.773605
+Chi_SQ_min = 5.773605  Chi_SQ = 5.773918
+Chi_SQ_min = 5.773605  Chi_SQ = 14.333326
+Chi_SQ_min = 5.773605  Chi_SQ = 14.011229
+Chi_SQ_min = 5.736608  Chi_SQ = 5.736608
+Chi_SQ_min = 5.736608  Chi_SQ = 5.736691
+Chi_SQ_min = 5.736608  Chi_SQ = 32.167539
+Chi_SQ_min = 5.736608  Chi_SQ = 31.373509
+Chi_SQ_min = 5.736608  Chi_SQ = 27.693354
+Chi_SQ_min = 5.736608  Chi_SQ = 27.425626
+Chi_SQ_min = 5.736608  Chi_SQ = 32.098625
+Chi_SQ_min = 5.736608  Chi_SQ = 31.279648
+Chi_SQ_min = 5.736608  Chi_SQ = 27.550120
+Chi_SQ_min = 5.736608  Chi_SQ = 27.266125
+Chi_SQ_min = 5.736608  Chi_SQ = 14.460129
+Chi_SQ_min = 5.736608  Chi_SQ = 14.120982
+Chi_SQ_min = 5.736608  Chi_SQ = 5.817246
+Chi_SQ_min = 5.736608  Chi_SQ = 5.817310
+Chi_SQ_min = 5.736608  Chi_SQ = 14.458583
+Chi_SQ_min = 5.736608  Chi_SQ = 14.115843
+Chi_SQ_min = 5.736608  Chi_SQ = 5.783797
+Chi_SQ_min = 5.736608  Chi_SQ = 5.783797
+Chi_SQ_min = 5.736608  Chi_SQ = 32.185801
+Chi_SQ_min = 5.736608  Chi_SQ = 31.381474
+Chi_SQ_min = 5.736608  Chi_SQ = 27.693540
+Chi_SQ_min = 5.736608  Chi_SQ = 27.425564
+Chi_SQ_min = 5.736608  Chi_SQ = 32.120647
+Chi_SQ_min = 5.736608  Chi_SQ = 31.290477
+Chi_SQ_min = 5.736608  Chi_SQ = 27.551134
+Chi_SQ_min = 5.736608  Chi_SQ = 27.266239
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   3.1416
+After constrained optimization, E =  -442.502721
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   3.1416
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.9671
+After constrained optimization, E =  -442.487348
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.9671
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.7925
+After constrained optimization, E =  -442.983413
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.7925
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.6180
+After constrained optimization, E =  -443.420276
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.6180
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.4435
+After constrained optimization, E =  -443.541184
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.4435
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.2689
+After constrained optimization, E =  -443.488687
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.2689
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.0944
+After constrained optimization, E =  -443.482411
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.0944
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.9199
+After constrained optimization, E =  -443.602182
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.9199
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.7453
+After constrained optimization, E =  -443.822566
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.7453
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.3963
+After constrained optimization, E =  -444.295637
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.3963
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.2217
+After constrained optimization, E =  -444.419433
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.2217
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.0472
+After constrained optimization, E =  -444.360735
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.0472
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.8727
+After constrained optimization, E =  -444.019679
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.8727
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.6981
+After constrained optimization, E =  -443.686871
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.6981
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.5236
+After constrained optimization, E =  -443.517657
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.5236
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3491
+After constrained optimization, E =  -443.224705
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3491
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.1745
+After constrained optimization, E =  -443.016750
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.1745
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.0000
+After constrained optimization, E =  -442.256902
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.0000
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.1745
+After constrained optimization, E =  -442.447227
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.1745
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.3491
+After constrained optimization, E =  -442.965257
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.3491
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.5236
+After constrained optimization, E =  -443.393199
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.5236
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.6981
+After constrained optimization, E =  -443.560264
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.6981
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.8727
+After constrained optimization, E =  -443.559017
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.8727
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.0472
+After constrained optimization, E =  -443.565044
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.0472
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.2217
+After constrained optimization, E =  -443.691148
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.2217
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.3963
+After constrained optimization, E =  -443.926636
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.3963
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.7453
+After constrained optimization, E =  -444.416350
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.7453
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.9199
+After constrained optimization, E =  -444.524201
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.9199
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.0944
+After constrained optimization, E =  -444.450122
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.0944
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.2689
+After constrained optimization, E =  -444.109437
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.2689
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.4435
+After constrained optimization, E =  -443.698320
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.4435
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.6180
+After constrained optimization, E =  -443.557388
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.6180
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.7925
+After constrained optimization, E =  -443.255375
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.7925
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.9671
+After constrained optimization, E =  -443.029338
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.9671
+Chi_SQ_min = 10.305922  Chi_SQ = 10.305922
+Chi_SQ_min = 10.260960  Chi_SQ = 10.260960
+Chi_SQ_min = 8.764955  Chi_SQ = 8.764955
+Chi_SQ_min = 8.762751  Chi_SQ = 8.762751
+Chi_SQ_min = 8.762751  Chi_SQ = 10.307234
+Chi_SQ_min = 8.762751  Chi_SQ = 10.262272
+Chi_SQ_min = 8.762751  Chi_SQ = 8.766268
+Chi_SQ_min = 8.762751  Chi_SQ = 8.764064
+Chi_SQ_min = 3.595256  Chi_SQ = 3.595256
+Chi_SQ_min = 3.278890  Chi_SQ = 3.278890
+Chi_SQ_min = 2.777987  Chi_SQ = 2.777987
+Chi_SQ_min = 2.594388  Chi_SQ = 2.594388
+Chi_SQ_min = 2.594388  Chi_SQ = 3.596568
+Chi_SQ_min = 2.594388  Chi_SQ = 3.280202
+Chi_SQ_min = 2.594388  Chi_SQ = 2.779299
+Chi_SQ_min = 2.594388  Chi_SQ = 2.595701
+Chi_SQ_min = 2.594388  Chi_SQ = 10.306473
+Chi_SQ_min = 2.594388  Chi_SQ = 10.261511
+Chi_SQ_min = 2.594388  Chi_SQ = 8.765506
+Chi_SQ_min = 2.594388  Chi_SQ = 8.763302
+Chi_SQ_min = 2.594388  Chi_SQ = 10.307785
+Chi_SQ_min = 2.594388  Chi_SQ = 10.262823
+Chi_SQ_min = 2.594388  Chi_SQ = 8.766819
+Chi_SQ_min = 2.594388  Chi_SQ = 8.764614
+Chi_SQ_min = 2.594388  Chi_SQ = 3.595806
+Chi_SQ_min = 2.594388  Chi_SQ = 3.279441
+Chi_SQ_min = 2.594388  Chi_SQ = 2.778538
+Chi_SQ_min = 2.594388  Chi_SQ = 2.594939
+Chi_SQ_min = 2.594388  Chi_SQ = 3.597119
+Chi_SQ_min = 2.594388  Chi_SQ = 3.280753
+Chi_SQ_min = 2.594388  Chi_SQ = 2.779850
+Chi_SQ_min = 2.594388  Chi_SQ = 2.596252
+#    DONE 1d-fitting
+Number of torsion = 5
+# 240-1d-fitting FINISHED in 0:46
+# 250-refitcharges STARTED
+#    CALL fitcharge-again
+Too much failed tries.
+I have tried my best.
+Quit.
+#    DONE fitcharge-again
+#    CALL update-xpsf
+#    DONE update-xpsf
+# 250-refitcharges FINISHED in 0:30
+# 260-refittorsions STARTED
+#    CALL 1d-fitting
+
+Phi before MM optimization:
+ 26   1   8  22  -3.1416
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.028398
+Phi after MM optimization:
+ 26   1   8  22  -3.1416
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.9671
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.474576
+Phi after MM optimization:
+ 26   1   8  22  -2.9671
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.7925
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.805295
+Phi after MM optimization:
+ 26   1   8  22  -2.7925
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.6180
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.955803
+Phi after MM optimization:
+ 26   1   8  22  -2.6180
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.4435
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.843657
+Phi after MM optimization:
+ 26   1   8  22  -2.4435
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.2689
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.429964
+Phi after MM optimization:
+ 26   1   8  22  -2.2689
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -2.0944
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.703899
+Phi after MM optimization:
+ 26   1   8  22  -2.0944
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.9199
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.685699
+Phi after MM optimization:
+ 26   1   8  22  -1.9199
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.7453
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -447.427203
+Phi after MM optimization:
+ 26   1   8  22  -1.7453
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.3963
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.271158
+Phi after MM optimization:
+ 26   1   8  22  -1.3963
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.2217
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.659732
+Phi after MM optimization:
+ 26   1   8  22  -1.2217
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -1.0472
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.931712
+Phi after MM optimization:
+ 26   1   8  22  -1.0472
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.8727
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.085096
+Phi after MM optimization:
+ 26   1   8  22  -0.8727
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.6981
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.118035
+Phi after MM optimization:
+ 26   1   8  22  -0.6981
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5236
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.023548
+Phi after MM optimization:
+ 26   1   8  22  -0.5236
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.3491
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.789774
+Phi after MM optimization:
+ 26   1   8  22  -0.3491
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.1745
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.403364
+Phi after MM optimization:
+ 26   1   8  22  -0.1745
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.0000
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.759093
+Phi after MM optimization:
+ 26   1   8  22   0.0000
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.1745
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.450442
+Phi after MM optimization:
+ 26   1   8  22   0.1745
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.3491
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.831108
+Phi after MM optimization:
+ 26   1   8  22   0.3491
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.5236
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.055544
+Phi after MM optimization:
+ 26   1   8  22   0.5236
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.6981
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.127333
+Phi after MM optimization:
+ 26   1   8  22   0.6981
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   0.8727
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.062369
+Phi after MM optimization:
+ 26   1   8  22   0.8727
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.0472
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.871144
+Phi after MM optimization:
+ 26   1   8  22   1.0472
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.2217
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.567125
+Phi after MM optimization:
+ 26   1   8  22   1.2217
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.3963
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.150388
+Phi after MM optimization:
+ 26   1   8  22   1.3963
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.7453
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -447.515281
+Phi after MM optimization:
+ 26   1   8  22   1.7453
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   1.9199
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.763012
+Phi after MM optimization:
+ 26   1   8  22   1.9199
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.0944
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.772094
+Phi after MM optimization:
+ 26   1   8  22   2.0944
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.2689
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.488197
+Phi after MM optimization:
+ 26   1   8  22   2.2689
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.4435
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.889423
+Phi after MM optimization:
+ 26   1   8  22   2.4435
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.6180
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.995231
+Phi after MM optimization:
+ 26   1   8  22   2.6180
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.7925
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.837737
+Phi after MM optimization:
+ 26   1   8  22   2.7925
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22   2.9671
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.484256
+Phi after MM optimization:
+ 26   1   8  22   2.9671
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -3.1416
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.029286
+Phi after MM optimization:
+ 26   1   8  22  -3.1416
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+Chi_SQ_min = 46.016973  Chi_SQ = 46.016973
+Chi_SQ_min = 46.016973  Chi_SQ = 46.233848
+Chi_SQ_min = 44.486157  Chi_SQ = 44.486157
+Chi_SQ_min = 44.486157  Chi_SQ = 44.950663
+Chi_SQ_min = 44.486157  Chi_SQ = 54.533288
+Chi_SQ_min = 44.486157  Chi_SQ = 54.633402
+Chi_SQ_min = 44.486157  Chi_SQ = 52.633698
+Chi_SQ_min = 44.486157  Chi_SQ = 52.951071
+Chi_SQ_min = 3.481793  Chi_SQ = 3.481793
+Chi_SQ_min = 3.478793  Chi_SQ = 3.478793
+Chi_SQ_min = 3.478793  Chi_SQ = 3.484211
+Chi_SQ_min = 3.478793  Chi_SQ = 3.482282
+Chi_SQ_min = 3.478793  Chi_SQ = 10.032521
+Chi_SQ_min = 3.478793  Chi_SQ = 9.998086
+Chi_SQ_min = 3.478793  Chi_SQ = 10.026773
+Chi_SQ_min = 3.478793  Chi_SQ = 9.996537
+Chi_SQ_min = 3.478793  Chi_SQ = 44.017205
+Chi_SQ_min = 3.478793  Chi_SQ = 44.174126
+Chi_SQ_min = 3.478793  Chi_SQ = 42.315465
+Chi_SQ_min = 3.478793  Chi_SQ = 42.703073
+Chi_SQ_min = 3.478793  Chi_SQ = 52.919551
+Chi_SQ_min = 3.478793  Chi_SQ = 52.982463
+Chi_SQ_min = 3.478793  Chi_SQ = 50.840207
+Chi_SQ_min = 3.478793  Chi_SQ = 51.097450
+Chi_SQ_min = 0.399464  Chi_SQ = 0.399464
+Chi_SQ_min = 0.380725  Chi_SQ = 0.380725
+Chi_SQ_min = 0.380725  Chi_SQ = 0.398399
+Chi_SQ_min = 0.380691  Chi_SQ = 0.380691
+Chi_SQ_min = 0.380691  Chi_SQ = 7.376808
+Chi_SQ_min = 0.380691  Chi_SQ = 7.300500
+Chi_SQ_min = 0.380691  Chi_SQ = 7.352610
+Chi_SQ_min = 0.380691  Chi_SQ = 7.289943
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   3.1416
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.298816
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   3.1416
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.9671
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.096476
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.9671
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.7925
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.576408
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.7925
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.6180
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.988795
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.6180
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.4435
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.217392
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.4435
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.2689
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.199325
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.2689
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.0944
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.918401
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -2.0944
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -1.9199
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.332066
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -1.9199
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -1.7453
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.397877
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -1.7453
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.3963
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.971761
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.3963
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.2217
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -445.407977
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.2217
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.0472
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -445.644258
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -1.0472
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.8727
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -445.694737
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.8727
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.6981
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -445.578572
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.6981
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.5236
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -445.332243
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.5236
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.3491
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -445.013550
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.3491
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.1745
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -445.789379
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.1745
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.0000
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -446.887474
+Phi after MM optimization:
+ 26   1   8  22  -0.5056
+ 14   3  13   2  -0.0000
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.1745
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -447.755978
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.1745
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.3491
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.288864
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.3491
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.5236
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.621763
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.5236
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.6981
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.807506
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.6981
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.8727
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.838210
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   0.8727
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.0472
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.695059
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.0472
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.2217
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.347796
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.2217
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.3963
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -447.753210
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.3963
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.7453
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.820578
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.7453
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.9199
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.671340
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   1.9199
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.0944
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.106949
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.0944
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.2689
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.185402
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.2689
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.4435
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.970414
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.4435
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.6180
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.543871
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.6180
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.7925
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.030288
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.7925
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.9671
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.253875
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   2.9671
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   3.1416
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.297555
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2   3.1416
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+Chi_SQ_min = 406.820409  Chi_SQ = 406.820409
+Chi_SQ_min = 406.820409  Chi_SQ = 411.904861
+Chi_SQ_min = 405.179727  Chi_SQ = 405.179727
+Chi_SQ_min = 405.179727  Chi_SQ = 411.178144
+Chi_SQ_min = 405.179727  Chi_SQ = 432.949772
+Chi_SQ_min = 405.179727  Chi_SQ = 436.930877
+Chi_SQ_min = 405.179727  Chi_SQ = 430.612188
+Chi_SQ_min = 405.179727  Chi_SQ = 435.636205
+Chi_SQ_min = 152.202641  Chi_SQ = 152.202641
+Chi_SQ_min = 152.202641  Chi_SQ = 152.581329
+Chi_SQ_min = 152.202641  Chi_SQ = 155.824771
+Chi_SQ_min = 152.202641  Chi_SQ = 156.851973
+Chi_SQ_min = 152.202641  Chi_SQ = 170.664019
+Chi_SQ_min = 152.202641  Chi_SQ = 170.836805
+Chi_SQ_min = 152.202641  Chi_SQ = 173.687678
+Chi_SQ_min = 152.202641  Chi_SQ = 174.297082
+Chi_SQ_min = 152.202641  Chi_SQ = 322.251683
+Chi_SQ_min = 152.202641  Chi_SQ = 325.503946
+Chi_SQ_min = 152.202641  Chi_SQ = 319.324665
+Chi_SQ_min = 152.202641  Chi_SQ = 323.650145
+Chi_SQ_min = 152.202641  Chi_SQ = 353.092897
+Chi_SQ_min = 152.202641  Chi_SQ = 355.446707
+Chi_SQ_min = 152.202641  Chi_SQ = 349.221723
+Chi_SQ_min = 152.202641  Chi_SQ = 352.697725
+Chi_SQ_min = 52.527471  Chi_SQ = 52.527471
+Chi_SQ_min = 52.527471  Chi_SQ = 52.556482
+Chi_SQ_min = 52.527471  Chi_SQ = 54.880724
+Chi_SQ_min = 52.527471  Chi_SQ = 55.112405
+Chi_SQ_min = 52.527471  Chi_SQ = 74.951889
+Chi_SQ_min = 52.527471  Chi_SQ = 74.950248
+Chi_SQ_min = 52.527471  Chi_SQ = 76.801146
+Chi_SQ_min = 52.527471  Chi_SQ = 76.856055
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -3.1416
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.961837
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -3.1416
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.9671
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.962743
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.9671
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.7925
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.963787
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.7925
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.6180
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.829467
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.6180
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.4435
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.328685
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.4435
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.2689
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.472376
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.2689
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.0944
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.250128
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -2.0944
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.9199
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -446.618855
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.9199
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.7453
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.615787
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.7453
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.3963
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -441.838981
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.3963
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.2217
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.667246
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.2217
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.0472
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.343217
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5  -1.0472
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.8727
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.826881
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.8727
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.6981
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.069710
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.6981
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.5236
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.002910
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.5236
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.3491
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.564902
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.3491
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.1745
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.787627
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.1745
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.0000
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.197162
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5  -0.0000
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.1745
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.284902
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.1745
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.3491
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.083664
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.3491
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.5236
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.504904
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.5236
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.6981
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.526302
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.6981
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.8727
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -444.209078
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   0.8727
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.0472
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -443.656856
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.0472
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.2217
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.909859
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.2217
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.3963
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -442.019589
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.3963
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.7453
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -445.132151
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.7453
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.9199
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -446.990718
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   1.9199
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.0944
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -448.437378
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.0944
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.2689
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -449.480196
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.2689
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.4435
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.226072
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.4435
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.6180
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.740541
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.6180
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.7925
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.994199
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.7925
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.9671
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.016286
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.9671
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   3.1416
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.960802
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   3.1416
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3049
+Chi_SQ_min = 399.587636  Chi_SQ = 399.587636
+Chi_SQ_min = 399.587636  Chi_SQ = 400.752229
+Chi_SQ_min = 396.165966  Chi_SQ = 396.165966
+Chi_SQ_min = 396.165966  Chi_SQ = 398.113578
+Chi_SQ_min = 396.165966  Chi_SQ = 400.426250
+Chi_SQ_min = 396.165966  Chi_SQ = 401.494467
+Chi_SQ_min = 396.165966  Chi_SQ = 396.845538
+Chi_SQ_min = 396.165966  Chi_SQ = 398.701869
+Chi_SQ_min = 395.121864  Chi_SQ = 395.121864
+Chi_SQ_min = 395.121864  Chi_SQ = 395.952175
+Chi_SQ_min = 392.992667  Chi_SQ = 392.992667
+Chi_SQ_min = 392.992667  Chi_SQ = 394.391774
+Chi_SQ_min = 392.992667  Chi_SQ = 395.757584
+Chi_SQ_min = 392.992667  Chi_SQ = 396.511686
+Chi_SQ_min = 392.992667  Chi_SQ = 393.540983
+Chi_SQ_min = 392.992667  Chi_SQ = 394.862547
+Chi_SQ_min = 23.176608  Chi_SQ = 23.176608
+Chi_SQ_min = 23.176608  Chi_SQ = 23.193786
+Chi_SQ_min = 15.581331  Chi_SQ = 15.581331
+Chi_SQ_min = 15.581331  Chi_SQ = 15.966728
+Chi_SQ_min = 15.581331  Chi_SQ = 26.634502
+Chi_SQ_min = 15.581331  Chi_SQ = 26.636132
+Chi_SQ_min = 15.581331  Chi_SQ = 18.571559
+Chi_SQ_min = 15.581331  Chi_SQ = 18.876993
+Chi_SQ_min = 13.315967  Chi_SQ = 13.315967
+Chi_SQ_min = 13.301005  Chi_SQ = 13.301005
+Chi_SQ_min = 8.545786  Chi_SQ = 8.545786
+Chi_SQ_min = 8.545786  Chi_SQ = 8.641153
+Chi_SQ_min = 8.545786  Chi_SQ = 16.205176
+Chi_SQ_min = 8.545786  Chi_SQ = 16.160257
+Chi_SQ_min = 8.545786  Chi_SQ = 11.136066
+Chi_SQ_min = 8.545786  Chi_SQ = 11.192427
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   3.1416
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.907985
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   3.1416
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.9671
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.327808
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.9671
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.7925
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.911987
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.7925
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.6180
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.295458
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.6180
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.4435
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.396778
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.4435
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.2689
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.169651
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.2689
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.0944
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.653789
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -2.0944
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.9199
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.955041
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.9199
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.7453
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.253294
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.7453
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.3963
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.750421
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.3963
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.2217
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.553781
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.2217
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0472
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.252957
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0472
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.8727
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.541363
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.8727
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.6981
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.466619
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.6981
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.5236
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.230975
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.5236
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.3491
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.811406
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.3491
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.1745
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.250622
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.1745
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.0000
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.896074
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -0.0000
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.1745
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.250935
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.1745
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.3491
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.856290
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.3491
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.5236
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.322135
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.5236
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.6981
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.519204
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.6981
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.8727
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.356495
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   0.8727
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.0472
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.828198
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.0472
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.2217
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.061255
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.2217
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.3963
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.293438
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.3963
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.7453
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.752897
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.7453
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.9199
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.508480
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   1.9199
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.0944
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.173120
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.0944
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.2689
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.532820
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.2689
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.4435
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.490603
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.4435
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.6180
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -452.265486
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.6180
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.7925
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.903915
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.7925
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.9671
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -451.373581
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   2.9671
+ 18   4  17  16  -0.3049
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   3.1416
+ 18   4  17  16  -0.3049
+After constrained optimization, E =  -450.905931
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15   3.1416
+ 18   4  17  16  -0.3049
+Chi_SQ_min = 13.780635  Chi_SQ = 13.780635
+Chi_SQ_min = 13.524628  Chi_SQ = 13.524628
+Chi_SQ_min = 5.827212  Chi_SQ = 5.827212
+Chi_SQ_min = 5.827212  Chi_SQ = 5.830245
+Chi_SQ_min = 5.827212  Chi_SQ = 13.777452
+Chi_SQ_min = 5.827212  Chi_SQ = 13.517696
+Chi_SQ_min = 5.792760  Chi_SQ = 5.792760
+Chi_SQ_min = 5.792760  Chi_SQ = 5.794946
+Chi_SQ_min = 5.792760  Chi_SQ = 34.395177
+Chi_SQ_min = 5.792760  Chi_SQ = 33.658629
+Chi_SQ_min = 5.792760  Chi_SQ = 30.580776
+Chi_SQ_min = 5.792760  Chi_SQ = 30.316798
+Chi_SQ_min = 5.792760  Chi_SQ = 34.317938
+Chi_SQ_min = 5.792760  Chi_SQ = 33.556112
+Chi_SQ_min = 5.792760  Chi_SQ = 30.432529
+Chi_SQ_min = 5.792760  Chi_SQ = 30.152109
+Chi_SQ_min = 5.792760  Chi_SQ = 13.908488
+Chi_SQ_min = 5.792760  Chi_SQ = 13.632867
+Chi_SQ_min = 5.792760  Chi_SQ = 5.876413
+Chi_SQ_min = 5.792760  Chi_SQ = 5.878418
+Chi_SQ_min = 5.792760  Chi_SQ = 13.906973
+Chi_SQ_min = 5.792760  Chi_SQ = 13.628228
+Chi_SQ_min = 5.792760  Chi_SQ = 5.845581
+Chi_SQ_min = 5.792760  Chi_SQ = 5.846917
+Chi_SQ_min = 5.792760  Chi_SQ = 34.410755
+Chi_SQ_min = 5.792760  Chi_SQ = 33.665129
+Chi_SQ_min = 5.792760  Chi_SQ = 30.580936
+Chi_SQ_min = 5.792760  Chi_SQ = 30.316722
+Chi_SQ_min = 5.792760  Chi_SQ = 34.337226
+Chi_SQ_min = 5.792760  Chi_SQ = 33.565351
+Chi_SQ_min = 5.792760  Chi_SQ = 30.433500
+Chi_SQ_min = 5.792760  Chi_SQ = 30.152211
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   3.1416
+After constrained optimization, E =  -450.041719
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   3.1416
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.9671
+After constrained optimization, E =  -450.029700
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.9671
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.7925
+After constrained optimization, E =  -450.533830
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.7925
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.6180
+After constrained optimization, E =  -450.978795
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.6180
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.4435
+After constrained optimization, E =  -451.107271
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.4435
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.2689
+After constrained optimization, E =  -451.060751
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.2689
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.0944
+After constrained optimization, E =  -451.058578
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -2.0944
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.9199
+After constrained optimization, E =  -451.180583
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1037
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.9199
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.7453
+After constrained optimization, E =  -451.401809
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.7453
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.3963
+After constrained optimization, E =  -451.872744
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.3963
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.2217
+After constrained optimization, E =  -451.992995
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.2217
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.0472
+After constrained optimization, E =  -451.929214
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -1.0472
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.8727
+After constrained optimization, E =  -451.580438
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.8727
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.6981
+After constrained optimization, E =  -451.241298
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.6981
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.5236
+After constrained optimization, E =  -451.068484
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.5236
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3491
+After constrained optimization, E =  -450.771923
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.3491
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.1745
+After constrained optimization, E =  -450.561836
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16  -0.1745
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.0000
+After constrained optimization, E =  -449.801031
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.0000
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.1745
+After constrained optimization, E =  -449.996218
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.1745
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.3491
+After constrained optimization, E =  -450.521932
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.3491
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.5236
+After constrained optimization, E =  -450.956872
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.5236
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.6981
+After constrained optimization, E =  -451.130524
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.6981
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.8727
+After constrained optimization, E =  -451.134354
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   0.8727
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.0472
+After constrained optimization, E =  -451.143091
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.0472
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.2217
+After constrained optimization, E =  -451.269382
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.2217
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.3963
+After constrained optimization, E =  -451.503650
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.3963
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.7453
+After constrained optimization, E =  -451.988728
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.7453
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.9199
+After constrained optimization, E =  -452.093114
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   1.9199
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.0944
+After constrained optimization, E =  -452.014894
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.0944
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.2689
+After constrained optimization, E =  -451.667199
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.2689
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.4435
+After constrained optimization, E =  -451.249017
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.4435
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.6180
+After constrained optimization, E =  -451.104809
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.6180
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.7925
+After constrained optimization, E =  -450.799579
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.7925
+
+Phi before MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.9671
+After constrained optimization, E =  -450.571453
+Phi after MM optimization:
+ 26   1   8  22  -0.5057
+ 14   3  13   2  -3.1038
+ 22   9  10   5   2.8226
+ 13   3  14  15  -1.0797
+ 18   4  17  16   2.9671
+Chi_SQ_min = 10.614563  Chi_SQ = 10.614563
+Chi_SQ_min = 10.572446  Chi_SQ = 10.572446
+Chi_SQ_min = 9.030637  Chi_SQ = 9.030637
+Chi_SQ_min = 9.029211  Chi_SQ = 9.029211
+Chi_SQ_min = 9.029211  Chi_SQ = 10.615825
+Chi_SQ_min = 9.029211  Chi_SQ = 10.573708
+Chi_SQ_min = 9.029211  Chi_SQ = 9.031899
+Chi_SQ_min = 9.029211  Chi_SQ = 9.030474
+Chi_SQ_min = 3.546998  Chi_SQ = 3.546998
+Chi_SQ_min = 3.228076  Chi_SQ = 3.228076
+Chi_SQ_min = 2.714851  Chi_SQ = 2.714851
+Chi_SQ_min = 2.530378  Chi_SQ = 2.530378
+Chi_SQ_min = 2.530378  Chi_SQ = 3.548260
+Chi_SQ_min = 2.530378  Chi_SQ = 3.229338
+Chi_SQ_min = 2.530378  Chi_SQ = 2.716113
+Chi_SQ_min = 2.530378  Chi_SQ = 2.531640
+Chi_SQ_min = 2.530378  Chi_SQ = 10.615726
+Chi_SQ_min = 2.530378  Chi_SQ = 10.573609
+Chi_SQ_min = 2.530378  Chi_SQ = 9.031800
+Chi_SQ_min = 2.530378  Chi_SQ = 9.030374
+Chi_SQ_min = 2.530378  Chi_SQ = 10.616988
+Chi_SQ_min = 2.530378  Chi_SQ = 10.574871
+Chi_SQ_min = 2.530378  Chi_SQ = 9.033062
+Chi_SQ_min = 2.530378  Chi_SQ = 9.031637
+Chi_SQ_min = 2.530378  Chi_SQ = 3.548161
+Chi_SQ_min = 2.530378  Chi_SQ = 3.229239
+Chi_SQ_min = 2.530378  Chi_SQ = 2.716014
+Chi_SQ_min = 2.530378  Chi_SQ = 2.531541
+Chi_SQ_min = 2.530378  Chi_SQ = 3.549423
+Chi_SQ_min = 2.530378  Chi_SQ = 3.230501
+Chi_SQ_min = 2.530378  Chi_SQ = 2.717276
+Chi_SQ_min = 2.530378  Chi_SQ = 2.532803
+#    DONE 1d-fitting
+#    CALL update-tor-para
+FitCharge> Warning: No entry for NBFIX is found.
+----------------------------------------
+Using the original prm/xpsf files
+EBond   =       4.780303948028354455
+E_Angle =     11.584604320533101074
+E_UreyB =       0.000000000000000000
+E_Dihed =      25.746337495819805241
+E_Impro =       0.000000000000000000
+E_VDW   =      15.152398929892660462
+E_Elec  =    -477.048064541141172867
+E_CMap  =       0.000000000000000000
+
+E_Total =    -419.784419846867194792
+
+----------------------------------------
+FitCharge> Warning: No entry for NBFIX is found.
+Replacing the atom type of atom 27 from     HN to   HN_0
+ATOM H3     HN        0.367
+ATOM H3     HN_0       0.367
+FitCharge> Warning: No entry for NBFIX is found.
+Replacing the atom type of atom 3 from     NB to   NB_0
+ATOM N2     NB       -0.807
+ATOM N2     NB_0      -0.807
+FitCharge> Warning: No entry for NBFIX is found.
+FitCharge> Warning: No entry for NBFIX is found.
+Replacing the atom type of atom 16 from     CA to   CA_1
+ATOM C9     CA       -0.176
+ATOM C9     CA_1      -0.176
+FitCharge> Warning: No entry for NBFIX is found.
+Replacing the atom type of atom 17 from     CA to   CA_2
+ATOM C10    CA       -0.252
+ATOM C10    CA_2      -0.252
+Replacing the atom type of atom 19 from    C33 to  C33_0
+ATOM C12    C33       0.054
+ATOM C12    C33_0      0.054
+FitCharge> Warning: No entry for NBFIX is found.
+----------------------------------------
+Using the new prm/xpsf files
+EBond   =       4.780303948028354455
+E_Angle =     11.584604320533101074
+E_UreyB =       0.000000000000000000
+E_Dihed =      25.746337495819613395
+E_Impro =       0.000000000000000000
+E_VDW   =      15.152398929892660462
+E_Elec  =    -477.048064541141172867
+E_CMap  =       0.000000000000000000
+
+E_Total =    -419.784419846867422166
+
+----------------------------------------
+RMSD between QM and MM: 0.549
+#    DONE update-tor-para
+# 260-refittorsions FINISHED in 0:48
+# 270-rotamer STARTED
+Number of rotamers: 192
+#    CALL qm-rotamer-scan-large
+#    DONE qm-rotamer-scan-large
+# 270-rotamer FINISHED in 465:1
+# 280-fit_rotamer STARTED
+#    CALL 1d-rotamer-fitting
+nlopt failed!
+#    DONE 1d-rotamer-fitting
+#    CALL update-tor-para
+FitCharge> Warning: No entry for NBFIX is found.
+----------------------------------------
+Using the original prm/xpsf files
+EBond   =       4.780303948028354455
+E_Angle =     11.584604320533101074
+E_UreyB =       0.000000000000000000
+E_Dihed =      24.247610379270611247
+E_Impro =       0.000000000000000000
+E_VDW   =      15.152398929892660462
+E_Elec  =    -469.835231955713027219
+E_CMap  =       0.000000000000000000
+
+E_Total =    -414.070314377988268006
+
+----------------------------------------
+FitCharge> Warning: No entry for NBFIX is found.
+Replacing the atom type of atom 27 from     HN to   HN_0
+ATOM H3     HN        0.367
+ATOM H3     HN_0       0.361
+FitCharge> Warning: No entry for NBFIX is found.
+Replacing the atom type of atom 3 from     NB to   NB_0
+ATOM N2     NB       -0.807
+ATOM N2     NB_0      -0.796
+FitCharge> Warning: No entry for NBFIX is found.
+FitCharge> Warning: No entry for NBFIX is found.
+Replacing the atom type of atom 16 from     CA to   CA_1
+ATOM C9     CA       -0.176
+ATOM C9     CA_1      -0.174
+FitCharge> Warning: No entry for NBFIX is found.
+Replacing the atom type of atom 17 from     CA to   CA_2
+ATOM C10    CA       -0.252
+ATOM C10    CA_2      -0.249
+Replacing the atom type of atom 19 from    C33 to  C33_0
+ATOM C12    C33       0.054
+ATOM C12    C33_0      0.056
+FitCharge> Warning: No entry for NBFIX is found.
+----------------------------------------
+Using the new prm/xpsf files
+EBond   =       4.780303948028354455
+E_Angle =     11.584604320533101074
+E_UreyB =       0.000000000000000000
+E_Dihed =      24.247610379270412295
+E_Impro =       0.000000000000000000
+E_VDW   =      15.152398929892660462
+E_Elec  =    -469.835231955713027219
+E_CMap  =       0.000000000000000000
+
+E_Total =    -414.070314377988438537
+
+----------------------------------------
+RMSD between QM and MM: 0.557
+#    DONE update-tor-para
+# 280-fit_rotamer FINISHED in 40:25

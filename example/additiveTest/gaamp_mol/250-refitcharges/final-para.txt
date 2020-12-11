@@ -1,0 +1,98 @@
+Begin your input parameters
+
+equivalent   16  22
+equivalent   17  21
+equivalent   19  20
+equivalent   24  25  26
+equivalent   27  28
+equivalent   32  41
+equivalent   33  40
+equivalent   34  35  36  37  38  39
+
+
+
+
+netcharge   0
+w_H_Donor_Acceptor 1.0
+w_charge 3.0
+
+Using molecule-water interactions in fitting
+w_water_E_min 0.4
+w_water_R_min 8.0
+SCALE_QM_E_MIN          1.16
+SHIFT_QM_R_MIN         -0.20
+SHIFT_QM_R_MIN_CHARGED -0.20
+
+End   your input parameters
+
+
+The results of charge fitting is attached below.
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.701
+ATOM N1     NH       -0.781
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.641
+ATOM N4     NH       -0.386
+ATOM N5     NB       -0.660
+ATOM C      C33      -0.276
+ATOM C1     CC        0.561
+ATOM C2     CD        0.637
+ATOM C3     CD       -0.451
+ATOM C4     CA        0.664
+ATOM C5     CA       -0.592
+ATOM C6     CA        0.413
+ATOM C7     CA        0.959
+ATOM C8     CA_0      0.209
+ATOM C9     CA       -0.176
+ATOM C10    CA       -0.252
+ATOM C11    CA        0.241
+ATOM C12    C33       0.054
+ATOM C13    C33       0.054
+ATOM C14    CA       -0.252
+ATOM C15    CA       -0.176
+ATOM S      SS       -0.146
+ATOM H      HC33      0.090
+ATOM H1     HC33      0.090
+ATOM H2     HC33      0.090
+ATOM H3     HN        0.367
+ATOM H4     HN        0.367
+ATOM H5     HN        0.356
+ATOM H6     HA        0.217
+ATOM H7     H4        0.080
+ATOM H8     HA        0.154
+ATOM H9     HA        0.150
+ATOM H10    H1        0.040
+ATOM H11    H1        0.040
+ATOM H12    H1        0.040
+ATOM H13    H1        0.040
+ATOM H14    H1        0.040
+ATOM H15    H1        0.040
+ATOM H16    HA        0.150
+ATOM H17    HA        0.154
+
+
+! Chi^2 =   0.3842         Chi^2(ESP) =   0.1887          Chi^2(RSTR_CG) =   0.0126           Chi^2(Emin) =   0.0259           Chi^2(Rmin) =   0.1570 
+!                      Std_Error(ESP) =   0.0043      Std_Error(RSTR_CG) =   0.0648       Std_Error(Emin) =   0.2544       Std_Error(Rmin) =   0.1401 
+
+
+
+
+
+Compare QM and MM dipole: 
+QM dipole: ( 0.2539, -1.8552,  1.2929)  2.2755
+MM dipole: ( 0.1972, -1.8640,  1.0888)  2.1677
+
+
+
+List of E_Min, Rmin in MM and QM: 
+ 1 Donor, the H atom  27, MM E_min =  -6.712, QM E_min =  -6.590, MM R_min = 1.862, QM R_min = 1.864
+ 2 Donor, the H atom  28, MM E_min =  -4.768, QM E_min =  -5.267, MM R_min = 1.879, QM R_min = 1.860
+ 3 Donor, the H atom  29, MM E_min =  -3.636, QM E_min =  -3.993, MM R_min = 1.933, QM R_min = 1.877
+
+ 1 Acceptor, atom   1, MM E_min =  -7.319, QM E_min =  -7.372, MM R_min = 1.802, QM R_min = 1.883
+ 2 Acceptor, atom   2, MM E_min =  -3.708, QM E_min =  -3.619, MM R_min = 1.911, QM R_min = 2.100
+ 3 Acceptor, atom   3, MM E_min =  -7.251, QM E_min =  -7.475, MM R_min = 1.777, QM R_min = 1.856
+ 4 Acceptor, atom   5, MM E_min =  -4.900, QM E_min =  -4.939, MM R_min = 2.272, QM R_min = 1.981
+Note: RMSD between optimized structures in MM and QM is 0.375 Angstrom.

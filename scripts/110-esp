@@ -1,0 +1,20 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+#cp $GAAMPRUN/030-generate_structure/mol.xpsf .
+#cp $GAAMPRUN/030-generate_structure/mol.inp .
+#cp $GAAMPRUN/030-generate_structure/mol.crd .
+#cp $GAAMPRUN/030-generate_structure/mol.prm .
+#cp $GAAMPRUN/030-generate_structure/mol.rtf .
+#cp $GAAMPRUN/030-generate_structure/mol-wat.xpsf .
+
+cp $GAAMPRUN/030-generate_structure/* .
+
+Gexe gen-esp mol.inp mol.xpsf $NetCharge  
+
+cp mol-opt.out qm-mol-opt.out
+cp cal-esp.out qm-mol-esp.out
+
+Gexe check-b0-theta0 
+
+exit 0

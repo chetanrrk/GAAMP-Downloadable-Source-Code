@@ -1,0 +1,88 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+cp $GAAMPRUN/031-generate_drude/drude-mol.xpsf .
+cp $GAAMPRUN/031-generate_drude/drude-mol.prm .
+cp $GAAMPRUN/031-generate_drude/drude-mol.rtf .
+cp $GAAMPRUN/111-esp_drude/mol-esp-pert.dat .
+cp $GAAMPRUN/111-esp_drude/mol-esp-pot0.dat .
+cp $GAAMPRUN/111-esp_drude/qpos.all .
+cp $GAAMPRUN/111-esp_drude/elem-list.txt .
+
+cat $GAAMPRUN/030-generate_structure/equiv-org.txt >> drude-fit-mol.conf
+cat $GAAMPRUN/030-generate_structure/neutral.txt >> drude-fit-mol.conf
+cat $GAAMPRUN/030-generate_structure/fixq.txt >> drude-fit-mol.conf
+echo "E14FAC $E14FAC" >> drude-fit-mol.conf
+echo "netcharge $NetCharge" >> drude-fit-mol.conf
+echo "w_H_Donor_Acceptor $w_H_Donor_Acceptor" >> drude-fit-mol.conf
+echo "w_charge $w_charge" >> drude-fit-mol.conf
+echo "w_water_E_min $w_water_E_min" >> drude-fit-mol.conf
+echo "w_water_R_min $w_water_R_min" >> drude-fit-mol.conf
+echo "w_alpha $w_alpha" >> drude-fit-mol.conf
+echo "w_thole $w_thole" >> drude-fit-mol.conf
+#echo "w_H_Donor_Acceptor $w_H_Donor_Acceptor" >> drude-fit-mol.conf
+#echo "w_charge $w_charge" >> drude-fit-mol.conf
+#echo "w_water_E_min $w_water_E_min" >> drude-fit-mol.conf
+#echo "w_water_R_min $w_water_R_min" >> drude-fit-mol.conf
+#echo "w_alpha $w_alpha" >> drude-fit-mol.conf
+#echo "w_thole $w_thole" >> drude-fit-mol.conf
+
+##echo "constrain_CG 6 0.0" >> drude-fit-mol.conf
+
+##echo "FILE_CRD            mol-opt.crd" >> drude-fit-mol.conf
+echo "FILE_FORCE_FIELD    drude-mol.prm" >> drude-fit-mol.conf
+echo "FILE_PSF            drude-mol.xpsf" >> drude-fit-mol.conf
+echo "FILE_pot0           mol-esp-pot0.dat" >> drude-fit-mol.conf
+echo "FILE_pot            mol-esp-pert.dat" >> drude-fit-mol.conf
+echo "FILE_qpos           qpos.all" >> drude-fit-mol.conf
+echo "
+To_Fit_Aniso                            # To fit anisotrpy parameters or not
+To_Use_Miller_Alpha                     # To use Miller's alpha as the target to constrain, otherwise use alpha in xpsf as the target 
+" >> drude-fit-mol.conf
+/bin/grep "    X= " ../111-esp_drude/cal-esp.out | /usr/bin/head -n 1 | /bin/awk '{print "DIPOLE_QM " $2 "  "  $4 "   " $6 "   " $8}' >> drude-fit-mol.conf
+
+
+Gexe scale_alpha drude-mol.xpsf 0.65
+
+Gexe fitcharge-drude drude-fit-mol.conf
+
+Gexe drude-xpsf drude-esp-mol.rtf drude-esp-mol.xpsf MOL TEST
+
+### copying files to the result folder
+
+mkdir -p $GAAMPRUN/drude_results/qm
+cp final-para.txt $GAAMPRUN/drude_results/report-esp.txt
+cp drude-esp-mol.rtf $GAAMPRUN/drude_results/
+cp drude-esp-mol.xpsf $GAAMPRUN/drude_results/
+cp drude-mol.prm $GAAMPRUN/drude_results/
+cp drude-fit-mol.conf $GAAMPRUN/drude_results/
+cp $GAAMPRUN/111-esp_drude/qm-mol-esp-drude.out $GAAMPRUN/drude_results/qm/
+
+
+cat >  $GAAMPRUN/drude_results/readme.txt << EOF
+
+drude-mol.prm    - GAFF parameters file (equilibrium bond length and angle may be adjusted)
+drude-tor.prm    - Parameter file with fitted torsion parameters
+mol_final.prm    - Parameter file with fitted parameters and CHARMM-GUI compatible atom types
+
+drude-esp-mol.rtf- GAFF rtf file with fitted charges from ESP fitting
+drude-esp-wat-mol.rtf - Rtf with fitted charges from ESP and water-compound interactions fitting
+drude-mol-tor.rtf     - Rtf with fitted charges and updated after torsion fitting
+mol_final.rtf    - Rtf with fitted charges and updated after torsion fitting and CHARMM-GUI compatible atom types
+
+report-esp.txt   - The result of ESP charge fitting
+report-esp-wat.txt - The result of charge fitting with ESP and water-compound interactions
+result-1D.html   - The result of 1D energy profiles after 1D torsion fitting or 1D torsion and rotamer energies fitting (if there are more than one soft dihedrals)
+fitting-1d-*.dat - The 1D energy profile for a soft dihedral after 1D torsion fitting. Format: phi, E_QM, E_MM
+1d-qm-mm-*.dat   - The 1D energy profile for a soft dihedral after 1D torsion and rotamer energies fitting (if there are more than one soft dihedrals). Format: phi, E_QM, E_MM
+rotamer-E.dat    - The rotamer energies after 1D torsion and rotamer energies fitting. Format: index, E_QM, E_MM
+drude-fit-mol.conf  - The configuration file used for charge fitting
+
+qm/qm-mol-esp-drude.out - The Gaussian output of QM electrostatic potential used for drude model
+
+mm-acceptor-*.pdb   - The snapshot in which the pose of a water is optimized in MM for a H acceptor interacting with a water molecule
+mm-donor-*.pdb      - The snapshot in which the pose of a water is optimized in MM for a H donor interacting with a water molecule
+
+EOF
+
+exit 0

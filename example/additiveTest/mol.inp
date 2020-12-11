@@ -1,0 +1,18 @@
+# This is a prototype of a input file for GAAMP
+# It will be read as a shell script  
+# Defaults values can be found in MyGAAMP/scripts/defaults
+#
+JobName=mol
+FileName=mol.pdb
+FileType=pdb
+UseLJOptPara=1 ## to use new LJ params
+UpdateAtomType=1 ###update atom types to GAAMP types
+To_Fit_E_Wat=1
+DrudeModel=0
+E14FAC=1.0
+NetCharge=0
+Ini_Parameters=GAFF
+FixCharges=fixq
+QM_MEM=5GB
+QM_NPROC=12
+

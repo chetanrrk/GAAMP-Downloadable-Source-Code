@@ -1,0 +1,54 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+cp $GAAMPRUN/030-generate_structure/equiv-org.txt .
+cp $GAAMPRUN/030-generate_structure/mol*.xpsf .
+cp $GAAMPRUN/120-fit_esp/cg-list.txt .
+cp $GAAMPRUN/120-fit_esp/elem-list.txt .
+cp $GAAMPRUN/120-fit_esp/mol-opt.crd .
+cp $GAAMPRUN/120-fit_esp/mol*.xpsf .
+cp $GAAMPRUN/120-fit_esp/mol.prm .
+cp $GAAMPRUN/120-fit_esp/mol.rtf .
+cp $GAAMPRUN/120-fit_esp/mol-esp.dat .
+cp $GAAMPRUN/120-fit_esp/elem-list.txt .
+cp $GAAMPRUN/120-fit_esp/fit-mol.conf .
+cp $GAAMPRUN/120-fit_esp/para-check.dat ./para-opt-start.dat
+
+Gexe acceptor mol-opt.crd 
+Gexe donor mol-opt.crd 
+
+/usr/bin/python $GAAMPSCRIPTS/extract-qm-mol-water.py >> $LOGFILE 
+
+if [ -e ./E-mol-wat.txt ]; then
+
+  Gexe gen_soft_list 
+
+  NumTorsion=`wc -l soft-dih-list.txt | awk '{print $1}'`
+
+  echo "Target_E_Int_Water" >> fit-mol.conf
+  echo "FILE_MolWater_PSF   mol-wat.xpsf" >> fit-mol.conf
+  echo "FILE_MolWaterEnergy E-mol-wat.txt" >> fit-mol.conf
+  echo "SCALE_QM_E_MIN          1.16" >> fit-mol.conf
+  echo "SHIFT_QM_R_MIN         -0.20" >> fit-mol.conf
+  echo "SHIFT_QM_R_MIN_CHARGED -0.20" >> fit-mol.conf
+
+  if [ "$NumTorsion" -eq 0 ]; then
+    Gexe fitcharge-again fit-mol.conf 
+  else
+    Gexe fitcharge fit-mol.conf 
+  fi
+
+  Gexe update-xpsf  
+
+  ###added to copy some files to results folder
+  mkdir -p $GAAMPRUN/results/qm
+  cp final-para.txt $GAAMPRUN/results/report-esp-wat.txt
+  cp mol-esp.rtf $GAAMPRUN/results/mol-esp-wat.rtf
+  cp fit-mol.conf $GAAMPRUN/results/
+   
+  cp mm*.pdb $GAAMPRUN/results/		
+ 
+  cp qm-mol-wat-* $GAAMPRUN/results/qm/   	 
+
+fi
+

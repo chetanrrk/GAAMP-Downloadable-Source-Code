@@ -1,0 +1,79 @@
+Begin your input parameters
+
+equivalent   16  22
+equivalent   17  21
+equivalent   19  20
+equivalent   24  25  26
+equivalent   27  28
+equivalent   32  41
+equivalent   33  40
+equivalent   34  35  36  37  38  39
+
+
+
+
+netcharge   0
+w_H_Donor_Acceptor 1.0
+w_charge 3.0
+
+End   your input parameters
+
+
+The results of charge fitting is attached below.
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663         Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                      Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+
+
+Compare QM and MM dipole: 
+QM dipole: ( 0.2539, -1.8552,  1.2929)  2.2755
+MM dipole: ( 0.2807, -1.7782,  1.2485)  2.1907
+

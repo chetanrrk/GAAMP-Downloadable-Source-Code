@@ -1,0 +1,21 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+  cp $GAAMPRUN/150-fit_water/* .
+  cp $GAAMPRUN/240-1d-fitting/soft-dih-list.txt .
+  cp $GAAMPRUN/240-1d-fitting/saved-para.dat .
+  cp para-check.dat para-opt-start.dat
+
+  Gexe fitcharge-again fit-mol.conf
+  Gexe update-xpsf
+
+  ####copying files to results directory
+  if [ "$NumTorsion" -eq 1 ]; then
+    cp mol-esp.rtf mol-tor.rtf
+  fi
+  cp *.rtf $GAAMPRUN/results
+  cp fit-mol.conf $GAAMPRUN/results
+  cp *.prm $GAAMPRUN/results
+  cp new-mol.xpsf $GAAMPRUN/results/mol.xpsf
+
+exit 0

@@ -1,0 +1,203 @@
+FitCharge> Warning: No entry for NBFIX is found.
+Found LJ type       NC for atom        N
+Found LJ type       NH for atom       N1
+Found LJ type       NB for atom       N2
+Found LJ type     NH_0 for atom       N3
+Found LJ type       NH for atom       N4
+Found LJ type       NB for atom       N5
+Found LJ type      C33 for atom        C
+Found LJ type       CC for atom       C1
+Found LJ type       CD for atom       C2
+Found LJ type       CD for atom       C3
+Found LJ type       CA for atom       C4
+Found LJ type       CA for atom       C5
+Found LJ type       CA for atom       C6
+Found LJ type       CA for atom       C7
+Found LJ type     CA_0 for atom       C8
+Found LJ type       CA for atom       C9
+Found LJ type       CA for atom      C10
+Found LJ type       CA for atom      C11
+Found LJ type      C33 for atom      C12
+Found LJ type      C33 for atom      C13
+Found LJ type       CA for atom      C14
+Found LJ type       CA for atom      C15
+Found LJ type       SS for atom        S
+Found LJ type     HC33 for atom        H
+Found LJ type     HC33 for atom       H1
+Found LJ type     HC33 for atom       H2
+Found LJ type       HN for atom       H3
+Found LJ type       HN for atom       H4
+Found LJ type       HN for atom       H5
+Found LJ type       HA for atom       H6
+Found LJ type       H4 for atom       H7
+Found LJ type       HA for atom       H8
+Found LJ type       HA for atom       H9
+Found LJ type       H1 for atom      H10
+Found LJ type       H1 for atom      H11
+Found LJ type       H1 for atom      H12
+Found LJ type       H1 for atom      H13
+Found LJ type       H1 for atom      H14
+Found LJ type       H1 for atom      H15
+Found LJ type       HA for atom      H16
+Found LJ type       HA for atom      H17
+  1   MOL    1      N             CG =  -1.0*(N1)  -1.0*(N2)  -1.0*(N3)  -1.0*(N4)  -1.0*(N5)  -1.0*(C)  -1.0*(C1)  -1.0*(C2)  -1.0*(C3)  -1.0*(C4)  -1.0*(C5)  -1.0*(C6)  -1.0*(C7)  -1.0*(C8)  -1.0*(C9)  -1.0*(C10)  -1.0*(C11)  -1.0*(C12)  -1.0*(C12)  -1.0*(C10)  -1.0*(C9)  -1.0*(S)  -1.0*(H)  -1.0*(H)  -1.0*(H)  -1.0*(H3)  -1.0*(H3)  -1.0*(H5)  -1.0*(H6)  -1.0*(H7)  -1.0*(H8)  -1.0*(H9)  -1.0*(H10)  -1.0*(H10)  -1.0*(H10)  -1.0*(H10)  -1.0*(H10)  -1.0*(H10)  -1.0*(H9)  -1.0*(H8) 
+  2   MOL    2     N1             CG-to-fit
+  3   MOL    3     N2             CG-to-fit
+  4   MOL    4     N3             CG-to-fit
+  5   MOL    5     N4             CG-to-fit
+  6   MOL    6     N5             CG-to-fit
+  7   MOL    7      C             CG-to-fit
+  8   MOL    8     C1             CG-to-fit
+  9   MOL    9     C2             CG-to-fit
+ 10   MOL   10     C3             CG-to-fit
+ 11   MOL   11     C4             CG-to-fit
+ 12   MOL   12     C5             CG-to-fit
+ 13   MOL   13     C6             CG-to-fit
+ 14   MOL   14     C7             CG-to-fit
+ 15   MOL   15     C8             CG-to-fit
+ 16   MOL   16     C9             CG-to-fit
+ 17   MOL   17    C10             CG-to-fit
+ 18   MOL   18    C11             CG-to-fit
+ 19   MOL   19    C12             CG-to-fit
+ 20   MOL   20    C13  redundant
+ 21   MOL   21    C14  redundant
+ 22   MOL   22    C15  redundant
+ 23   MOL   23      S             CG-to-fit
+ 24   MOL   24      H             CG-to-fit
+ 25   MOL   25     H1  redundant
+ 26   MOL   26     H2  redundant
+ 27   MOL   27     H3             CG-to-fit
+ 28   MOL   28     H4  redundant
+ 29   MOL   29     H5             CG-to-fit
+ 30   MOL   30     H6             CG-to-fit
+ 31   MOL   31     H7             CG-to-fit
+ 32   MOL   32     H8             CG-to-fit
+ 33   MOL   33     H9             CG-to-fit
+ 34   MOL   34    H10             CG-to-fit
+ 35   MOL   35    H11  redundant
+ 36   MOL   36    H12  redundant
+ 37   MOL   37    H13  redundant
+ 38   MOL   38    H14  redundant
+ 39   MOL   39    H15  redundant
+ 40   MOL   40    H16  redundant
+ 41   MOL   41    H17  redundant
+Info about parameters to fit: 
+Parameter  1,   CG       of atom   N1 in mol   MOL. Idx = 2 Bound (-1.250, 1.250)
+Parameter  2,   CG       of atom   N2 in mol   MOL. Idx = 3 Bound (-1.250, 1.250)
+Parameter  3,   CG       of atom   N3 in mol   MOL. Idx = 4 Bound (-1.250, 1.250)
+Parameter  4,   CG       of atom   N4 in mol   MOL. Idx = 5 Bound (-1.250, 1.250)
+Parameter  5,   CG       of atom   N5 in mol   MOL. Idx = 6 Bound (-1.250, 1.250)
+Parameter  6,   CG       of atom    C in mol   MOL. Idx = 7 Bound (-1.250, 1.250)
+Parameter  7,   CG       of atom   C1 in mol   MOL. Idx = 8 Bound (-1.250, 1.250)
+Parameter  8,   CG       of atom   C2 in mol   MOL. Idx = 9 Bound (-1.250, 1.250)
+Parameter  9,   CG       of atom   C3 in mol   MOL. Idx = 10 Bound (-1.250, 1.250)
+Parameter 10,   CG       of atom   C4 in mol   MOL. Idx = 11 Bound (-1.250, 1.250)
+Parameter 11,   CG       of atom   C5 in mol   MOL. Idx = 12 Bound (-1.250, 1.250)
+Parameter 12,   CG       of atom   C6 in mol   MOL. Idx = 13 Bound (-1.250, 1.250)
+Parameter 13,   CG       of atom   C7 in mol   MOL. Idx = 14 Bound (-1.250, 1.250)
+Parameter 14,   CG       of atom   C8 in mol   MOL. Idx = 15 Bound (-1.250, 1.250)
+Parameter 15,   CG       of atom   C9 in mol   MOL. Idx = 16 Bound (-1.250, 1.250)
+Parameter 16,   CG       of atom  C10 in mol   MOL. Idx = 17 Bound (-1.250, 1.250)
+Parameter 17,   CG       of atom  C11 in mol   MOL. Idx = 18 Bound (-1.250, 1.250)
+Parameter 18,   CG       of atom  C12 in mol   MOL. Idx = 19 Bound (-1.250, 1.250)
+Parameter 19,   CG       of atom    S in mol   MOL. Idx = 23 Bound (-1.250, 1.250)
+Parameter 20,   CG       of atom    H in mol   MOL. Idx = 24 Bound ( 0.000, 1.200)
+Parameter 21,   CG       of atom   H3 in mol   MOL. Idx = 27 Bound ( 0.000, 1.200)
+Parameter 22,   CG       of atom   H5 in mol   MOL. Idx = 29 Bound ( 0.000, 1.200)
+Parameter 23,   CG       of atom   H6 in mol   MOL. Idx = 30 Bound ( 0.000, 1.200)
+Parameter 24,   CG       of atom   H7 in mol   MOL. Idx = 31 Bound ( 0.000, 1.200)
+Parameter 25,   CG       of atom   H8 in mol   MOL. Idx = 32 Bound ( 0.000, 1.200)
+Parameter 26,   CG       of atom   H9 in mol   MOL. Idx = 33 Bound ( 0.000, 1.200)
+Parameter 27,   CG       of atom  H10 in mol   MOL. Idx = 34 Bound ( 0.000, 1.200)
+Entering ReadESPData()
+There are  3641 grid points in mol-esp.dat.
+Leaving ReadESPData()
+1161 / 3641 grids points are identified as the neighbors of H donor/acceptor.
+Found LJ type       NC for atom        N
+Found LJ type       NH for atom       N1
+Found LJ type       NB for atom       N2
+Found LJ type     NH_0 for atom       N3
+Found LJ type       NH for atom       N4
+Found LJ type       NB for atom       N5
+Found LJ type      C33 for atom        C
+Found LJ type       CC for atom       C1
+Found LJ type       CD for atom       C2
+Found LJ type       CD for atom       C3
+Found LJ type       CA for atom       C4
+Found LJ type       CA for atom       C5
+Found LJ type       CA for atom       C6
+Found LJ type       CA for atom       C7
+Found LJ type     CA_0 for atom       C8
+Found LJ type       CA for atom       C9
+Found LJ type       CA for atom      C10
+Found LJ type       CA for atom      C11
+Found LJ type      C33 for atom      C12
+Found LJ type      C33 for atom      C13
+Found LJ type       CA for atom      C14
+Found LJ type       CA for atom      C15
+Found LJ type       SS for atom        S
+Found LJ type     HC33 for atom        H
+Found LJ type     HC33 for atom       H1
+Found LJ type     HC33 for atom       H2
+Found LJ type       HN for atom       H3
+Found LJ type       HN for atom       H4
+Found LJ type       HN for atom       H5
+Found LJ type       HA for atom       H6
+Found LJ type       H4 for atom       H7
+Found LJ type       HA for atom       H8
+Found LJ type       HA for atom       H9
+Found LJ type       H1 for atom      H10
+Found LJ type       H1 for atom      H11
+Found LJ type       H1 for atom      H12
+Found LJ type       H1 for atom      H13
+Found LJ type       H1 for atom      H14
+Found LJ type       H1 for atom      H15
+Found LJ type       HA for atom      H16
+Found LJ type       HA for atom      H17
+Found LJ type     OT_W for atom      OH2
+Found LJ type     HT_W for atom       H1
+Found LJ type     HT_W for atom       H2
+Read the previous parameters as the initial parameters
+  1    N -0.6741069 
+  2   N1 -0.9279149 
+  3   N2 -0.8074637 
+  4   N3 -0.6862826 
+  5   N4 -0.3570789 
+  6   N5 -0.6581744 
+  7    C -0.2762412 
+  8   C1  0.5486850 
+  9   C2  0.6734794 
+ 10   C3 -0.4593591 
+ 11   C4  0.6609753 
+ 12   C5 -0.5991584 
+ 13   C6  0.4178409 
+ 14   C7  0.9896245 
+ 15   C8  0.2107399 
+ 16   C9 -0.1637813 
+ 17  C10 -0.2587233 
+ 18  C11  0.2497843 
+ 19  C12  0.0479632 
+ 20  C13  0.0479632 
+ 21  C14 -0.2587233 
+ 22  C15 -0.1637813 
+ 23    S -0.1261326 
+ 24    H  0.0865858 
+ 25   H1  0.0865858 
+ 26   H2  0.0865858 
+ 27   H3  0.4129611 
+ 28   H4  0.4129611 
+ 29   H5  0.3593971 
+ 30   H6  0.2130784 
+ 31   H7  0.0839786 
+ 32   H8  0.1520995 
+ 33   H9  0.1491935 
+ 34  H10  0.0375244 
+ 35  H11  0.0375244 
+ 36  H12  0.0375244 
+ 37  H13  0.0375244 
+ 38  H14  0.0375244 
+ 39  H15  0.0375244 
+ 40  H16  0.1491935 
+ 41  H17  0.1520995 
+nlopt failed!
+Time = 58 

@@ -1,0 +1,27 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+$BABELDIR/bin/babel -i$FileType $WORKDIR/$FileName -ogjf mol.gjf
+
+echo "Preoptimizing structure using Gaussian" >> $LOGFILE
+linenum=`wc -l mol.gjf | awk '{print $1}'`
+echo "%mem=1GB" >> mol-opt.gjf
+echo "# opt ram1 " >> mol-opt.gjf
+echo " " >> mol-opt.gjf
+echo "Mol " >> mol-opt.gjf
+echo " " >> mol-opt.gjf
+echo "$NetCharge $Multiplicity" >> mol-opt.gjf
+leftline=`expr $linenum - 5`
+cat mol-opt.gjf >> $LOGFILE
+tail -n $leftline mol.gjf >> mol-opt.gjf
+
+#$GAUSS_EXEDIR/g09 < mol-opt.gjf > mol-opt-00.out 
+$GAUSS_EXEDIR/g16 < mol-opt.gjf > mol-opt-00.out ## g16 used now 
+CheckError "Error using gaussian"
+
+tmpl=`grep -n Converged? mol-opt-00.out | tail -n 1 | awk '{print $1}' | sed 's/://' | awk '{print $1+6}'`
+head -$tmpl mol-opt-00.out | tail -n 7 >> $LOGFILE
+
+$BABELDIR/bin/babel -ig09 mol-opt-00.out -omol2 mol-opt.mol2
+$BABELDIR/bin/babel -ig09 mol-opt-00.out -opdb mol-opt.pdb
+

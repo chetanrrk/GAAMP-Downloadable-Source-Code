@@ -1,0 +1,38 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+cp $GAAMPRUN/240-1d-fitting/* .
+cp $GAAMPRUN/250-refitcharges/new-mol.xpsf ./mol.xpsf
+##  cp ../250-refitcharges/new-mol.xpsf ../22*-scan/mol.xpsf
+
+###Need these for parameters updates
+if [ -e $GAAMPRUN/250-refitcharges/mol-tor.rtf]; then
+	cp $GAAMPRUN/250-refitcharges/mol-tor.rtf .
+else
+	cp $GAAMPRUN/250-refitcharges/mol-esp.rtf mol-tor.rtf
+fi
+cp $GAAMPRUN/250-refitcharges/mol-opt.crd .
+
+
+
+Gexe 1d-fitting
+
+rm -Rf saved-para.dat
+touch saved-para.dat
+
+IdxTor=1
+while [ -e torsion-para-${IdxTor}.dat ]; do
+  head -n 1 torsion-para-${IdxTor}.dat >> saved-para.dat
+  let IdxTor=IdxTor+1
+done
+
+Gexe update-tor-para ### updates the prm file
+
+
+####copying files to the results directory
+
+cp mol-*m.pdb $GAAMPRUN/results
+cp mol-tor.rtf $GAAMPRUN/results
+cp mol.prm $GAAMPRUN/results/mol-tor.prm
+cp mol.xpsf $GAAMPRUN/results/mol-tor.xpsf
+
+exit 0

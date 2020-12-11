@@ -1,0 +1,26 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+  cp $GAAMPRUN/151-fit_water_drude/* .
+  cp $GAAMPRUN/241-1d-fitting_drude/soft-dih-list.txt .
+  cp $GAAMPRUN/241-1d-fitting_drude/saved-para.dat .
+  cp para-check.dat para-opt-start.dat
+
+  Gexe fitcharge-again-drude drude-fit-mol.conf 
+  Gexe drude-xpsf drude-esp-mol.rtf drude-esp-wat-mol.xpsf MOL TEST
+
+ 
+  ### copying files to druder_results folder
+  cp drude-esp-mol.rtf drude-esp-wat-mol.rtf
+  cp final-para.txt $GAAMPRUN/drude_results/report-esp-wat.txt
+  cp drude-esp-wat-mol.rtf $GAAMPRUN/drude_results/
+  cp drude-esp-wat-mol.xpsf $GAAMPRUN/drude_results/
+  cp *.pdb $GAAMPRUN/drude_results/ 
+  cp mol-tor.rtf $GAAMPRUN/drude_results/drude-mol-tor.rtf
+  cp drude-mol.prm $GAAMPRUN/drude_results/drude-mol-tor.prm
+  cp drude-mol.xpsf $GAAMPRUN/drude_results/drude-mol-tor.xpsf
+  cp *.png $GAAMPRUN/drude_results/
+  cp result-1D.html $GAAMPRUN/drude_results/
+  cp fitting-1d-*.dat $GAAMPRUN/drude_results/
+
+exit 0

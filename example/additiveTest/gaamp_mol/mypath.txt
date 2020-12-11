@@ -1,0 +1,5 @@
+MEMORY 2GB
+NCORES 12
+G09_EXE_PATH /homes/huanglei/prog/g09/g09
+CGRID_EXE_PATH /lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/bin/cgrid
+CGRID_DRUDE_EXE_PATH /lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/bin/drude-cgrid

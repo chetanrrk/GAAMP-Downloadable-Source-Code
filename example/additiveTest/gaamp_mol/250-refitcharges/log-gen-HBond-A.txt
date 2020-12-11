@@ -1,0 +1,22 @@
+FitCharge> Warning: No entry for NBFIX is found.
+mol_H_acceptor.cpp>  1 H acceptor:  1 atom   N MM, E_min = -7.1621 r_min =  1.8204
+theta =   0  r =     1.8203753742434412 phi =    -2.4295747130650445
+mol_H_acceptor.cpp>  2 H acceptor:  2 atom   N MM, E_min = -4.9993 r_min =  1.8668
+theta =   0  r =     1.8667807297941434 phi =    -0.9829740011490817
+mol_H_acceptor.cpp>  3 H acceptor:  3 atom   N MM, E_min = -7.5382 r_min =  1.7823
+theta =   0  r =     1.7822851297486981 phi =     5.4056683273832480
+mol_H_acceptor.cpp>  4 H acceptor:  5 atom   N MM, E_min = -4.6598 r_min =  1.9807
+theta =   0  r =     1.9807152041154510 phi =     4.6740029987452498
+mol_H_acceptor.cpp>  5 H acceptor:  6 atom   N MM, E_min = 37.5204 r_min =  2.8000
+theta =  30  r =     2.7999999999999998 phi =     0.3983022527086555
+mol_H_acceptor.cpp>  1 H acceptor:  1 atom   N QM, E_min = -6.3551 r_min =  2.0833
+mol_H_acceptor.cpp>  2 H acceptor:  2 atom   N QM, E_min = -3.1201 r_min =  2.3002
+mol_H_acceptor.cpp>  3 H acceptor:  3 atom   N QM, E_min = -6.4442 r_min =  2.0561
+mol_H_acceptor.cpp>  4 H acceptor:  5 atom   N QM, E_min = -4.2580 r_min =  2.1806
+FitCharge> Warning: No entry for NBFIX is found.
+mol_H_donor.cpp>  1 H 27 donor:  2 atom   N MM, E_min = -6.9682 r_min =  1.8568  theta =   0  r =   1.857 phi =   1.058
+mol_H_donor.cpp>  2 H 28 donor:  2 atom   N MM, E_min = -5.7593 r_min =  1.8593  theta =   0  r =   1.859 phi =   1.492
+mol_H_donor.cpp>  3 H 29 donor:  4 atom   N MM, E_min = -4.4458 r_min =  1.8854  theta =   0  r =   1.885 phi =   4.648
+mol_H_donor.cpp>  1 H 27 donor:  2 atom   N QM, E_min = -5.6806 r_min =  2.0638
+mol_H_donor.cpp>  2 H 28 donor:  2 atom   N QM, E_min = -4.5401 r_min =  2.0603
+mol_H_donor.cpp>  3 H 29 donor:  4 atom   N QM, E_min = -3.4426 r_min =  2.0767

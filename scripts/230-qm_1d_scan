@@ -1,0 +1,57 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+cp $GAAMPRUN/120-fit_esp/elem-list.txt .
+
+if [ "$NumTorsion" -eq 1 ]; then
+  cp $GAAMPRUN/210-detect_soft_torsion/mol.prm .
+  cp $GAAMPRUN/210-detect_soft_torsion/mol.xpsf .
+  cp $GAAMPRUN/210-detect_soft_torsion/mol-opt.crd .
+  cp $GAAMPRUN/210-detect_soft_torsion/soft-dih-list.txt .
+
+  Gexe qm-1d-scan-single_para
+
+  ###copying files to results folder
+  cp qm-1d-phi-*.out $GAAMPRUN/results/qm/
+  cp qm-scan-*.gjf $GAAMPRUN/results/qm/
+
+  cp mol.prm $GAAMPRUN/results/mol-tor.prm
+  cp mol.xpsf $GAAMPRUN/results/mol-tor.xpsf
+
+  mkdir -p $GAAMPRUN/drude_results
+  
+
+else 
+  cp $GAAMPRUN/220-pes/mol.prm .
+  cp $GAAMPRUN/220-pes/mol.xpsf .
+  cp $GAAMPRUN/220-pes/mol-opt.crd .
+  cp $GAAMPRUN/220-pes/soft-dih-list-new.txt ./soft-dih-list.txt
+
+  if [ "$NumTorsion" -lt "$MaxTorsion" ]; then
+
+    Gexe qm-1d-scan-para 
+
+  else 
+
+    Gexe qm-1d-scan_large_para
+
+  fi
+
+  ###copying files to results folder
+  cp qm-1d-phi-*.out $GAAMPRUN/results/qm/
+  cp qm-scan-*.gjf $GAAMPRUN/results/qm/
+
+  cp mol-*m.pdb $GAAMPRUN/results/
+  cp mol-tor.rtf $GAAMPRUN/results/mol-tor.rtf
+  cp mol.prm $GAAMPRUN/results/mol-tor.prm
+  cp mol.xpsf $GAAMPRUN/results/mol-tor.xpsf
+  cp *.png $GAAMPRUN/results/
+  cp result-1D.html $GAAMPRUN/results/
+  cp fitting-1d-*.dat $GAAMPRUN/results/
+  cp org-1d-*.dat $GAAMPRUN/results/
+
+  mkdir -p $GAAMPRUN/drude_results
+
+fi
+
+exit 0

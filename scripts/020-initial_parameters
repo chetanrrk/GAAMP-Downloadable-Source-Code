@@ -1,0 +1,55 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+cp $GAAMPRUN/010-preoptimize/mol-opt.mol2 .
+cp $GAAMPRUN/010-preoptimize/mol-opt.pdb .
+
+case $Ini_Parameters in
+	GAFF)
+	  echo "Using antechamber to guess initial parameters" >> $LOGFILE
+	  export AMBERHOME="$AMBERDIR"
+	  $AMBERDIR/bin/antechamber -i mol-opt.mol2 -fi mol2 -o mol -fo charmm -j both -c bcc -at gaff -nc $NetCharge
+	;;
+	Match)
+	  echo "Using MATCH to guess initial parameters" >> $LOGFILE
+	  export PerlChemistry=$MATCHDIR/PerlChemistry
+  	  export MATCH=$MATCHDIR/MATCH
+
+	  cp mol-opt.pdb mol.pdb
+
+	  $MATCH/scripts/MATCH.pl -forcefield top_all36_cgenff mol.pdb > log_match.txt
+	  CheckError "Error using MATCH"
+	  Success=`grep "Success" log_match.txt | wc -l`
+	  if [ "$Success" -eq 0 ]; then
+	    echo "Error in MATCH.pl. Quit." 
+	    exit 1 
+	  fi
+	;;
+	CGenFF)
+	  Gexe prep_cgenff ../../ff.str $GAAMPDIR/src/non-polar-ff/top_all36_cgenff.rtf $GAAMPDIR/src/non-polar-ff/par_all36_cgenff.prm $NetCharge > log_prep_cgenff.txt
+
+	  python $GAAMPSCRIPTS/GetConnections.py $NetCharge
+	  python $GAAMPSCRIPTS/getMissingParas.py	
+	
+	  #echo "ERROR: using CGenFF server not available yet for the local version"
+	  #exit 1
+	;;
+	*)
+	  echo "ERROR in obtaining initiale parameters
+	        Please set Ini_Parameters to either GAFF, Match or CGenFF"
+	  exit 1
+	;;
+esac
+
+touch $GAAMPRUN/mypath.txt
+rm $GAAMPRUN/mypath.txt
+echo "MEMORY $mem_per_core" >> $GAAMPRUN/mypath.txt
+echo "NCORES $ncore" >> $GAAMPRUN/mypath.txt 
+echo "G09_EXE_PATH $G09_EXE_PATH" >> $GAAMPRUN/mypath.txt
+echo "CGRID_EXE_PATH $GAAMPDIR/bin/cgrid" >> $GAAMPRUN/mypath.txt
+echo "CGRID_DRUDE_EXE_PATH $GAAMPDIR/bin/drude-cgrid" >> $GAAMPRUN/mypath.txt
+#cp $GAAMPSCRIPTS/QM-para.txt $GAAMPRUN ###Master Script Generates This File Now Based on User Input
+
+
+exit 0
+

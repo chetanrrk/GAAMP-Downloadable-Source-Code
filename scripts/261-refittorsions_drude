@@ -1,0 +1,17 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+cp -r $GAAMPRUN/241-1d-fitting_drude/* .
+cp $GAAMPRUN/251-refitcharges-drude/drude-esp-wat-mol.xpsf drude-mol.xpsf
+
+Gexe 1d-fitting-drude
+
+rm -Rf saved-para.dat
+touch saved-para.dat
+IdxTor=1
+while [ -e torsion-para-${IdxTor}.dat ]; do
+  head -n 1 torsion-para-${IdxTor}.dat >> saved-para.dat
+  let IdxTor=IdxTor+1
+done
+
+

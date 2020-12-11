@@ -1,0 +1,8 @@
+equivalent   16  22
+equivalent   17  21
+equivalent   19  20
+equivalent   24  25  26
+equivalent   27  28
+equivalent   32  41
+equivalent   33  40
+equivalent   34  35  36  37  38  39

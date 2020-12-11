@@ -1,0 +1,21 @@
+Starting optimization with      1 initial parameter:
+Iteration    0  Chi^2 = 0.81888689  Chi^2(1D) = 0.40134133  Chi^2(rotamer) = 0.41754556
+Iteration    1  Chi^2 = 0.81888689  Chi^2(1D) = 0.40134133  Chi^2(rotamer) = 0.41754556
+Iteration    2  Chi^2 = 0.62881824  Chi^2(1D) = 0.52850466  Chi^2(rotamer) = 0.10031358
+Iteration    3  Chi^2 = 0.49367234  Chi^2(1D) = 0.45710488  Chi^2(rotamer) = 0.03656746
+Iteration    4  Chi^2 = 0.47154143  Chi^2(1D) = 0.43535160  Chi^2(rotamer) = 0.03618984
+Iteration    5  Chi^2 = 0.46102960  Chi^2(1D) = 0.42830474  Chi^2(rotamer) = 0.03272486
+Iteration    6  Chi^2 = 0.44910258  Chi^2(1D) = 0.42197176  Chi^2(rotamer) = 0.02713083
+Iteration    7  Chi^2 = 0.43756546  Chi^2(1D) = 0.41800536  Chi^2(rotamer) = 0.01956010
+Iteration    8  Chi^2 = 0.42025853  Chi^2(1D) = 0.40597229  Chi^2(rotamer) = 0.01428623
+Iteration    9  Chi^2 = 0.41226739  Chi^2(1D) = 0.40176100  Chi^2(rotamer) = 0.01050639
+Iteration   10  Chi^2 = 0.39435411  Chi^2(1D) = 0.38655175  Chi^2(rotamer) = 0.00780236
+Iteration   11  Chi^2 = 0.39426132  Chi^2(1D) = 0.38644685  Chi^2(rotamer) = 0.00781447
+Iteration   12  Chi^2 = 0.39108228  Chi^2(1D) = 0.38181096  Chi^2(rotamer) = 0.00927132
+Iteration   13  Chi^2 = 0.39081770  Chi^2(1D) = 0.38174193  Chi^2(rotamer) = 0.00907576
+Iteration   14  Chi^2 = 0.39079238  Chi^2(1D) = 0.38160967  Chi^2(rotamer) = 0.00918271
+Iteration   15  Chi^2 = 0.39078739  Chi^2(1D) = 0.38148196  Chi^2(rotamer) = 0.00930543
+Iteration   16  Chi^2 = 0.39077201  Chi^2(1D) = 0.38149507  Chi^2(rotamer) = 0.00927693
+Iteration   17  Chi^2 = 0.39076137  Chi^2(1D) = 0.38148190  Chi^2(rotamer) = 0.00927947
+Iteration   18  Chi^2 = 0.39074890  Chi^2(1D) = 0.38146392  Chi^2(rotamer) = 0.00928498
+Iteration   19  Chi^2 = 0.39074998  Chi^2(1D) = 0.38145524  Chi^2(rotamer) = 0.00929474

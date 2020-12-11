@@ -1,0 +1,21 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+if [ "$NumTorsion" -eq 0 ] || [ "$TorsionFitting" -eq 0 ]; then
+  if [ "$WaterFit" -eq 1 ]; then
+    if [ "$DrudeModel" -eq 0 ]; then
+
+    else
+
+    fi 
+  else
+
+  fi
+else 
+
+fi
+
+mkdir ../../results_gaamp_$JobName
+cp * ../../results_gaamp_$JobName
+
+exit 0

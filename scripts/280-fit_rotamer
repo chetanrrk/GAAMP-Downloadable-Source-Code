@@ -1,0 +1,42 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+if [ "$WaterFit" -eq 1 ]; then
+  filedir="$GAAMPRUN/260-refittorsions"
+else
+  filedir="$GAAMPRUN/240-1d-fitting"
+fi
+
+cp $filedir/mm-tor-1D-idx-*.dat .
+cp $filedir/torsion-para-*.dat .
+cp $filedir/soft-dih-list.txt .
+cp $GAAMPRUN/120-fit_esp/fit-mol.conf .
+cp $GAAMPRUN/240-1d-fitting/mol.prm .
+cp $GAAMPRUN/240-1d-fitting/mol.xpsf .
+cp $GAAMPRUN/270-rotamer/all-rotamer.dat .
+
+Gexe 1d-rotamer-fitting fit-mol.conf
+
+cp $GAAMPRUN/110-esp/mol-opt.crd .
+if [ -e $GAAMPRUN/250-refitcharges ]; then
+   cp $GAAMPRUN/250-refitcharges/mol-esp.rtf mol-tor.rtf
+elif [ -e $GAAMPRUN/150-fit_water ]; then
+   cp $GAAMPRUN/150-fit_water/mol-esp.rtf mol-tor.rtf
+else
+   cp $GAAMPRUN/120-fit_esp/mol-esp.rtf mol-tor.rtf
+fi
+
+Gexe update-tor-para
+
+### copying files to results folder
+cp *.dat $GAAMPRUN/results
+
+cp mol-*m.pdb $GAAMPRUN/results/
+cp mol-tor.rtf $GAAMPRUN/results/mol-tor.rtf
+cp mol.prm $GAAMPRUN/results/mol-tor.prm
+cp mol.xpsf $GAAMPRUN/results/mol-tor.xpsf
+
+$GAAMPSCRIPTS/rotamer-plot-1d-result-and-org.sh
+cp *.png $GAAMPRUN/result/
+
+exit 0

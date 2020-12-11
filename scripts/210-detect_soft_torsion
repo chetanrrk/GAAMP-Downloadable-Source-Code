@@ -1,0 +1,25 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+if [ "$WaterFit" == "1" ]; then
+  filedir="$GAAMPRUN/150-fit_water" 
+else
+  filedir="$GAAMPRUN/120-fit_esp"
+fi
+
+cp $filedir/mol.prm .
+cp $filedir/new-mol.xpsf ./mol.xpsf
+cp $filedir/mol-opt.crd .
+
+Gexe gen_soft_list 
+
+NumTorsion=`wc -l soft-dih-list.txt | awk '{print $1}'`
+
+if [ "$NumTorsion" -eq 0 ]; then
+  echo "There is no soft torsion."
+elif [ "$NumTorsion" -gt 25 ]; then
+  echo "There are $NumTorsion soft torsion. It is too expensive to proceed." 
+  exit 1 
+fi
+
+exit 0 

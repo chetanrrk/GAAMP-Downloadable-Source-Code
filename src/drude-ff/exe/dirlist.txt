@@ -1,0 +1,13 @@
+code-1d-rotamer-tor-fitting
+code-1d-tor-fitting
+code-cgrid-drude
+code-check-lj-HO
+code-drude-ff
+code-drude-xpsf
+code-fitcharge-emin-rmin
+code-fitcharge-emin-rmin-new-tor
+code-gen-esp
+code-scale-alpha
+code-scale-thole
+code-scale-vdw-r6
+code-update-tor-para

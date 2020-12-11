@@ -1,0 +1,87 @@
+###################=- Blues Job 1867310.bmgt1.lcrc.anl.gov -=#####################
+Job ID: 1867310.bmgt1.lcrc.anl.gov 
+User ID: rupakhetic 
+Group ID: collab 
+Job Name: mol 
+Resources: neednodes=1:ppn=12,nodes=1:ppn=12,size=12,walltime=168:00:00 
+Queue: lSerial 
+Account: Drude 
+##########################################################
+
+
+1 molecule converted
+76 info messages 22 audit log messages 
+1 molecule converted
+76 info messages 15 audit log messages 
+1 molecule converted
+21 audit log messages 
+1 molecule converted
+44 audit log messages 
+Total number of electrons: 172; net charge: 0
+
+Running: /home/huanglei/tools/amber11/bin/sqm -O -i sqm.in -o sqm.out
+/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/scripts/updateLJPrm_RDKIT.py:676: SyntaxWarning: name 'GAAMPSCRIPTS' is assigned to before global declaration
+  global GAAMPSCRIPTS
+cp: cannot stat `/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/examples/mveit_tests_new/docking_pose_1/mol/*mol2': No such file or directory
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/0': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/1': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/2': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/0': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/1': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/2': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/3': File exists
+cp: cannot stat `mol-*m.pdb': No such file or directory
+cp: cannot stat `mol-tor.rtf': No such file or directory
+cp: cannot stat `*.png': No such file or directory
+cp: cannot stat `result-1D.html': No such file or directory
+cp: cannot stat `fitting-1d-*.dat': No such file or directory
+cp: cannot stat `org-1d-*.dat': No such file or directory
+         line 0: warning: Skipping unreadable file "org-1d-1.dat"
+         line 0: warning: Skipping unreadable file "org-1d-2.dat"
+         line 0: warning: Skipping unreadable file "org-1d-3.dat"
+         line 0: warning: Skipping unreadable file "org-1d-4.dat"
+         line 0: warning: Skipping unreadable file "org-1d-5.dat"
+cp: omitting directory `/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/examples/mveit_tests_new/docking_pose_1/mol/gaamp_mol_Pose1/150-fit_water/dat-acceptor-1-1'
+cp: omitting directory `/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/examples/mveit_tests_new/docking_pose_1/mol/gaamp_mol_Pose1/150-fit_water/dat-acceptor-2-2'
+cp: omitting directory `/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/examples/mveit_tests_new/docking_pose_1/mol/gaamp_mol_Pose1/150-fit_water/dat-acceptor-3-3'
+cp: omitting directory `/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/examples/mveit_tests_new/docking_pose_1/mol/gaamp_mol_Pose1/150-fit_water/dat-acceptor-4-5'
+cp: omitting directory `/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/examples/mveit_tests_new/docking_pose_1/mol/gaamp_mol_Pose1/150-fit_water/dat-acceptor-5-6'
+cp: omitting directory `/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/examples/mveit_tests_new/docking_pose_1/mol/gaamp_mol_Pose1/150-fit_water/dat-donor-1-27'
+cp: omitting directory `/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/examples/mveit_tests_new/docking_pose_1/mol/gaamp_mol_Pose1/150-fit_water/dat-donor-2-28'
+cp: omitting directory `/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/examples/mveit_tests_new/docking_pose_1/mol/gaamp_mol_Pose1/150-fit_water/dat-donor-3-29'
+/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/scripts/260-refittorsions: line 8: [-e: command not found
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/0': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/1': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/2': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/3': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/4': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/5': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/6': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/7': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/8': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/9': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/10': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/11': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/12': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/13': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/14': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/15': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/16': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/17': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/18': File exists
+mkdir: cannot create directory `/scratch/1867310.bmgt1.lcrc.anl.gov/19': File exists
+/lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/scripts/280-fit_rotamer: line 39: /lcrc/project/Drude/chetan/lily_debug_new/GAAMP-Working/scripts/rotamer-plot-1d-result-and-org.sh: No such file or directory
+cp: cannot stat `*.png': No such file or directory
+UPDATING_PRM: mol-tor.prm
+UPDATING_RTF: mol-tor.rtf
+##############=- Blues Job Resource Usage -=##############
+Job ID: 1867310.bmgt1.lcrc.anl.gov 
+User ID: rupakhetic 
+Group ID: collab 
+Job Name: mol_Pose_1 
+Session ID: 14871 
+Resources: neednodes=1:ppn=12,nodes=1:ppn=12,size=12,walltime=168:00:00 
+Resources Used: cput=23:53:41,mem=670324kb,vmem=27542964kb,walltime=21:40:37 
+Queue: lSerial 
+Account: Drude 
+##########################################################

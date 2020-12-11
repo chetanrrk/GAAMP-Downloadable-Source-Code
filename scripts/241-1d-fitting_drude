@@ -1,0 +1,55 @@
+#!/bin/sh
+
+source $GAAMPSCRIPTS/routines
+
+if [ "$WaterFit" -eq 1 ]; then
+  cp $GAAMPRUN/151-fit_water_drude/drude-mol.prm .
+  cp $GAAMPRUN/151-fit_water_drude/drude-esp-wat-mol.xpsf ./drude-mol.xpsf
+else
+  cp $GAAMPRUN/121-fit_esp_drude/drude-mol.prm .
+  cp $GAAMPRUN/121-fit_esp_drude/drude-esp-mol.xpsf ./drude-mol.xpsf
+fi
+
+cp $GAAMPRUN/230-qm_1d_scan/tor-1D-idx-*.dat .
+cp $GAAMPRUN/230-qm_1d_scan/soft-dih-list.txt .
+
+
+Gexe 1d-fitting-drude
+
+rm -Rf saved-para.dat
+touch saved-para.dat
+IdxTor=1
+while [ -e torsion-para-${IdxTor}.dat ]; do
+  head -n 1 torsion-para-${IdxTor}.dat >> saved-para.dat
+  let IdxTor=IdxTor+1
+done
+
+#head -n 1 torsion-para-1.dat > saved-para.dat
+
+$GAAMPSCRIPTS/plot-1d-result.sh
+cp *.png $GAAMPRUN/drude_results/
+
+
+
+if [ "$WaterFit" -eq 0 ] && [ "$TorsionFitting" -lt "$MaxTorsion" ]; then ## end of drude gaamp
+  cp ../121-fit_esp_drude/drude-esp-mol.rtf mol-tor.rtf
+  cp ../110-esp/mol-opt.crd .
+  Gexe update-tor-para > update-tor-para.log
+  cp mol-*m.pdb ../drude_result/
+  cp mol-tor.rtf ../drude_result/mol-tor.rtf
+  cp mol.prm ../drude_result/mol-tor.prm
+  cp mol.xpsf ../drude_result/mol-tor.xpsf
+fi
+
+
+
+
+
+exit 0
+
+
+
+
+
+
+

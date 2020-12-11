@@ -1,0 +1,21 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+cp $GAAMPRUN/210-detect_soft_torsion/* .
+rm *.log 
+
+##echo "TORSION = $NumTorsion MAXTORSION = $MaxTorsion"
+if [ "$NumTorsion" -lt "$MaxTorsion" ]; then
+  echo "TORSION = $NumTorsion MAXTORSION = $MaxTorsion"
+  Gexe mm_pes
+else
+  Gexe mm_pes_large
+fi
+
+cat mm-pes-id-*.dat > E-phi-mm-pes.txt
+
+Gexe clustering-phi
+
+rm opt-*.pdb
+
+exit 0

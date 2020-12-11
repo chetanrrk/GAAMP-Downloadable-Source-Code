@@ -1,0 +1,32 @@
+#!/bin/sh
+
+MaxTorsion=8
+mem_per_core="2GB"
+ncore="12"
+mpirun="mpiexec -np $ncore"
+
+JobName="job"
+Ini_Parameters="GAFF"
+TorsionFitting=1
+DrudeModel=0
+To_Fit_E_Wat=1
+NetCharge=0
+Multiplicity=1
+FileType="mol2"
+FileName="noneprovided"
+E14FAC=1.0
+Equivalent="noneprovided"
+Neutral="noneprovided"
+FixCharges="noneprovided"
+w_H_Donor_Acceptor="1.0"         # Weight for grid poitns around H-donor/acceptor
+w_charge="3.0"                   # Weight for charges restraints
+w_water_E_min="0.4"              # Weight for mol-water interactions, Emin
+w_water_R_min="8.0"              # Weight for mol-water interactions, Rmin
+w_alpha="0.4"                  # Weight for constraints on polarizability
+w_thole="0.2"                  # Weight for constraints on thole
+wd_H_Donor_Acceptor="2.0"  
+wd_charge="1.0"           
+wd_water_E_min="0.4"     
+wd_water_R_min="8.0"    
+wd_alpha="0.4"         
+wd_thole="0.2"

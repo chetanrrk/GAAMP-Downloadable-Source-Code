@@ -1,0 +1,35 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+cp $GAAMPRUN/121-fit_esp_drude/* .
+rm para-opt*
+cp $GAAMPRUN/121-fit_esp_drude/para-check.dat ./para-opt-start.dat
+cp $GAAMPRUN/150-fit_water/E-mol-wat.txt .
+cp $GAAMPRUN/031-generate_drude/drude-mol-wat.xpsf .
+
+echo "Target_E_Int_Water" >> drude-fit-mol.conf
+echo "FILE_MolWater_PSF   drude-mol-wat.xpsf" >> drude-fit-mol.conf 
+echo "FILE_MolWaterEnergy E-mol-wat.txt" >> drude-fit-mol.conf
+echo "SCALE_QM_E_MIN_Drude          0.95" >> drude-fit-mol.conf
+echo "SHIFT_QM_R_MIN_Drude         -0.15" >> drude-fit-mol.conf
+echo "SHIFT_QM_R_MIN_CHARGED_Drude -0.15" >> drude-fit-mol.conf
+
+NumTorsion=`wc -l $GAAMPRUN/150-fit_water/soft-dih-list.txt | awk '{print $1}'`
+
+if [ "$NumTorsion" -eq 0 ]; then
+  Gexe fitcharge-again-drude drude-fit-mol.conf
+else
+  Gexe fitcharge-drude drude-fit-mol.conf
+fi
+
+Gexe drude-xpsf drude-esp-mol.rtf drude-esp-wat-mol.xpsf MOL TEST
+
+mkdir -p $GAAMPRUN/drude_results
+
+cp final-para.txt $GAAMPRUN/drude_results/report-esp-wat.txt
+cp drude-esp-mol.rtf $GAAMPRUN/drude_results/drude-esp-wat-mol.rtf
+cp drude-esp-wat-mol.xpsf $GAAMPRUN/drude_results/drude-esp-wat-mol.xpsf
+cp *.pdb $GAAMPRUN/drude_results/
+
+
+exit 0

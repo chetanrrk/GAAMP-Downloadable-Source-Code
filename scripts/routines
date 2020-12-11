@@ -1,0 +1,192 @@
+#!/bin/sh
+
+CheckError() {
+  TMP=$?
+  if [ "$TMP" -ne 0 ]; then
+    echo "$*"
+    date
+    exit $TMP
+  fi
+}
+
+GRun() {
+  echo "# $1 STARTED" >> $LOGFILE 
+  date1=`date +"%s"`
+  cd $GAAMPRUN
+  mkdir -p $1
+  cd $1
+
+  $GAAMPSCRIPTS/$1 >> $LOGFILE
+  CheckError "ERROR in $1" >> $LOGFILE 
+
+  cd $GAAMPRUN
+
+  date2=`date +"%s"`
+  diff=$(($date2-$date1))
+  min=$(($diff / 60))
+  sec=$(($diff % 60))
+  echo "$1		$min:$sec" >> timing.log 
+
+  echo "# $1 FINISHED in $min:$sec" >> $LOGFILE 
+}
+
+Gexe() {
+  echo "#    CALL $1" >> $LOGFILE 
+  $GAAMPDIR/bin/$* >> $LOGFILE
+  CheckError "ERROR in $1"  >> $LOGFILE
+  echo "#    DONE $1" >> $LOGFILE 
+}
+
+Gopt() {
+  echo "#    CALL $1" >> $LOGFILE  
+  $GAAMPDIR/opt/$* >> $LOGFILE
+  CheckError "ERROR in $1"  >> $LOGFILE
+  echo "#    DONE $1" >> $LOGFILE 
+}
+
+Message() {
+
+case $1 in
+	hello) when=`date`
+		echo "
+  	*****************************************************************
+	*								*
+	*    GAAMP - GENERAL AUTOMATED ATOMIC MODEL PARAMETERIZATION    *
+	*   			Version 1.0				*
+	*								*
+	*****************************************************************
+
+	$JobName 
+	$when
+		
+	Will parameterizes the molecule in file $FileName of format $FileType"
+		if [ "$DrudeModel" -eq 1 ]; then
+ 	  	  echo "
+	With the polarizable Drude oscillator force field"
+ 		else
+	  	  echo "
+	With the CHARMM additive force field"
+        	fi
+		  echo "" >> $LOGFILE
+		  $BABELDIR/bin/babel $WORKDIR/$FileName tmp.smi
+		  ##tmp=`cat tmp.smi` 
+		  tmp=`awk '{print $1}' tmp.smi`
+		  rm tmp.smi
+		  echo "		$tmp" >> $LOGFILE
+##		obabel -xa 2.0 -i smi tmp.smi -o ascii molec.ascii >> $LOGFILE
+		  echo "" >> $LOGFILE
+		  ##for key in `cat $GAAMPSCRIPTS/keywordlist`; do
+                    ##set val="$key"
+  		    ##echo "		$key = $${key}" >> $LOGFILE
+		  ##done
+	
+		;;
+        usage) echo "
+        You have to provide an input file containing:
+
+        Mandatory Keywords: 
+                FileName= myfilename.pdb / myfilename.mol2
+                        Coordinate file used
+                FileType= pdb / mol2 
+                        Type of the coordinate file
+        Optional Keywords:
+                JobName= (string)
+                        Name used for the folder, ... (default=job)
+                Equivalent= (file path)
+                        Path to a file containing a list of equivalent atoms
+                        format: start each line by \"equivalent\" then list of atoms
+                        example: equivalent 4 5 9
+			if not provided, equivalent atoms will be determined automatically 
+                Neutral= (file path)
+                        Path to a file containing a list of neutral groups
+                        format: start each line by \"neutral\" then list of atoms
+                        example: neutral 4 5 6 7 8 13 29 
+			if not provided, no neutral group will be used
+                FixCharges= (file path)         
+                        Path to a file containing a list of charges to be fixed
+                        format start each line by \"fix\" then atom number then charge value
+                        example: fix 6 0.30
+			if not provided, no charge will be fixed
+                DrudeModel= 0 / 1
+                        Use drude oscillators (1) or additive force field (0,default)
+                Ini_Parameters= GAFF / CGenFF / Match 
+                        Program used to guess initial parameters (default= GAFF)
+                        be sure that the necessary path are setup properly     
+                TorsionFitting= 0 / 1 
+                        Fit torsions (1,default) or just determine charges (0)
+                To_Fit_E_Wat= 0 / 1  
+                        Use water molecules to fit charges (1,default) or not (0)
+                NetCharge= (integer)
+                        Total charge of the molecule (default=0)
+                Multiplicity= (integer)
+                        Multiplicity of the molecule (default=1)
+                E14FAC= (float)             
+                        Electrostatic scaling for 1-4 interactions (default=1.0)
+                w_H_Donor_Acceptor= (float)
+                        Weight for grid poitns around H-donor/acceptor (default=1.0)
+                w_charge= (float)
+                        Weight for charges restraints (default=3.0) 
+                w_water_E_min=(float)
+                        Weight for mol-water interactions, Emin (default=0.4)
+                w_water_R_min= (float)
+                        Weight for mol-water interactions, Rmin (default=0.8)
+                w_alpha= (float)
+                        Weight for constraints on polarizability (default=0.4)
+                w_thole= (float)
+                        Weight for constraints on thole (default=0.2)
+
+	Don't forget to check the examples 
+		"
+		;;
+	path_not_found) echo "
+		Could not find the $3 file for $2
+		Avoid giving absolute path
+		Copy the $2 file in the same folder as your input file.
+		Execute GAAMP without argument to see its usage.
+		" 
+		;;
+	wrong_input) echo "
+		$2 does not take $3 as argument
+		Please check your input file 
+                Execute GAAMP without argument to see its usage.
+		"
+		;;
+	error) echo "
+	
+		************** GAAMP - ERROR ****************************** 
+
+		"
+		;;
+esac
+
+}
+
+Check_input() {
+  source $1
+  if [ "$FileName" == "noneprovided" ] || [ "$FileType" == "noneprovided" ]; then
+    Message "usage" >> $LOGFILE
+    exit 1
+  fi
+  if [ "$FileName" != "noneprovided" ] && [ ! -e "$FileName" ]; then
+    Message "path_not_found" "coordinates file" $FileName >> $LOGFILE
+    exit 1
+  fi
+  if [ "$FileType" != "pdb" ] && [ "$FileType" != "mol2" ]; then
+    Message "wrong_input" "type of file" $FileType >> $LOGFILE
+    exit 1   
+  fi
+  if [ "$Equivalent" != "noneprovided" ] && [ ! -e "$Equivalent" ]; then
+    Message "path_not_found" "equivalent atoms" $Equivalent >> $LOGFILE
+    exit 1
+  fi	
+  if [ "$Neutral" != "noneprovided" ] && [ ! -e "$Neutral" ]; then
+    Message "path_not_found" "neutral groups" $Neutral >> $LOGFILE
+    exit 1
+  fi
+  if [ "$FixCharges" != "noneprovided" ] && [ ! -e "$FixCharges" ]; then
+    Message "path_not_found" "fixed charges" $FixCharges >> $LOGFILE
+    exit 1
+  fi
+
+
+}

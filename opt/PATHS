@@ -1,0 +1,17 @@
+#!/bin/sh
+GAUSS_EXEDIR="/software/gaussian-09RevA.02-el6-x86_64/g09"
+G09_EXE_PATH="$GAUSS_EXEDIR/g16" ## points to g16;provide a proper g16 path above
+AMBERDIR="/software/amber-12-bak"  ## provide your AMBER path
+BABELDIR="/software/openbabel-2.3-el6-x86_64" ## provide your BABEL path
+MATCHDIR="undefined"
+GNUPLOT="/home/huanglei/tools/gnuplot-install/bin/" ## provide your gnuplot path
+export GDFONTPATH="/home/huanglei/tools/gnuplot-install/fonts" ## fonts path
+
+
+#GAUSS_EXEDIR="/homes/huanglei/prog/g09"
+#G09_EXE_PATH="/homes/huanglei/prog/g09/g09"
+#AMBERDIR="/home/huanglei/tools/amber11"
+#BABELDIR="/home/huanglei/tools/openbabel-install"
+#MATCHDIR="/lcrc/project/Drude/chetan/server/MATCH_RELEASE/MATCH/scripts/"
+#GNUPLOT="/home/huanglei/tools/gnuplot-install/bin/" ## provide your gnuplot path
+#export GDFONTPATH="/home/huanglei/tools/gnuplot-install/fonts" ## fonts path

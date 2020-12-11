@@ -1,0 +1,5650 @@
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.824
+ATOM N1     NH       -0.893
+ATOM N2     NB       -0.753
+ATOM N3     NH_0     -0.695
+ATOM N4     NH       -0.651
+ATOM N5     NB       -0.735
+ATOM C      C33      -0.132
+ATOM C1     CC        0.452
+ATOM C2     CD        0.628
+ATOM C3     CD       -0.308
+ATOM C4     CA        0.582
+ATOM C5     CA       -0.428
+ATOM C6     CA        0.468
+ATOM C7     CA        0.870
+ATOM C8     CA_0      0.078
+ATOM C9     CA       -0.071
+ATOM C10    CA       -0.183
+ATOM C11    CA        0.154
+ATOM C12    C33       0.183
+ATOM C13    C33       0.183
+ATOM C14    CA       -0.183
+ATOM C15    CA       -0.071
+ATOM S      SS       -0.127
+ATOM H      HC33      0.065
+ATOM H1     HC33      0.065
+ATOM H2     HC33      0.065
+ATOM H3     HN        0.399
+ATOM H4     HN        0.399
+ATOM H5     HN        0.433
+ATOM H6     HA        0.154
+ATOM H7     H4        0.026
+ATOM H8     HA        0.152
+ATOM H9     HA        0.135
+ATOM H10    H1        0.046
+ATOM H11    H1        0.046
+ATOM H12    H1        0.046
+ATOM H13    H1        0.046
+ATOM H14    H1        0.046
+ATOM H15    H1        0.046
+ATOM H16    HA        0.135
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   3.6121           Chi^2(ESP) =   3.6115           Chi^2(RSTR_CG) =   0.0005 
+!                        Std_Error(ESP) =   0.0190       Std_Error(RSTR_CG) =   0.0132 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.683
+ATOM N1     NH       -0.893
+ATOM N2     NB       -0.754
+ATOM N3     NH_0     -0.697
+ATOM N4     NH       -0.653
+ATOM N5     NB       -0.736
+ATOM C      C33      -0.133
+ATOM C1     CC        0.451
+ATOM C2     CD        0.628
+ATOM C3     CD       -0.308
+ATOM C4     CA        0.581
+ATOM C5     CA       -0.429
+ATOM C6     CA        0.467
+ATOM C7     CA        0.869
+ATOM C8     CA_0      0.076
+ATOM C9     CA       -0.074
+ATOM C10    CA       -0.187
+ATOM C11    CA        0.152
+ATOM C12    C33       0.179
+ATOM C13    C33       0.179
+ATOM C14    CA       -0.187
+ATOM C15    CA       -0.074
+ATOM S      SS       -0.128
+ATOM H      HC33      0.063
+ATOM H1     HC33      0.063
+ATOM H2     HC33      0.063
+ATOM H3     HN        0.399
+ATOM H4     HN        0.399
+ATOM H5     HN        0.431
+ATOM H6     HA        0.153
+ATOM H7     H4        0.025
+ATOM H8     HA        0.149
+ATOM H9     HA        0.131
+ATOM H10    H1        0.033
+ATOM H11    H1        0.033
+ATOM H12    H1        0.033
+ATOM H13    H1        0.033
+ATOM H14    H1        0.033
+ATOM H15    H1        0.033
+ATOM H16    HA        0.131
+ATOM H17    HA        0.149
+
+
+! Chi^2 =   0.7466           Chi^2(ESP) =   0.7465           Chi^2(RSTR_CG) =   0.0000 
+!                        Std_Error(ESP) =   0.0086       Std_Error(RSTR_CG) =   0.0035 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.675
+ATOM N1     NH       -0.893
+ATOM N2     NB       -0.755
+ATOM N3     NH_0     -0.697
+ATOM N4     NH       -0.653
+ATOM N5     NB       -0.736
+ATOM C      C33      -0.133
+ATOM C1     CC        0.451
+ATOM C2     CD        0.628
+ATOM C3     CD       -0.309
+ATOM C4     CA        0.581
+ATOM C5     CA       -0.429
+ATOM C6     CA        0.467
+ATOM C7     CA        0.868
+ATOM C8     CA_0      0.076
+ATOM C9     CA       -0.075
+ATOM C10    CA       -0.187
+ATOM C11    CA        0.152
+ATOM C12    C33       0.179
+ATOM C13    C33       0.179
+ATOM C14    CA       -0.187
+ATOM C15    CA       -0.075
+ATOM S      SS       -0.128
+ATOM H      HC33      0.063
+ATOM H1     HC33      0.063
+ATOM H2     HC33      0.063
+ATOM H3     HN        0.399
+ATOM H4     HN        0.399
+ATOM H5     HN        0.431
+ATOM H6     HA        0.153
+ATOM H7     H4        0.024
+ATOM H8     HA        0.148
+ATOM H9     HA        0.131
+ATOM H10    H1        0.033
+ATOM H11    H1        0.033
+ATOM H12    H1        0.033
+ATOM H13    H1        0.033
+ATOM H14    H1        0.033
+ATOM H15    H1        0.033
+ATOM H16    HA        0.131
+ATOM H17    HA        0.148
+
+
+! Chi^2 =   0.7158           Chi^2(ESP) =   0.7158           Chi^2(RSTR_CG) =   0.0000 
+!                        Std_Error(ESP) =   0.0085       Std_Error(RSTR_CG) =   0.0035 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.651
+ATOM N1     NH       -0.894
+ATOM N2     NB       -0.758
+ATOM N3     NH_0     -0.700
+ATOM N4     NH       -0.652
+ATOM N5     NB       -0.738
+ATOM C      C33      -0.133
+ATOM C1     CC        0.451
+ATOM C2     CD        0.628
+ATOM C3     CD       -0.310
+ATOM C4     CA        0.578
+ATOM C5     CA       -0.432
+ATOM C6     CA        0.463
+ATOM C7     CA        0.866
+ATOM C8     CA_0      0.074
+ATOM C9     CA       -0.077
+ATOM C10    CA       -0.187
+ATOM C11    CA        0.152
+ATOM C12    C33       0.180
+ATOM C13    C33       0.180
+ATOM C14    CA       -0.187
+ATOM C15    CA       -0.077
+ATOM S      SS       -0.130
+ATOM H      HC33      0.064
+ATOM H1     HC33      0.064
+ATOM H2     HC33      0.064
+ATOM H3     HN        0.399
+ATOM H4     HN        0.399
+ATOM H5     HN        0.427
+ATOM H6     HA        0.149
+ATOM H7     H4        0.020
+ATOM H8     HA        0.145
+ATOM H9     HA        0.131
+ATOM H10    H1        0.036
+ATOM H11    H1        0.036
+ATOM H12    H1        0.036
+ATOM H13    H1        0.036
+ATOM H14    H1        0.036
+ATOM H15    H1        0.036
+ATOM H16    HA        0.131
+ATOM H17    HA        0.145
+
+
+! Chi^2 =   0.5762           Chi^2(ESP) =   0.5761           Chi^2(RSTR_CG) =   0.0001 
+!                        Std_Error(ESP) =   0.0076       Std_Error(RSTR_CG) =   0.0044 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.663
+ATOM N1     NH       -0.894
+ATOM N2     NB       -0.759
+ATOM N3     NH_0     -0.700
+ATOM N4     NH       -0.651
+ATOM N5     NB       -0.737
+ATOM C      C33      -0.132
+ATOM C1     CC        0.451
+ATOM C2     CD        0.628
+ATOM C3     CD       -0.310
+ATOM C4     CA        0.578
+ATOM C5     CA       -0.433
+ATOM C6     CA        0.462
+ATOM C7     CA        0.866
+ATOM C8     CA_0      0.075
+ATOM C9     CA       -0.076
+ATOM C10    CA       -0.186
+ATOM C11    CA        0.153
+ATOM C12    C33       0.180
+ATOM C13    C33       0.180
+ATOM C14    CA       -0.186
+ATOM C15    CA       -0.076
+ATOM S      SS       -0.130
+ATOM H      HC33      0.067
+ATOM H1     HC33      0.067
+ATOM H2     HC33      0.067
+ATOM H3     HN        0.399
+ATOM H4     HN        0.399
+ATOM H5     HN        0.427
+ATOM H6     HA        0.148
+ATOM H7     H4        0.020
+ATOM H8     HA        0.146
+ATOM H9     HA        0.132
+ATOM H10    H1        0.035
+ATOM H11    H1        0.035
+ATOM H12    H1        0.035
+ATOM H13    H1        0.035
+ATOM H14    H1        0.035
+ATOM H15    H1        0.035
+ATOM H16    HA        0.132
+ATOM H17    HA        0.146
+
+
+! Chi^2 =   0.5509           Chi^2(ESP) =   0.5509           Chi^2(RSTR_CG) =   0.0001 
+!                        Std_Error(ESP) =   0.0074       Std_Error(RSTR_CG) =   0.0042 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.893
+ATOM N2     NB       -0.759
+ATOM N3     NH_0     -0.700
+ATOM N4     NH       -0.648
+ATOM N5     NB       -0.736
+ATOM C      C33      -0.131
+ATOM C1     CC        0.451
+ATOM C2     CD        0.627
+ATOM C3     CD       -0.311
+ATOM C4     CA        0.578
+ATOM C5     CA       -0.434
+ATOM C6     CA        0.462
+ATOM C7     CA        0.867
+ATOM C8     CA_0      0.075
+ATOM C9     CA       -0.075
+ATOM C10    CA       -0.182
+ATOM C11    CA        0.156
+ATOM C12    C33       0.181
+ATOM C13    C33       0.181
+ATOM C14    CA       -0.182
+ATOM C15    CA       -0.075
+ATOM S      SS       -0.132
+ATOM H      HC33      0.072
+ATOM H1     HC33      0.072
+ATOM H2     HC33      0.072
+ATOM H3     HN        0.402
+ATOM H4     HN        0.402
+ATOM H5     HN        0.424
+ATOM H6     HA        0.146
+ATOM H7     H4        0.020
+ATOM H8     HA        0.145
+ATOM H9     HA        0.133
+ATOM H10    H1        0.032
+ATOM H11    H1        0.032
+ATOM H12    H1        0.032
+ATOM H13    H1        0.032
+ATOM H14    H1        0.032
+ATOM H15    H1        0.032
+ATOM H16    HA        0.133
+ATOM H17    HA        0.145
+
+
+! Chi^2 =   0.5171           Chi^2(ESP) =   0.5171           Chi^2(RSTR_CG) =   0.0000 
+!                        Std_Error(ESP) =   0.0072       Std_Error(RSTR_CG) =   0.0035 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.687
+ATOM N1     NH       -0.892
+ATOM N2     NB       -0.759
+ATOM N3     NH_0     -0.700
+ATOM N4     NH       -0.644
+ATOM N5     NB       -0.734
+ATOM C      C33      -0.130
+ATOM C1     CC        0.450
+ATOM C2     CD        0.628
+ATOM C3     CD       -0.312
+ATOM C4     CA        0.578
+ATOM C5     CA       -0.435
+ATOM C6     CA        0.462
+ATOM C7     CA        0.869
+ATOM C8     CA_0      0.076
+ATOM C9     CA       -0.075
+ATOM C10    CA       -0.180
+ATOM C11    CA        0.159
+ATOM C12    C33       0.182
+ATOM C13    C33       0.182
+ATOM C14    CA       -0.180
+ATOM C15    CA       -0.075
+ATOM S      SS       -0.133
+ATOM H      HC33      0.074
+ATOM H1     HC33      0.074
+ATOM H2     HC33      0.074
+ATOM H3     HN        0.405
+ATOM H4     HN        0.405
+ATOM H5     HN        0.421
+ATOM H6     HA        0.144
+ATOM H7     H4        0.021
+ATOM H8     HA        0.143
+ATOM H9     HA        0.133
+ATOM H10    H1        0.030
+ATOM H11    H1        0.030
+ATOM H12    H1        0.030
+ATOM H13    H1        0.030
+ATOM H14    H1        0.030
+ATOM H15    H1        0.030
+ATOM H16    HA        0.133
+ATOM H17    HA        0.143
+
+
+! Chi^2 =   0.4960           Chi^2(ESP) =   0.4960           Chi^2(RSTR_CG) =   0.0000 
+!                        Std_Error(ESP) =   0.0070       Std_Error(RSTR_CG) =   0.0035 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.710
+ATOM N1     NH       -0.889
+ATOM N2     NB       -0.757
+ATOM N3     NH_0     -0.700
+ATOM N4     NH       -0.632
+ATOM N5     NB       -0.726
+ATOM C      C33      -0.130
+ATOM C1     CC        0.449
+ATOM C2     CD        0.628
+ATOM C3     CD       -0.314
+ATOM C4     CA        0.579
+ATOM C5     CA       -0.437
+ATOM C6     CA        0.464
+ATOM C7     CA        0.874
+ATOM C8     CA_0      0.076
+ATOM C9     CA       -0.076
+ATOM C10    CA       -0.175
+ATOM C11    CA        0.168
+ATOM C12    C33       0.187
+ATOM C13    C33       0.187
+ATOM C14    CA       -0.175
+ATOM C15    CA       -0.076
+ATOM S      SS       -0.136
+ATOM H      HC33      0.077
+ATOM H1     HC33      0.077
+ATOM H2     HC33      0.077
+ATOM H3     HN        0.412
+ATOM H4     HN        0.412
+ATOM H5     HN        0.411
+ATOM H6     HA        0.140
+ATOM H7     H4        0.025
+ATOM H8     HA        0.137
+ATOM H9     HA        0.130
+ATOM H10    H1        0.026
+ATOM H11    H1        0.026
+ATOM H12    H1        0.026
+ATOM H13    H1        0.026
+ATOM H14    H1        0.026
+ATOM H15    H1        0.026
+ATOM H16    HA        0.130
+ATOM H17    HA        0.137
+
+
+! Chi^2 =   0.4489           Chi^2(ESP) =   0.4489           Chi^2(RSTR_CG) =   0.0000 
+!                        Std_Error(ESP) =   0.0067       Std_Error(RSTR_CG) =   0.0033 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.702
+ATOM N1     NH       -0.889
+ATOM N2     NB       -0.755
+ATOM N3     NH_0     -0.697
+ATOM N4     NH       -0.609
+ATOM N5     NB       -0.712
+ATOM C      C33      -0.132
+ATOM C1     CC        0.447
+ATOM C2     CD        0.627
+ATOM C3     CD       -0.318
+ATOM C4     CA        0.581
+ATOM C5     CA       -0.442
+ATOM C6     CA        0.465
+ATOM C7     CA        0.887
+ATOM C8     CA_0      0.079
+ATOM C9     CA       -0.077
+ATOM C10    CA       -0.165
+ATOM C11    CA        0.185
+ATOM C12    C33       0.195
+ATOM C13    C33       0.195
+ATOM C14    CA       -0.165
+ATOM C15    CA       -0.077
+ATOM S      SS       -0.144
+ATOM H      HC33      0.072
+ATOM H1     HC33      0.072
+ATOM H2     HC33      0.072
+ATOM H3     HN        0.415
+ATOM H4     HN        0.415
+ATOM H5     HN        0.395
+ATOM H6     HA        0.132
+ATOM H7     H4        0.032
+ATOM H8     HA        0.128
+ATOM H9     HA        0.124
+ATOM H10    H1        0.019
+ATOM H11    H1        0.019
+ATOM H12    H1        0.019
+ATOM H13    H1        0.019
+ATOM H14    H1        0.019
+ATOM H15    H1        0.019
+ATOM H16    HA        0.124
+ATOM H17    HA        0.128
+
+
+! Chi^2 =   0.3831           Chi^2(ESP) =   0.3830           Chi^2(RSTR_CG) =   0.0001 
+!                        Std_Error(ESP) =   0.0062       Std_Error(RSTR_CG) =   0.0052 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.694
+ATOM N1     NH       -0.892
+ATOM N2     NB       -0.755
+ATOM N3     NH_0     -0.690
+ATOM N4     NH       -0.564
+ATOM N5     NB       -0.679
+ATOM C      C33      -0.135
+ATOM C1     CC        0.445
+ATOM C2     CD        0.629
+ATOM C3     CD       -0.320
+ATOM C4     CA        0.590
+ATOM C5     CA       -0.447
+ATOM C6     CA        0.463
+ATOM C7     CA        0.912
+ATOM C8     CA_0      0.082
+ATOM C9     CA       -0.088
+ATOM C10    CA       -0.162
+ATOM C11    CA        0.210
+ATOM C12    C33       0.213
+ATOM C13    C33       0.213
+ATOM C14    CA       -0.162
+ATOM C15    CA       -0.088
+ATOM S      SS       -0.145
+ATOM H      HC33      0.071
+ATOM H1     HC33      0.071
+ATOM H2     HC33      0.071
+ATOM H3     HN        0.409
+ATOM H4     HN        0.409
+ATOM H5     HN        0.366
+ATOM H6     HA        0.131
+ATOM H7     H4        0.038
+ATOM H8     HA        0.115
+ATOM H9     HA        0.101
+ATOM H10    H1        0.011
+ATOM H11    H1        0.011
+ATOM H12    H1        0.011
+ATOM H13    H1        0.011
+ATOM H14    H1        0.011
+ATOM H15    H1        0.011
+ATOM H16    HA        0.101
+ATOM H17    HA        0.115
+
+
+! Chi^2 =   0.3794           Chi^2(ESP) =   0.3788           Chi^2(RSTR_CG) =   0.0006 
+!                        Std_Error(ESP) =   0.0062       Std_Error(RSTR_CG) =   0.0146 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.665
+ATOM N1     NH       -0.891
+ATOM N2     NB       -0.755
+ATOM N3     NH_0     -0.688
+ATOM N4     NH       -0.564
+ATOM N5     NB       -0.680
+ATOM C      C33      -0.138
+ATOM C1     CC        0.443
+ATOM C2     CD        0.629
+ATOM C3     CD       -0.323
+ATOM C4     CA        0.588
+ATOM C5     CA       -0.450
+ATOM C6     CA        0.462
+ATOM C7     CA        0.912
+ATOM C8     CA_0      0.084
+ATOM C9     CA       -0.084
+ATOM C10    CA       -0.160
+ATOM C11    CA        0.211
+ATOM C12    C33       0.213
+ATOM C13    C33       0.213
+ATOM C14    CA       -0.160
+ATOM C15    CA       -0.084
+ATOM S      SS       -0.147
+ATOM H      HC33      0.060
+ATOM H1     HC33      0.060
+ATOM H2     HC33      0.060
+ATOM H3     HN        0.411
+ATOM H4     HN        0.411
+ATOM H5     HN        0.369
+ATOM H6     HA        0.127
+ATOM H7     H4        0.036
+ATOM H8     HA        0.119
+ATOM H9     HA        0.104
+ATOM H10    H1        0.009
+ATOM H11    H1        0.009
+ATOM H12    H1        0.009
+ATOM H13    H1        0.009
+ATOM H14    H1        0.009
+ATOM H15    H1        0.009
+ATOM H16    HA        0.104
+ATOM H17    HA        0.119
+
+
+! Chi^2 =   0.3056           Chi^2(ESP) =   0.3050           Chi^2(RSTR_CG) =   0.0006 
+!                        Std_Error(ESP) =   0.0055       Std_Error(RSTR_CG) =   0.0145 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.656
+ATOM N1     NH       -0.892
+ATOM N2     NB       -0.757
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.563
+ATOM N5     NB       -0.680
+ATOM C      C33      -0.139
+ATOM C1     CC        0.443
+ATOM C2     CD        0.629
+ATOM C3     CD       -0.323
+ATOM C4     CA        0.587
+ATOM C5     CA       -0.451
+ATOM C6     CA        0.460
+ATOM C7     CA        0.913
+ATOM C8     CA_0      0.085
+ATOM C9     CA       -0.084
+ATOM C10    CA       -0.162
+ATOM C11    CA        0.210
+ATOM C12    C33       0.213
+ATOM C13    C33       0.213
+ATOM C14    CA       -0.162
+ATOM C15    CA       -0.084
+ATOM S      SS       -0.146
+ATOM H      HC33      0.058
+ATOM H1     HC33      0.058
+ATOM H2     HC33      0.058
+ATOM H3     HN        0.409
+ATOM H4     HN        0.409
+ATOM H5     HN        0.371
+ATOM H6     HA        0.128
+ATOM H7     H4        0.035
+ATOM H8     HA        0.123
+ATOM H9     HA        0.103
+ATOM H10    H1        0.009
+ATOM H11    H1        0.009
+ATOM H12    H1        0.009
+ATOM H13    H1        0.009
+ATOM H14    H1        0.009
+ATOM H15    H1        0.009
+ATOM H16    HA        0.103
+ATOM H17    HA        0.123
+
+
+! Chi^2 =   0.2967           Chi^2(ESP) =   0.2960           Chi^2(RSTR_CG) =   0.0006 
+!                        Std_Error(ESP) =   0.0054       Std_Error(RSTR_CG) =   0.0146 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.644
+ATOM N1     NH       -0.893
+ATOM N2     NB       -0.761
+ATOM N3     NH_0     -0.682
+ATOM N4     NH       -0.554
+ATOM N5     NB       -0.675
+ATOM C      C33      -0.140
+ATOM C1     CC        0.442
+ATOM C2     CD        0.630
+ATOM C3     CD       -0.325
+ATOM C4     CA        0.586
+ATOM C5     CA       -0.454
+ATOM C6     CA        0.455
+ATOM C7     CA        0.918
+ATOM C8     CA_0      0.086
+ATOM C9     CA       -0.087
+ATOM C10    CA       -0.166
+ATOM C11    CA        0.212
+ATOM C12    C33       0.216
+ATOM C13    C33       0.216
+ATOM C14    CA       -0.166
+ATOM C15    CA       -0.087
+ATOM S      SS       -0.143
+ATOM H      HC33      0.055
+ATOM H1     HC33      0.055
+ATOM H2     HC33      0.055
+ATOM H3     HN        0.406
+ATOM H4     HN        0.406
+ATOM H5     HN        0.369
+ATOM H6     HA        0.132
+ATOM H7     H4        0.034
+ATOM H8     HA        0.128
+ATOM H9     HA        0.100
+ATOM H10    H1        0.008
+ATOM H11    H1        0.008
+ATOM H12    H1        0.008
+ATOM H13    H1        0.008
+ATOM H14    H1        0.008
+ATOM H15    H1        0.008
+ATOM H16    HA        0.100
+ATOM H17    HA        0.128
+
+
+! Chi^2 =   0.2844           Chi^2(ESP) =   0.2836           Chi^2(RSTR_CG) =   0.0008 
+!                        Std_Error(ESP) =   0.0053       Std_Error(RSTR_CG) =   0.0166 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.638
+ATOM N1     NH       -0.894
+ATOM N2     NB       -0.767
+ATOM N3     NH_0     -0.675
+ATOM N4     NH       -0.540
+ATOM N5     NB       -0.668
+ATOM C      C33      -0.142
+ATOM C1     CC        0.440
+ATOM C2     CD        0.632
+ATOM C3     CD       -0.330
+ATOM C4     CA        0.582
+ATOM C5     CA       -0.460
+ATOM C6     CA        0.448
+ATOM C7     CA        0.924
+ATOM C8     CA_0      0.088
+ATOM C9     CA       -0.092
+ATOM C10    CA       -0.174
+ATOM C11    CA        0.215
+ATOM C12    C33       0.221
+ATOM C13    C33       0.221
+ATOM C14    CA       -0.174
+ATOM C15    CA       -0.092
+ATOM S      SS       -0.140
+ATOM H      HC33      0.055
+ATOM H1     HC33      0.055
+ATOM H2     HC33      0.055
+ATOM H3     HN        0.403
+ATOM H4     HN        0.403
+ATOM H5     HN        0.367
+ATOM H6     HA        0.139
+ATOM H7     H4        0.036
+ATOM H8     HA        0.136
+ATOM H9     HA        0.097
+ATOM H10    H1        0.006
+ATOM H11    H1        0.006
+ATOM H12    H1        0.006
+ATOM H13    H1        0.006
+ATOM H14    H1        0.006
+ATOM H15    H1        0.006
+ATOM H16    HA        0.097
+ATOM H17    HA        0.136
+
+
+! Chi^2 =   0.2666           Chi^2(ESP) =   0.2655           Chi^2(RSTR_CG) =   0.0011 
+!                        Std_Error(ESP) =   0.0052       Std_Error(RSTR_CG) =   0.0195 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.636
+ATOM N1     NH       -0.894
+ATOM N2     NB       -0.781
+ATOM N3     NH_0     -0.662
+ATOM N4     NH       -0.505
+ATOM N5     NB       -0.653
+ATOM C      C33      -0.146
+ATOM C1     CC        0.433
+ATOM C2     CD        0.635
+ATOM C3     CD       -0.344
+ATOM C4     CA        0.571
+ATOM C5     CA       -0.476
+ATOM C6     CA        0.434
+ATOM C7     CA        0.939
+ATOM C8     CA_0      0.090
+ATOM C9     CA       -0.107
+ATOM C10    CA       -0.189
+ATOM C11    CA        0.222
+ATOM C12    C33       0.231
+ATOM C13    C33       0.231
+ATOM C14    CA       -0.189
+ATOM C15    CA       -0.107
+ATOM S      SS       -0.132
+ATOM H      HC33      0.057
+ATOM H1     HC33      0.057
+ATOM H2     HC33      0.057
+ATOM H3     HN        0.402
+ATOM H4     HN        0.402
+ATOM H5     HN        0.362
+ATOM H6     HA        0.157
+ATOM H7     H4        0.047
+ATOM H8     HA        0.152
+ATOM H9     HA        0.095
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.095
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.2356           Chi^2(ESP) =   0.2335           Chi^2(RSTR_CG) =   0.0021 
+!                        Std_Error(ESP) =   0.0048       Std_Error(RSTR_CG) =   0.0264 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.630
+ATOM N1     NH       -0.895
+ATOM N2     NB       -0.783
+ATOM N3     NH_0     -0.660
+ATOM N4     NH       -0.503
+ATOM N5     NB       -0.653
+ATOM C      C33      -0.146
+ATOM C1     CC        0.433
+ATOM C2     CD        0.636
+ATOM C3     CD       -0.346
+ATOM C4     CA        0.569
+ATOM C5     CA       -0.478
+ATOM C6     CA        0.432
+ATOM C7     CA        0.940
+ATOM C8     CA_0      0.090
+ATOM C9     CA       -0.109
+ATOM C10    CA       -0.192
+ATOM C11    CA        0.222
+ATOM C12    C33       0.231
+ATOM C13    C33       0.231
+ATOM C14    CA       -0.192
+ATOM C15    CA       -0.109
+ATOM S      SS       -0.132
+ATOM H      HC33      0.057
+ATOM H1     HC33      0.057
+ATOM H2     HC33      0.057
+ATOM H3     HN        0.401
+ATOM H4     HN        0.401
+ATOM H5     HN        0.362
+ATOM H6     HA        0.158
+ATOM H7     H4        0.049
+ATOM H8     HA        0.153
+ATOM H9     HA        0.098
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.098
+ATOM H17    HA        0.153
+
+
+! Chi^2 =   0.2331           Chi^2(ESP) =   0.2309           Chi^2(RSTR_CG) =   0.0021 
+!                        Std_Error(ESP) =   0.0048       Std_Error(RSTR_CG) =   0.0267 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.625
+ATOM N1     NH       -0.896
+ATOM N2     NB       -0.785
+ATOM N3     NH_0     -0.658
+ATOM N4     NH       -0.504
+ATOM N5     NB       -0.655
+ATOM C      C33      -0.146
+ATOM C1     CC        0.432
+ATOM C2     CD        0.636
+ATOM C3     CD       -0.349
+ATOM C4     CA        0.564
+ATOM C5     CA       -0.481
+ATOM C6     CA        0.430
+ATOM C7     CA        0.940
+ATOM C8     CA_0      0.089
+ATOM C9     CA       -0.114
+ATOM C10    CA       -0.197
+ATOM C11    CA        0.218
+ATOM C12    C33       0.228
+ATOM C13    C33       0.228
+ATOM C14    CA       -0.197
+ATOM C15    CA       -0.114
+ATOM S      SS       -0.131
+ATOM H      HC33      0.060
+ATOM H1     HC33      0.060
+ATOM H2     HC33      0.060
+ATOM H3     HN        0.399
+ATOM H4     HN        0.399
+ATOM H5     HN        0.367
+ATOM H6     HA        0.162
+ATOM H7     H4        0.054
+ATOM H8     HA        0.155
+ATOM H9     HA        0.108
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.108
+ATOM H17    HA        0.155
+
+
+! Chi^2 =   0.2258           Chi^2(ESP) =   0.2237           Chi^2(RSTR_CG) =   0.0021 
+!                        Std_Error(ESP) =   0.0047       Std_Error(RSTR_CG) =   0.0264 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.636
+ATOM N1     NH       -0.895
+ATOM N2     NB       -0.788
+ATOM N3     NH_0     -0.656
+ATOM N4     NH       -0.499
+ATOM N5     NB       -0.655
+ATOM C      C33      -0.146
+ATOM C1     CC        0.431
+ATOM C2     CD        0.637
+ATOM C3     CD       -0.353
+ATOM C4     CA        0.560
+ATOM C5     CA       -0.484
+ATOM C6     CA        0.428
+ATOM C7     CA        0.941
+ATOM C8     CA_0      0.088
+ATOM C9     CA       -0.119
+ATOM C10    CA       -0.202
+ATOM C11    CA        0.217
+ATOM C12    C33       0.228
+ATOM C13    C33       0.228
+ATOM C14    CA       -0.202
+ATOM C15    CA       -0.119
+ATOM S      SS       -0.128
+ATOM H      HC33      0.063
+ATOM H1     HC33      0.063
+ATOM H2     HC33      0.063
+ATOM H3     HN        0.401
+ATOM H4     HN        0.401
+ATOM H5     HN        0.368
+ATOM H6     HA        0.168
+ATOM H7     H4        0.059
+ATOM H8     HA        0.157
+ATOM H9     HA        0.112
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.112
+ATOM H17    HA        0.157
+
+
+! Chi^2 =   0.2160           Chi^2(ESP) =   0.2139           Chi^2(RSTR_CG) =   0.0021 
+!                        Std_Error(ESP) =   0.0046       Std_Error(RSTR_CG) =   0.0266 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.643
+ATOM N1     NH       -0.895
+ATOM N2     NB       -0.788
+ATOM N3     NH_0     -0.655
+ATOM N4     NH       -0.498
+ATOM N5     NB       -0.654
+ATOM C      C33      -0.147
+ATOM C1     CC        0.431
+ATOM C2     CD        0.637
+ATOM C3     CD       -0.354
+ATOM C4     CA        0.559
+ATOM C5     CA       -0.486
+ATOM C6     CA        0.427
+ATOM C7     CA        0.942
+ATOM C8     CA_0      0.088
+ATOM C9     CA       -0.121
+ATOM C10    CA       -0.203
+ATOM C11    CA        0.217
+ATOM C12    C33       0.226
+ATOM C13    C33       0.226
+ATOM C14    CA       -0.203
+ATOM C15    CA       -0.121
+ATOM S      SS       -0.128
+ATOM H      HC33      0.064
+ATOM H1     HC33      0.064
+ATOM H2     HC33      0.064
+ATOM H3     HN        0.403
+ATOM H4     HN        0.403
+ATOM H5     HN        0.368
+ATOM H6     HA        0.169
+ATOM H7     H4        0.062
+ATOM H8     HA        0.157
+ATOM H9     HA        0.116
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.116
+ATOM H17    HA        0.157
+
+
+! Chi^2 =   0.2122           Chi^2(ESP) =   0.2101           Chi^2(RSTR_CG) =   0.0021 
+!                        Std_Error(ESP) =   0.0046       Std_Error(RSTR_CG) =   0.0267 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.641
+ATOM N1     NH       -0.895
+ATOM N2     NB       -0.789
+ATOM N3     NH_0     -0.653
+ATOM N4     NH       -0.494
+ATOM N5     NB       -0.651
+ATOM C      C33      -0.147
+ATOM C1     CC        0.431
+ATOM C2     CD        0.638
+ATOM C3     CD       -0.356
+ATOM C4     CA        0.557
+ATOM C5     CA       -0.489
+ATOM C6     CA        0.426
+ATOM C7     CA        0.945
+ATOM C8     CA_0      0.088
+ATOM C9     CA       -0.124
+ATOM C10    CA       -0.205
+ATOM C11    CA        0.218
+ATOM C12    C33       0.224
+ATOM C13    C33       0.224
+ATOM C14    CA       -0.205
+ATOM C15    CA       -0.124
+ATOM S      SS       -0.128
+ATOM H      HC33      0.064
+ATOM H1     HC33      0.064
+ATOM H2     HC33      0.064
+ATOM H3     HN        0.404
+ATOM H4     HN        0.404
+ATOM H5     HN        0.366
+ATOM H6     HA        0.170
+ATOM H7     H4        0.064
+ATOM H8     HA        0.155
+ATOM H9     HA        0.120
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.120
+ATOM H17    HA        0.155
+
+
+! Chi^2 =   0.2085           Chi^2(ESP) =   0.2062           Chi^2(RSTR_CG) =   0.0023 
+!                        Std_Error(ESP) =   0.0045       Std_Error(RSTR_CG) =   0.0276 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.647
+ATOM N1     NH       -0.895
+ATOM N2     NB       -0.794
+ATOM N3     NH_0     -0.644
+ATOM N4     NH       -0.479
+ATOM N5     NB       -0.637
+ATOM C      C33      -0.149
+ATOM C1     CC        0.430
+ATOM C2     CD        0.640
+ATOM C3     CD       -0.361
+ATOM C4     CA        0.555
+ATOM C5     CA       -0.500
+ATOM C6     CA        0.419
+ATOM C7     CA        0.957
+ATOM C8     CA_0      0.091
+ATOM C9     CA       -0.133
+ATOM C10    CA       -0.211
+ATOM C11    CA        0.222
+ATOM C12    C33       0.215
+ATOM C13    C33       0.215
+ATOM C14    CA       -0.211
+ATOM C15    CA       -0.133
+ATOM S      SS       -0.126
+ATOM H      HC33      0.064
+ATOM H1     HC33      0.064
+ATOM H2     HC33      0.064
+ATOM H3     HN        0.406
+ATOM H4     HN        0.406
+ATOM H5     HN        0.361
+ATOM H6     HA        0.173
+ATOM H7     H4        0.072
+ATOM H8     HA        0.153
+ATOM H9     HA        0.130
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.130
+ATOM H17    HA        0.153
+
+
+! Chi^2 =   0.1987           Chi^2(ESP) =   0.1957           Chi^2(RSTR_CG) =   0.0030 
+!                        Std_Error(ESP) =   0.0044       Std_Error(RSTR_CG) =   0.0316 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.645
+ATOM N1     NH       -0.897
+ATOM N2     NB       -0.802
+ATOM N3     NH_0     -0.633
+ATOM N4     NH       -0.458
+ATOM N5     NB       -0.620
+ATOM C      C33      -0.153
+ATOM C1     CC        0.430
+ATOM C2     CD        0.644
+ATOM C3     CD       -0.367
+ATOM C4     CA        0.551
+ATOM C5     CA       -0.513
+ATOM C6     CA        0.408
+ATOM C7     CA        0.972
+ATOM C8     CA_0      0.096
+ATOM C9     CA       -0.143
+ATOM C10    CA       -0.219
+ATOM C11    CA        0.228
+ATOM C12    C33       0.205
+ATOM C13    C33       0.205
+ATOM C14    CA       -0.219
+ATOM C15    CA       -0.143
+ATOM S      SS       -0.122
+ATOM H      HC33      0.063
+ATOM H1     HC33      0.063
+ATOM H2     HC33      0.063
+ATOM H3     HN        0.405
+ATOM H4     HN        0.405
+ATOM H5     HN        0.355
+ATOM H6     HA        0.179
+ATOM H7     H4        0.080
+ATOM H8     HA        0.152
+ATOM H9     HA        0.139
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.139
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1898           Chi^2(ESP) =   0.1856           Chi^2(RSTR_CG) =   0.0042 
+!                        Std_Error(ESP) =   0.0043       Std_Error(RSTR_CG) =   0.0375 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.638
+ATOM N1     NH       -0.899
+ATOM N2     NB       -0.811
+ATOM N3     NH_0     -0.622
+ATOM N4     NH       -0.440
+ATOM N5     NB       -0.608
+ATOM C      C33      -0.155
+ATOM C1     CC        0.431
+ATOM C2     CD        0.646
+ATOM C3     CD       -0.372
+ATOM C4     CA        0.548
+ATOM C5     CA       -0.524
+ATOM C6     CA        0.399
+ATOM C7     CA        0.982
+ATOM C8     CA_0      0.104
+ATOM C9     CA       -0.147
+ATOM C10    CA       -0.226
+ATOM C11    CA        0.234
+ATOM C12    C33       0.198
+ATOM C13    C33       0.198
+ATOM C14    CA       -0.226
+ATOM C15    CA       -0.147
+ATOM S      SS       -0.121
+ATOM H      HC33      0.062
+ATOM H1     HC33      0.062
+ATOM H2     HC33      0.062
+ATOM H3     HN        0.404
+ATOM H4     HN        0.404
+ATOM H5     HN        0.353
+ATOM H6     HA        0.186
+ATOM H7     H4        0.087
+ATOM H8     HA        0.149
+ATOM H9     HA        0.139
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.139
+ATOM H17    HA        0.149
+
+
+! Chi^2 =   0.1852           Chi^2(ESP) =   0.1798           Chi^2(RSTR_CG) =   0.0054 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0424 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.638
+ATOM N1     NH       -0.899
+ATOM N2     NB       -0.812
+ATOM N3     NH_0     -0.622
+ATOM N4     NH       -0.440
+ATOM N5     NB       -0.608
+ATOM C      C33      -0.155
+ATOM C1     CC        0.432
+ATOM C2     CD        0.646
+ATOM C3     CD       -0.372
+ATOM C4     CA        0.548
+ATOM C5     CA       -0.524
+ATOM C6     CA        0.399
+ATOM C7     CA        0.982
+ATOM C8     CA_0      0.104
+ATOM C9     CA       -0.147
+ATOM C10    CA       -0.226
+ATOM C11    CA        0.234
+ATOM C12    C33       0.198
+ATOM C13    C33       0.198
+ATOM C14    CA       -0.226
+ATOM C15    CA       -0.147
+ATOM S      SS       -0.121
+ATOM H      HC33      0.062
+ATOM H1     HC33      0.062
+ATOM H2     HC33      0.062
+ATOM H3     HN        0.404
+ATOM H4     HN        0.404
+ATOM H5     HN        0.353
+ATOM H6     HA        0.186
+ATOM H7     H4        0.087
+ATOM H8     HA        0.149
+ATOM H9     HA        0.139
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.139
+ATOM H17    HA        0.149
+
+
+! Chi^2 =   0.1851           Chi^2(ESP) =   0.1797           Chi^2(RSTR_CG) =   0.0054 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0424 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.629
+ATOM N1     NH       -0.901
+ATOM N2     NB       -0.817
+ATOM N3     NH_0     -0.621
+ATOM N4     NH       -0.437
+ATOM N5     NB       -0.607
+ATOM C      C33      -0.156
+ATOM C1     CC        0.434
+ATOM C2     CD        0.646
+ATOM C3     CD       -0.371
+ATOM C4     CA        0.548
+ATOM C5     CA       -0.526
+ATOM C6     CA        0.395
+ATOM C7     CA        0.980
+ATOM C8     CA_0      0.109
+ATOM C9     CA       -0.144
+ATOM C10    CA       -0.226
+ATOM C11    CA        0.235
+ATOM C12    C33       0.196
+ATOM C13    C33       0.196
+ATOM C14    CA       -0.226
+ATOM C15    CA       -0.144
+ATOM S      SS       -0.120
+ATOM H      HC33      0.060
+ATOM H1     HC33      0.060
+ATOM H2     HC33      0.060
+ATOM H3     HN        0.402
+ATOM H4     HN        0.402
+ATOM H5     HN        0.352
+ATOM H6     HA        0.191
+ATOM H7     H4        0.087
+ATOM H8     HA        0.149
+ATOM H9     HA        0.137
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.137
+ATOM H17    HA        0.149
+
+
+! Chi^2 =   0.1848           Chi^2(ESP) =   0.1792           Chi^2(RSTR_CG) =   0.0056 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0431 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.632
+ATOM N1     NH       -0.900
+ATOM N2     NB       -0.815
+ATOM N3     NH_0     -0.622
+ATOM N4     NH       -0.440
+ATOM N5     NB       -0.608
+ATOM C      C33      -0.156
+ATOM C1     CC        0.433
+ATOM C2     CD        0.646
+ATOM C3     CD       -0.371
+ATOM C4     CA        0.548
+ATOM C5     CA       -0.524
+ATOM C6     CA        0.397
+ATOM C7     CA        0.980
+ATOM C8     CA_0      0.107
+ATOM C9     CA       -0.145
+ATOM C10    CA       -0.225
+ATOM C11    CA        0.234
+ATOM C12    C33       0.197
+ATOM C13    C33       0.197
+ATOM C14    CA       -0.225
+ATOM C15    CA       -0.145
+ATOM S      SS       -0.120
+ATOM H      HC33      0.061
+ATOM H1     HC33      0.061
+ATOM H2     HC33      0.061
+ATOM H3     HN        0.403
+ATOM H4     HN        0.403
+ATOM H5     HN        0.353
+ATOM H6     HA        0.188
+ATOM H7     H4        0.087
+ATOM H8     HA        0.148
+ATOM H9     HA        0.138
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.138
+ATOM H17    HA        0.148
+
+
+! Chi^2 =   0.1837           Chi^2(ESP) =   0.1783           Chi^2(RSTR_CG) =   0.0054 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0425 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.631
+ATOM N1     NH       -0.900
+ATOM N2     NB       -0.815
+ATOM N3     NH_0     -0.622
+ATOM N4     NH       -0.440
+ATOM N5     NB       -0.608
+ATOM C      C33      -0.156
+ATOM C1     CC        0.433
+ATOM C2     CD        0.646
+ATOM C3     CD       -0.371
+ATOM C4     CA        0.548
+ATOM C5     CA       -0.525
+ATOM C6     CA        0.397
+ATOM C7     CA        0.980
+ATOM C8     CA_0      0.107
+ATOM C9     CA       -0.145
+ATOM C10    CA       -0.225
+ATOM C11    CA        0.234
+ATOM C12    C33       0.197
+ATOM C13    C33       0.197
+ATOM C14    CA       -0.225
+ATOM C15    CA       -0.145
+ATOM S      SS       -0.121
+ATOM H      HC33      0.061
+ATOM H1     HC33      0.061
+ATOM H2     HC33      0.061
+ATOM H3     HN        0.403
+ATOM H4     HN        0.403
+ATOM H5     HN        0.353
+ATOM H6     HA        0.189
+ATOM H7     H4        0.087
+ATOM H8     HA        0.148
+ATOM H9     HA        0.138
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.138
+ATOM H17    HA        0.148
+
+
+! Chi^2 =   0.1836           Chi^2(ESP) =   0.1781           Chi^2(RSTR_CG) =   0.0054 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0425 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.634
+ATOM N1     NH       -0.901
+ATOM N2     NB       -0.816
+ATOM N3     NH_0     -0.622
+ATOM N4     NH       -0.439
+ATOM N5     NB       -0.608
+ATOM C      C33      -0.156
+ATOM C1     CC        0.435
+ATOM C2     CD        0.646
+ATOM C3     CD       -0.370
+ATOM C4     CA        0.549
+ATOM C5     CA       -0.526
+ATOM C6     CA        0.397
+ATOM C7     CA        0.979
+ATOM C8     CA_0      0.110
+ATOM C9     CA       -0.143
+ATOM C10    CA       -0.226
+ATOM C11    CA        0.234
+ATOM C12    C33       0.195
+ATOM C13    C33       0.195
+ATOM C14    CA       -0.226
+ATOM C15    CA       -0.143
+ATOM S      SS       -0.122
+ATOM H      HC33      0.061
+ATOM H1     HC33      0.061
+ATOM H2     HC33      0.061
+ATOM H3     HN        0.404
+ATOM H4     HN        0.404
+ATOM H5     HN        0.354
+ATOM H6     HA        0.190
+ATOM H7     H4        0.089
+ATOM H8     HA        0.145
+ATOM H9     HA        0.139
+ATOM H10    H1        0.000
+ATOM H11    H1        0.000
+ATOM H12    H1        0.000
+ATOM H13    H1        0.000
+ATOM H14    H1        0.000
+ATOM H15    H1        0.000
+ATOM H16    HA        0.139
+ATOM H17    HA        0.145
+
+
+! Chi^2 =   0.1830           Chi^2(ESP) =   0.1776           Chi^2(RSTR_CG) =   0.0054 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0425 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.646
+ATOM N1     NH       -0.902
+ATOM N2     NB       -0.817
+ATOM N3     NH_0     -0.621
+ATOM N4     NH       -0.439
+ATOM N5     NB       -0.608
+ATOM C      C33      -0.156
+ATOM C1     CC        0.437
+ATOM C2     CD        0.646
+ATOM C3     CD       -0.370
+ATOM C4     CA        0.549
+ATOM C5     CA       -0.527
+ATOM C6     CA        0.396
+ATOM C7     CA        0.979
+ATOM C8     CA_0      0.112
+ATOM C9     CA       -0.142
+ATOM C10    CA       -0.226
+ATOM C11    CA        0.234
+ATOM C12    C33       0.195
+ATOM C13    C33       0.195
+ATOM C14    CA       -0.226
+ATOM C15    CA       -0.142
+ATOM S      SS       -0.123
+ATOM H      HC33      0.061
+ATOM H1     HC33      0.061
+ATOM H2     HC33      0.061
+ATOM H3     HN        0.405
+ATOM H4     HN        0.405
+ATOM H5     HN        0.354
+ATOM H6     HA        0.190
+ATOM H7     H4        0.091
+ATOM H8     HA        0.144
+ATOM H9     HA        0.140
+ATOM H10    H1        0.001
+ATOM H11    H1        0.001
+ATOM H12    H1        0.001
+ATOM H13    H1        0.001
+ATOM H14    H1        0.001
+ATOM H15    H1        0.001
+ATOM H16    HA        0.140
+ATOM H17    HA        0.144
+
+
+! Chi^2 =   0.1826           Chi^2(ESP) =   0.1772           Chi^2(RSTR_CG) =   0.0054 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0426 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.636
+ATOM N1     NH       -0.904
+ATOM N2     NB       -0.821
+ATOM N3     NH_0     -0.621
+ATOM N4     NH       -0.438
+ATOM N5     NB       -0.608
+ATOM C      C33      -0.157
+ATOM C1     CC        0.444
+ATOM C2     CD        0.645
+ATOM C3     CD       -0.368
+ATOM C4     CA        0.550
+ATOM C5     CA       -0.530
+ATOM C6     CA        0.395
+ATOM C7     CA        0.976
+ATOM C8     CA_0      0.119
+ATOM C9     CA       -0.140
+ATOM C10    CA       -0.231
+ATOM C11    CA        0.232
+ATOM C12    C33       0.193
+ATOM C13    C33       0.193
+ATOM C14    CA       -0.231
+ATOM C15    CA       -0.140
+ATOM S      SS       -0.125
+ATOM H      HC33      0.060
+ATOM H1     HC33      0.060
+ATOM H2     HC33      0.060
+ATOM H3     HN        0.406
+ATOM H4     HN        0.406
+ATOM H5     HN        0.355
+ATOM H6     HA        0.192
+ATOM H7     H4        0.094
+ATOM H8     HA        0.140
+ATOM H9     HA        0.142
+ATOM H10    H1        0.001
+ATOM H11    H1        0.001
+ATOM H12    H1        0.001
+ATOM H13    H1        0.001
+ATOM H14    H1        0.001
+ATOM H15    H1        0.001
+ATOM H16    HA        0.142
+ATOM H17    HA        0.140
+
+
+! Chi^2 =   0.1816           Chi^2(ESP) =   0.1761           Chi^2(RSTR_CG) =   0.0055 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0428 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.648
+ATOM N1     NH       -0.906
+ATOM N2     NB       -0.822
+ATOM N3     NH_0     -0.621
+ATOM N4     NH       -0.437
+ATOM N5     NB       -0.607
+ATOM C      C33      -0.158
+ATOM C1     CC        0.449
+ATOM C2     CD        0.645
+ATOM C3     CD       -0.366
+ATOM C4     CA        0.552
+ATOM C5     CA       -0.532
+ATOM C6     CA        0.394
+ATOM C7     CA        0.975
+ATOM C8     CA_0      0.123
+ATOM C9     CA       -0.138
+ATOM C10    CA       -0.234
+ATOM C11    CA        0.230
+ATOM C12    C33       0.192
+ATOM C13    C33       0.192
+ATOM C14    CA       -0.234
+ATOM C15    CA       -0.138
+ATOM S      SS       -0.127
+ATOM H      HC33      0.060
+ATOM H1     HC33      0.060
+ATOM H2     HC33      0.060
+ATOM H3     HN        0.407
+ATOM H4     HN        0.407
+ATOM H5     HN        0.355
+ATOM H6     HA        0.192
+ATOM H7     H4        0.095
+ATOM H8     HA        0.139
+ATOM H9     HA        0.145
+ATOM H10    H1        0.002
+ATOM H11    H1        0.002
+ATOM H12    H1        0.002
+ATOM H13    H1        0.002
+ATOM H14    H1        0.002
+ATOM H15    H1        0.002
+ATOM H16    HA        0.145
+ATOM H17    HA        0.139
+
+
+! Chi^2 =   0.1809           Chi^2(ESP) =   0.1754           Chi^2(RSTR_CG) =   0.0055 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0430 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.647
+ATOM N1     NH       -0.908
+ATOM N2     NB       -0.821
+ATOM N3     NH_0     -0.622
+ATOM N4     NH       -0.436
+ATOM N5     NB       -0.607
+ATOM C      C33      -0.159
+ATOM C1     CC        0.452
+ATOM C2     CD        0.645
+ATOM C3     CD       -0.366
+ATOM C4     CA        0.554
+ATOM C5     CA       -0.534
+ATOM C6     CA        0.395
+ATOM C7     CA        0.975
+ATOM C8     CA_0      0.126
+ATOM C9     CA       -0.138
+ATOM C10    CA       -0.237
+ATOM C11    CA        0.228
+ATOM C12    C33       0.191
+ATOM C13    C33       0.191
+ATOM C14    CA       -0.237
+ATOM C15    CA       -0.138
+ATOM S      SS       -0.128
+ATOM H      HC33      0.060
+ATOM H1     HC33      0.060
+ATOM H2     HC33      0.060
+ATOM H3     HN        0.408
+ATOM H4     HN        0.408
+ATOM H5     HN        0.354
+ATOM H6     HA        0.192
+ATOM H7     H4        0.095
+ATOM H8     HA        0.140
+ATOM H9     HA        0.146
+ATOM H10    H1        0.002
+ATOM H11    H1        0.002
+ATOM H12    H1        0.002
+ATOM H13    H1        0.002
+ATOM H14    H1        0.002
+ATOM H15    H1        0.002
+ATOM H16    HA        0.146
+ATOM H17    HA        0.140
+
+
+! Chi^2 =   0.1804           Chi^2(ESP) =   0.1748           Chi^2(RSTR_CG) =   0.0056 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0431 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.647
+ATOM N1     NH       -0.909
+ATOM N2     NB       -0.819
+ATOM N3     NH_0     -0.624
+ATOM N4     NH       -0.434
+ATOM N5     NB       -0.607
+ATOM C      C33      -0.160
+ATOM C1     CC        0.456
+ATOM C2     CD        0.646
+ATOM C3     CD       -0.366
+ATOM C4     CA        0.555
+ATOM C5     CA       -0.536
+ATOM C6     CA        0.396
+ATOM C7     CA        0.974
+ATOM C8     CA_0      0.129
+ATOM C9     CA       -0.138
+ATOM C10    CA       -0.241
+ATOM C11    CA        0.227
+ATOM C12    C33       0.190
+ATOM C13    C33       0.190
+ATOM C14    CA       -0.241
+ATOM C15    CA       -0.138
+ATOM S      SS       -0.129
+ATOM H      HC33      0.060
+ATOM H1     HC33      0.060
+ATOM H2     HC33      0.060
+ATOM H3     HN        0.409
+ATOM H4     HN        0.409
+ATOM H5     HN        0.352
+ATOM H6     HA        0.192
+ATOM H7     H4        0.094
+ATOM H8     HA        0.141
+ATOM H9     HA        0.148
+ATOM H10    H1        0.002
+ATOM H11    H1        0.002
+ATOM H12    H1        0.002
+ATOM H13    H1        0.002
+ATOM H14    H1        0.002
+ATOM H15    H1        0.002
+ATOM H16    HA        0.148
+ATOM H17    HA        0.141
+
+
+! Chi^2 =   0.1799           Chi^2(ESP) =   0.1743           Chi^2(RSTR_CG) =   0.0056 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0434 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.651
+ATOM N1     NH       -0.912
+ATOM N2     NB       -0.815
+ATOM N3     NH_0     -0.626
+ATOM N4     NH       -0.429
+ATOM N5     NB       -0.609
+ATOM C      C33      -0.163
+ATOM C1     CC        0.461
+ATOM C2     CD        0.647
+ATOM C3     CD       -0.367
+ATOM C4     CA        0.556
+ATOM C5     CA       -0.539
+ATOM C6     CA        0.398
+ATOM C7     CA        0.973
+ATOM C8     CA_0      0.133
+ATOM C9     CA       -0.137
+ATOM C10    CA       -0.245
+ATOM C11    CA        0.227
+ATOM C12    C33       0.187
+ATOM C13    C33       0.187
+ATOM C14    CA       -0.245
+ATOM C15    CA       -0.137
+ATOM S      SS       -0.129
+ATOM H      HC33      0.060
+ATOM H1     HC33      0.060
+ATOM H2     HC33      0.060
+ATOM H3     HN        0.410
+ATOM H4     HN        0.410
+ATOM H5     HN        0.350
+ATOM H6     HA        0.193
+ATOM H7     H4        0.092
+ATOM H8     HA        0.142
+ATOM H9     HA        0.149
+ATOM H10    H1        0.003
+ATOM H11    H1        0.003
+ATOM H12    H1        0.003
+ATOM H13    H1        0.003
+ATOM H14    H1        0.003
+ATOM H15    H1        0.003
+ATOM H16    HA        0.149
+ATOM H17    HA        0.142
+
+
+! Chi^2 =   0.1792           Chi^2(ESP) =   0.1735           Chi^2(RSTR_CG) =   0.0058 
+!                        Std_Error(ESP) =   0.0042       Std_Error(RSTR_CG) =   0.0439 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.648
+ATOM N1     NH       -0.916
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.631
+ATOM N4     NH       -0.421
+ATOM N5     NB       -0.613
+ATOM C      C33      -0.168
+ATOM C1     CC        0.470
+ATOM C2     CD        0.650
+ATOM C3     CD       -0.370
+ATOM C4     CA        0.558
+ATOM C5     CA       -0.544
+ATOM C6     CA        0.401
+ATOM C7     CA        0.972
+ATOM C8     CA_0      0.142
+ATOM C9     CA       -0.137
+ATOM C10    CA       -0.252
+ATOM C11    CA        0.227
+ATOM C12    C33       0.182
+ATOM C13    C33       0.182
+ATOM C14    CA       -0.252
+ATOM C15    CA       -0.137
+ATOM S      SS       -0.130
+ATOM H      HC33      0.061
+ATOM H1     HC33      0.061
+ATOM H2     HC33      0.061
+ATOM H3     HN        0.411
+ATOM H4     HN        0.411
+ATOM H5     HN        0.347
+ATOM H6     HA        0.195
+ATOM H7     H4        0.089
+ATOM H8     HA        0.143
+ATOM H9     HA        0.151
+ATOM H10    H1        0.003
+ATOM H11    H1        0.003
+ATOM H12    H1        0.003
+ATOM H13    H1        0.003
+ATOM H14    H1        0.003
+ATOM H15    H1        0.003
+ATOM H16    HA        0.151
+ATOM H17    HA        0.143
+
+
+! Chi^2 =   0.1782           Chi^2(ESP) =   0.1721           Chi^2(RSTR_CG) =   0.0061 
+!                        Std_Error(ESP) =   0.0041       Std_Error(RSTR_CG) =   0.0450 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.660
+ATOM N1     NH       -0.922
+ATOM N2     NB       -0.797
+ATOM N3     NH_0     -0.637
+ATOM N4     NH       -0.408
+ATOM N5     NB       -0.619
+ATOM C      C33      -0.176
+ATOM C1     CC        0.483
+ATOM C2     CD        0.654
+ATOM C3     CD       -0.375
+ATOM C4     CA        0.561
+ATOM C5     CA       -0.552
+ATOM C6     CA        0.405
+ATOM C7     CA        0.968
+ATOM C8     CA_0      0.156
+ATOM C9     CA       -0.135
+ATOM C10    CA       -0.261
+ATOM C11    CA        0.229
+ATOM C12    C33       0.174
+ATOM C13    C33       0.174
+ATOM C14    CA       -0.261
+ATOM C15    CA       -0.135
+ATOM S      SS       -0.130
+ATOM H      HC33      0.062
+ATOM H1     HC33      0.062
+ATOM H2     HC33      0.062
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.343
+ATOM H6     HA        0.200
+ATOM H7     H4        0.085
+ATOM H8     HA        0.143
+ATOM H9     HA        0.154
+ATOM H10    H1        0.005
+ATOM H11    H1        0.005
+ATOM H12    H1        0.005
+ATOM H13    H1        0.005
+ATOM H14    H1        0.005
+ATOM H15    H1        0.005
+ATOM H16    HA        0.154
+ATOM H17    HA        0.143
+
+
+! Chi^2 =   0.1768           Chi^2(ESP) =   0.1702           Chi^2(RSTR_CG) =   0.0066 
+!                        Std_Error(ESP) =   0.0041       Std_Error(RSTR_CG) =   0.0470 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.662
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.793
+ATOM N3     NH_0     -0.645
+ATOM N4     NH       -0.395
+ATOM N5     NB       -0.624
+ATOM C      C33      -0.187
+ATOM C1     CC        0.497
+ATOM C2     CD        0.659
+ATOM C3     CD       -0.384
+ATOM C4     CA        0.570
+ATOM C5     CA       -0.559
+ATOM C6     CA        0.410
+ATOM C7     CA        0.964
+ATOM C8     CA_0      0.173
+ATOM C9     CA       -0.134
+ATOM C10    CA       -0.271
+ATOM C11    CA        0.231
+ATOM C12    C33       0.165
+ATOM C13    C33       0.165
+ATOM C14    CA       -0.271
+ATOM C15    CA       -0.134
+ATOM S      SS       -0.134
+ATOM H      HC33      0.064
+ATOM H1     HC33      0.064
+ATOM H2     HC33      0.064
+ATOM H3     HN        0.415
+ATOM H4     HN        0.415
+ATOM H5     HN        0.345
+ATOM H6     HA        0.206
+ATOM H7     H4        0.080
+ATOM H8     HA        0.141
+ATOM H9     HA        0.158
+ATOM H10    H1        0.006
+ATOM H11    H1        0.006
+ATOM H12    H1        0.006
+ATOM H13    H1        0.006
+ATOM H14    H1        0.006
+ATOM H15    H1        0.006
+ATOM H16    HA        0.158
+ATOM H17    HA        0.141
+
+
+! Chi^2 =   0.1753           Chi^2(ESP) =   0.1680           Chi^2(RSTR_CG) =   0.0073 
+!                        Std_Error(ESP) =   0.0041       Std_Error(RSTR_CG) =   0.0493 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.669
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.794
+ATOM N3     NH_0     -0.651
+ATOM N4     NH       -0.390
+ATOM N5     NB       -0.627
+ATOM C      C33      -0.195
+ATOM C1     CC        0.501
+ATOM C2     CD        0.663
+ATOM C3     CD       -0.391
+ATOM C4     CA        0.577
+ATOM C5     CA       -0.560
+ATOM C6     CA        0.413
+ATOM C7     CA        0.962
+ATOM C8     CA_0      0.181
+ATOM C9     CA       -0.136
+ATOM C10    CA       -0.273
+ATOM C11    CA        0.235
+ATOM C12    C33       0.160
+ATOM C13    C33       0.160
+ATOM C14    CA       -0.273
+ATOM C15    CA       -0.136
+ATOM S      SS       -0.135
+ATOM H      HC33      0.066
+ATOM H1     HC33      0.066
+ATOM H2     HC33      0.066
+ATOM H3     HN        0.416
+ATOM H4     HN        0.416
+ATOM H5     HN        0.348
+ATOM H6     HA        0.208
+ATOM H7     H4        0.078
+ATOM H8     HA        0.141
+ATOM H9     HA        0.159
+ATOM H10    H1        0.007
+ATOM H11    H1        0.007
+ATOM H12    H1        0.007
+ATOM H13    H1        0.007
+ATOM H14    H1        0.007
+ATOM H15    H1        0.007
+ATOM H16    HA        0.159
+ATOM H17    HA        0.141
+
+
+! Chi^2 =   0.1746           Chi^2(ESP) =   0.1670           Chi^2(RSTR_CG) =   0.0077 
+!                        Std_Error(ESP) =   0.0041       Std_Error(RSTR_CG) =   0.0505 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.666
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.795
+ATOM N3     NH_0     -0.654
+ATOM N4     NH       -0.388
+ATOM N5     NB       -0.627
+ATOM C      C33      -0.199
+ATOM C1     CC        0.502
+ATOM C2     CD        0.665
+ATOM C3     CD       -0.396
+ATOM C4     CA        0.581
+ATOM C5     CA       -0.560
+ATOM C6     CA        0.414
+ATOM C7     CA        0.961
+ATOM C8     CA_0      0.183
+ATOM C9     CA       -0.138
+ATOM C10    CA       -0.273
+ATOM C11    CA        0.237
+ATOM C12    C33       0.158
+ATOM C13    C33       0.158
+ATOM C14    CA       -0.273
+ATOM C15    CA       -0.138
+ATOM S      SS       -0.135
+ATOM H      HC33      0.068
+ATOM H1     HC33      0.068
+ATOM H2     HC33      0.068
+ATOM H3     HN        0.415
+ATOM H4     HN        0.415
+ATOM H5     HN        0.351
+ATOM H6     HA        0.208
+ATOM H7     H4        0.078
+ATOM H8     HA        0.141
+ATOM H9     HA        0.158
+ATOM H10    H1        0.007
+ATOM H11    H1        0.007
+ATOM H12    H1        0.007
+ATOM H13    H1        0.007
+ATOM H14    H1        0.007
+ATOM H15    H1        0.007
+ATOM H16    HA        0.158
+ATOM H17    HA        0.141
+
+
+! Chi^2 =   0.1742           Chi^2(ESP) =   0.1664           Chi^2(RSTR_CG) =   0.0078 
+!                        Std_Error(ESP) =   0.0041       Std_Error(RSTR_CG) =   0.0510 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.669
+ATOM N1     NH       -0.926
+ATOM N2     NB       -0.799
+ATOM N3     NH_0     -0.660
+ATOM N4     NH       -0.385
+ATOM N5     NB       -0.627
+ATOM C      C33      -0.208
+ATOM C1     CC        0.504
+ATOM C2     CD        0.670
+ATOM C3     CD       -0.405
+ATOM C4     CA        0.590
+ATOM C5     CA       -0.561
+ATOM C6     CA        0.417
+ATOM C7     CA        0.960
+ATOM C8     CA_0      0.188
+ATOM C9     CA       -0.141
+ATOM C10    CA       -0.274
+ATOM C11    CA        0.241
+ATOM C12    C33       0.154
+ATOM C13    C33       0.154
+ATOM C14    CA       -0.274
+ATOM C15    CA       -0.141
+ATOM S      SS       -0.135
+ATOM H      HC33      0.070
+ATOM H1     HC33      0.070
+ATOM H2     HC33      0.070
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.354
+ATOM H6     HA        0.207
+ATOM H7     H4        0.078
+ATOM H8     HA        0.143
+ATOM H9     HA        0.158
+ATOM H10    H1        0.008
+ATOM H11    H1        0.008
+ATOM H12    H1        0.008
+ATOM H13    H1        0.008
+ATOM H14    H1        0.008
+ATOM H15    H1        0.008
+ATOM H16    HA        0.158
+ATOM H17    HA        0.143
+
+
+! Chi^2 =   0.1735           Chi^2(ESP) =   0.1654           Chi^2(RSTR_CG) =   0.0081 
+!                        Std_Error(ESP) =   0.0041       Std_Error(RSTR_CG) =   0.0520 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.670
+ATOM N1     NH       -0.926
+ATOM N2     NB       -0.802
+ATOM N3     NH_0     -0.670
+ATOM N4     NH       -0.382
+ATOM N5     NB       -0.628
+ATOM C      C33      -0.222
+ATOM C1     CC        0.509
+ATOM C2     CD        0.678
+ATOM C3     CD       -0.419
+ATOM C4     CA        0.604
+ATOM C5     CA       -0.564
+ATOM C6     CA        0.422
+ATOM C7     CA        0.958
+ATOM C8     CA_0      0.198
+ATOM C9     CA       -0.146
+ATOM C10    CA       -0.276
+ATOM C11    CA        0.246
+ATOM C12    C33       0.149
+ATOM C13    C33       0.149
+ATOM C14    CA       -0.276
+ATOM C15    CA       -0.146
+ATOM S      SS       -0.134
+ATOM H      HC33      0.074
+ATOM H1     HC33      0.074
+ATOM H2     HC33      0.074
+ATOM H3     HN        0.412
+ATOM H4     HN        0.412
+ATOM H5     HN        0.359
+ATOM H6     HA        0.204
+ATOM H7     H4        0.079
+ATOM H8     HA        0.145
+ATOM H9     HA        0.158
+ATOM H10    H1        0.009
+ATOM H11    H1        0.009
+ATOM H12    H1        0.009
+ATOM H13    H1        0.009
+ATOM H14    H1        0.009
+ATOM H15    H1        0.009
+ATOM H16    HA        0.158
+ATOM H17    HA        0.145
+
+
+! Chi^2 =   0.1727           Chi^2(ESP) =   0.1640           Chi^2(RSTR_CG) =   0.0087 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0538 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.673
+ATOM N1     NH       -0.926
+ATOM N2     NB       -0.805
+ATOM N3     NH_0     -0.680
+ATOM N4     NH       -0.380
+ATOM N5     NB       -0.628
+ATOM C      C33      -0.237
+ATOM C1     CC        0.517
+ATOM C2     CD        0.685
+ATOM C3     CD       -0.432
+ATOM C4     CA        0.620
+ATOM C5     CA       -0.570
+ATOM C6     CA        0.425
+ATOM C7     CA        0.958
+ATOM C8     CA_0      0.209
+ATOM C9     CA       -0.151
+ATOM C10    CA       -0.280
+ATOM C11    CA        0.249
+ATOM C12    C33       0.143
+ATOM C13    C33       0.143
+ATOM C14    CA       -0.280
+ATOM C15    CA       -0.151
+ATOM S      SS       -0.132
+ATOM H      HC33      0.078
+ATOM H1     HC33      0.078
+ATOM H2     HC33      0.078
+ATOM H3     HN        0.411
+ATOM H4     HN        0.411
+ATOM H5     HN        0.362
+ATOM H6     HA        0.203
+ATOM H7     H4        0.079
+ATOM H8     HA        0.147
+ATOM H9     HA        0.161
+ATOM H10    H1        0.010
+ATOM H11    H1        0.010
+ATOM H12    H1        0.010
+ATOM H13    H1        0.010
+ATOM H14    H1        0.010
+ATOM H15    H1        0.010
+ATOM H16    HA        0.161
+ATOM H17    HA        0.147
+
+
+! Chi^2 =   0.1721           Chi^2(ESP) =   0.1626           Chi^2(RSTR_CG) =   0.0095 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0562 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.680
+ATOM N1     NH       -0.927
+ATOM N2     NB       -0.804
+ATOM N3     NH_0     -0.682
+ATOM N4     NH       -0.381
+ATOM N5     NB       -0.629
+ATOM C      C33      -0.240
+ATOM C1     CC        0.519
+ATOM C2     CD        0.686
+ATOM C3     CD       -0.434
+ATOM C4     CA        0.623
+ATOM C5     CA       -0.571
+ATOM C6     CA        0.426
+ATOM C7     CA        0.958
+ATOM C8     CA_0      0.212
+ATOM C9     CA       -0.152
+ATOM C10    CA       -0.281
+ATOM C11    CA        0.249
+ATOM C12    C33       0.143
+ATOM C13    C33       0.143
+ATOM C14    CA       -0.281
+ATOM C15    CA       -0.152
+ATOM S      SS       -0.132
+ATOM H      HC33      0.079
+ATOM H1     HC33      0.079
+ATOM H2     HC33      0.079
+ATOM H3     HN        0.411
+ATOM H4     HN        0.411
+ATOM H5     HN        0.363
+ATOM H6     HA        0.202
+ATOM H7     H4        0.079
+ATOM H8     HA        0.148
+ATOM H9     HA        0.161
+ATOM H10    H1        0.011
+ATOM H11    H1        0.011
+ATOM H12    H1        0.011
+ATOM H13    H1        0.011
+ATOM H14    H1        0.011
+ATOM H15    H1        0.011
+ATOM H16    HA        0.161
+ATOM H17    HA        0.148
+
+
+! Chi^2 =   0.1717           Chi^2(ESP) =   0.1621           Chi^2(RSTR_CG) =   0.0096 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0566 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.677
+ATOM N1     NH       -0.929
+ATOM N2     NB       -0.803
+ATOM N3     NH_0     -0.683
+ATOM N4     NH       -0.383
+ATOM N5     NB       -0.630
+ATOM C      C33      -0.242
+ATOM C1     CC        0.521
+ATOM C2     CD        0.686
+ATOM C3     CD       -0.435
+ATOM C4     CA        0.624
+ATOM C5     CA       -0.573
+ATOM C6     CA        0.426
+ATOM C7     CA        0.958
+ATOM C8     CA_0      0.213
+ATOM C9     CA       -0.151
+ATOM C10    CA       -0.282
+ATOM C11    CA        0.248
+ATOM C12    C33       0.144
+ATOM C13    C33       0.144
+ATOM C14    CA       -0.282
+ATOM C15    CA       -0.151
+ATOM S      SS       -0.131
+ATOM H      HC33      0.079
+ATOM H1     HC33      0.079
+ATOM H2     HC33      0.079
+ATOM H3     HN        0.412
+ATOM H4     HN        0.412
+ATOM H5     HN        0.362
+ATOM H6     HA        0.202
+ATOM H7     H4        0.079
+ATOM H8     HA        0.148
+ATOM H9     HA        0.161
+ATOM H10    H1        0.011
+ATOM H11    H1        0.011
+ATOM H12    H1        0.011
+ATOM H13    H1        0.011
+ATOM H14    H1        0.011
+ATOM H15    H1        0.011
+ATOM H16    HA        0.161
+ATOM H17    HA        0.148
+
+
+! Chi^2 =   0.1715           Chi^2(ESP) =   0.1619           Chi^2(RSTR_CG) =   0.0097 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0567 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.930
+ATOM N2     NB       -0.801
+ATOM N3     NH_0     -0.684
+ATOM N4     NH       -0.384
+ATOM N5     NB       -0.631
+ATOM C      C33      -0.244
+ATOM C1     CC        0.523
+ATOM C2     CD        0.686
+ATOM C3     CD       -0.436
+ATOM C4     CA        0.625
+ATOM C5     CA       -0.575
+ATOM C6     CA        0.426
+ATOM C7     CA        0.959
+ATOM C8     CA_0      0.215
+ATOM C9     CA       -0.151
+ATOM C10    CA       -0.282
+ATOM C11    CA        0.248
+ATOM C12    C33       0.144
+ATOM C13    C33       0.144
+ATOM C14    CA       -0.282
+ATOM C15    CA       -0.151
+ATOM S      SS       -0.131
+ATOM H      HC33      0.079
+ATOM H1     HC33      0.079
+ATOM H2     HC33      0.079
+ATOM H3     HN        0.412
+ATOM H4     HN        0.412
+ATOM H5     HN        0.361
+ATOM H6     HA        0.203
+ATOM H7     H4        0.079
+ATOM H8     HA        0.148
+ATOM H9     HA        0.161
+ATOM H10    H1        0.011
+ATOM H11    H1        0.011
+ATOM H12    H1        0.011
+ATOM H13    H1        0.011
+ATOM H14    H1        0.011
+ATOM H15    H1        0.011
+ATOM H16    HA        0.161
+ATOM H17    HA        0.148
+
+
+! Chi^2 =   0.1713           Chi^2(ESP) =   0.1616           Chi^2(RSTR_CG) =   0.0097 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0570 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.675
+ATOM N1     NH       -0.933
+ATOM N2     NB       -0.799
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.389
+ATOM N5     NB       -0.632
+ATOM C      C33      -0.251
+ATOM C1     CC        0.529
+ATOM C2     CD        0.686
+ATOM C3     CD       -0.444
+ATOM C4     CA        0.632
+ATOM C5     CA       -0.582
+ATOM C6     CA        0.425
+ATOM C7     CA        0.962
+ATOM C8     CA_0      0.221
+ATOM C9     CA       -0.153
+ATOM C10    CA       -0.281
+ATOM C11    CA        0.248
+ATOM C12    C33       0.142
+ATOM C13    C33       0.142
+ATOM C14    CA       -0.281
+ATOM C15    CA       -0.153
+ATOM S      SS       -0.129
+ATOM H      HC33      0.081
+ATOM H1     HC33      0.081
+ATOM H2     HC33      0.081
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.206
+ATOM H7     H4        0.078
+ATOM H8     HA        0.148
+ATOM H9     HA        0.161
+ATOM H10    H1        0.012
+ATOM H11    H1        0.012
+ATOM H12    H1        0.012
+ATOM H13    H1        0.012
+ATOM H14    H1        0.012
+ATOM H15    H1        0.012
+ATOM H16    HA        0.161
+ATOM H17    HA        0.148
+
+
+! Chi^2 =   0.1708           Chi^2(ESP) =   0.1607           Chi^2(RSTR_CG) =   0.0101 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0579 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.673
+ATOM N1     NH       -0.936
+ATOM N2     NB       -0.799
+ATOM N3     NH_0     -0.692
+ATOM N4     NH       -0.394
+ATOM N5     NB       -0.634
+ATOM C      C33      -0.263
+ATOM C1     CC        0.535
+ATOM C2     CD        0.686
+ATOM C3     CD       -0.455
+ATOM C4     CA        0.641
+ATOM C5     CA       -0.589
+ATOM C6     CA        0.424
+ATOM C7     CA        0.966
+ATOM C8     CA_0      0.228
+ATOM C9     CA       -0.157
+ATOM C10    CA       -0.279
+ATOM C11    CA        0.251
+ATOM C12    C33       0.140
+ATOM C13    C33       0.140
+ATOM C14    CA       -0.279
+ATOM C15    CA       -0.157
+ATOM S      SS       -0.127
+ATOM H      HC33      0.084
+ATOM H1     HC33      0.084
+ATOM H2     HC33      0.084
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.359
+ATOM H6     HA        0.209
+ATOM H7     H4        0.079
+ATOM H8     HA        0.149
+ATOM H9     HA        0.160
+ATOM H10    H1        0.013
+ATOM H11    H1        0.013
+ATOM H12    H1        0.013
+ATOM H13    H1        0.013
+ATOM H14    H1        0.013
+ATOM H15    H1        0.013
+ATOM H16    HA        0.160
+ATOM H17    HA        0.149
+
+
+! Chi^2 =   0.1702           Chi^2(ESP) =   0.1596           Chi^2(RSTR_CG) =   0.0106 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0594 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.938
+ATOM N2     NB       -0.799
+ATOM N3     NH_0     -0.697
+ATOM N4     NH       -0.400
+ATOM N5     NB       -0.637
+ATOM C      C33      -0.274
+ATOM C1     CC        0.542
+ATOM C2     CD        0.685
+ATOM C3     CD       -0.465
+ATOM C4     CA        0.652
+ATOM C5     CA       -0.596
+ATOM C6     CA        0.422
+ATOM C7     CA        0.970
+ATOM C8     CA_0      0.233
+ATOM C9     CA       -0.162
+ATOM C10    CA       -0.275
+ATOM C11    CA        0.255
+ATOM C12    C33       0.137
+ATOM C13    C33       0.137
+ATOM C14    CA       -0.275
+ATOM C15    CA       -0.162
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.415
+ATOM H4     HN        0.415
+ATOM H5     HN        0.361
+ATOM H6     HA        0.213
+ATOM H7     H4        0.080
+ATOM H8     HA        0.149
+ATOM H9     HA        0.158
+ATOM H10    H1        0.015
+ATOM H11    H1        0.015
+ATOM H12    H1        0.015
+ATOM H13    H1        0.015
+ATOM H14    H1        0.015
+ATOM H15    H1        0.015
+ATOM H16    HA        0.158
+ATOM H17    HA        0.149
+
+
+! Chi^2 =   0.1697           Chi^2(ESP) =   0.1585           Chi^2(RSTR_CG) =   0.0112 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0610 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.673
+ATOM N1     NH       -0.939
+ATOM N2     NB       -0.800
+ATOM N3     NH_0     -0.701
+ATOM N4     NH       -0.402
+ATOM N5     NB       -0.639
+ATOM C      C33      -0.282
+ATOM C1     CC        0.548
+ATOM C2     CD        0.685
+ATOM C3     CD       -0.472
+ATOM C4     CA        0.660
+ATOM C5     CA       -0.602
+ATOM C6     CA        0.420
+ATOM C7     CA        0.974
+ATOM C8     CA_0      0.235
+ATOM C9     CA       -0.168
+ATOM C10    CA       -0.270
+ATOM C11    CA        0.260
+ATOM C12    C33       0.134
+ATOM C13    C33       0.134
+ATOM C14    CA       -0.270
+ATOM C15    CA       -0.168
+ATOM S      SS       -0.125
+ATOM H      HC33      0.088
+ATOM H1     HC33      0.088
+ATOM H2     HC33      0.088
+ATOM H3     HN        0.416
+ATOM H4     HN        0.416
+ATOM H5     HN        0.363
+ATOM H6     HA        0.216
+ATOM H7     H4        0.082
+ATOM H8     HA        0.151
+ATOM H9     HA        0.156
+ATOM H10    H1        0.015
+ATOM H11    H1        0.015
+ATOM H12    H1        0.015
+ATOM H13    H1        0.015
+ATOM H14    H1        0.015
+ATOM H15    H1        0.015
+ATOM H16    HA        0.156
+ATOM H17    HA        0.151
+
+
+! Chi^2 =   0.1693           Chi^2(ESP) =   0.1576           Chi^2(RSTR_CG) =   0.0117 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0625 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.680
+ATOM N1     NH       -0.939
+ATOM N2     NB       -0.800
+ATOM N3     NH_0     -0.701
+ATOM N4     NH       -0.402
+ATOM N5     NB       -0.641
+ATOM C      C33      -0.283
+ATOM C1     CC        0.549
+ATOM C2     CD        0.684
+ATOM C3     CD       -0.472
+ATOM C4     CA        0.662
+ATOM C5     CA       -0.603
+ATOM C6     CA        0.419
+ATOM C7     CA        0.975
+ATOM C8     CA_0      0.234
+ATOM C9     CA       -0.170
+ATOM C10    CA       -0.268
+ATOM C11    CA        0.261
+ATOM C12    C33       0.133
+ATOM C13    C33       0.133
+ATOM C14    CA       -0.268
+ATOM C15    CA       -0.170
+ATOM S      SS       -0.125
+ATOM H      HC33      0.089
+ATOM H1     HC33      0.089
+ATOM H2     HC33      0.089
+ATOM H3     HN        0.416
+ATOM H4     HN        0.416
+ATOM H5     HN        0.364
+ATOM H6     HA        0.216
+ATOM H7     H4        0.083
+ATOM H8     HA        0.152
+ATOM H9     HA        0.155
+ATOM H10    H1        0.016
+ATOM H11    H1        0.016
+ATOM H12    H1        0.016
+ATOM H13    H1        0.016
+ATOM H14    H1        0.016
+ATOM H15    H1        0.016
+ATOM H16    HA        0.155
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1692           Chi^2(ESP) =   0.1574           Chi^2(RSTR_CG) =   0.0118 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0626 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.680
+ATOM N1     NH       -0.938
+ATOM N2     NB       -0.800
+ATOM N3     NH_0     -0.701
+ATOM N4     NH       -0.401
+ATOM N5     NB       -0.642
+ATOM C      C33      -0.283
+ATOM C1     CC        0.551
+ATOM C2     CD        0.683
+ATOM C3     CD       -0.471
+ATOM C4     CA        0.662
+ATOM C5     CA       -0.603
+ATOM C6     CA        0.418
+ATOM C7     CA        0.975
+ATOM C8     CA_0      0.232
+ATOM C9     CA       -0.172
+ATOM C10    CA       -0.266
+ATOM C11    CA        0.262
+ATOM C12    C33       0.132
+ATOM C13    C33       0.132
+ATOM C14    CA       -0.266
+ATOM C15    CA       -0.172
+ATOM S      SS       -0.125
+ATOM H      HC33      0.089
+ATOM H1     HC33      0.089
+ATOM H2     HC33      0.089
+ATOM H3     HN        0.416
+ATOM H4     HN        0.416
+ATOM H5     HN        0.365
+ATOM H6     HA        0.216
+ATOM H7     H4        0.083
+ATOM H8     HA        0.153
+ATOM H9     HA        0.154
+ATOM H10    H1        0.016
+ATOM H11    H1        0.016
+ATOM H12    H1        0.016
+ATOM H13    H1        0.016
+ATOM H14    H1        0.016
+ATOM H15    H1        0.016
+ATOM H16    HA        0.154
+ATOM H17    HA        0.153
+
+
+! Chi^2 =   0.1691           Chi^2(ESP) =   0.1573           Chi^2(RSTR_CG) =   0.0117 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0626 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.938
+ATOM N2     NB       -0.800
+ATOM N3     NH_0     -0.701
+ATOM N4     NH       -0.401
+ATOM N5     NB       -0.644
+ATOM C      C33      -0.283
+ATOM C1     CC        0.553
+ATOM C2     CD        0.682
+ATOM C3     CD       -0.470
+ATOM C4     CA        0.663
+ATOM C5     CA       -0.604
+ATOM C6     CA        0.417
+ATOM C7     CA        0.976
+ATOM C8     CA_0      0.231
+ATOM C9     CA       -0.173
+ATOM C10    CA       -0.266
+ATOM C11    CA        0.263
+ATOM C12    C33       0.132
+ATOM C13    C33       0.132
+ATOM C14    CA       -0.266
+ATOM C15    CA       -0.173
+ATOM S      SS       -0.126
+ATOM H      HC33      0.088
+ATOM H1     HC33      0.088
+ATOM H2     HC33      0.088
+ATOM H3     HN        0.416
+ATOM H4     HN        0.416
+ATOM H5     HN        0.365
+ATOM H6     HA        0.216
+ATOM H7     H4        0.083
+ATOM H8     HA        0.154
+ATOM H9     HA        0.154
+ATOM H10    H1        0.016
+ATOM H11    H1        0.016
+ATOM H12    H1        0.016
+ATOM H13    H1        0.016
+ATOM H14    H1        0.016
+ATOM H15    H1        0.016
+ATOM H16    HA        0.154
+ATOM H17    HA        0.154
+
+
+! Chi^2 =   0.1690           Chi^2(ESP) =   0.1572           Chi^2(RSTR_CG) =   0.0118 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0626 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.938
+ATOM N2     NB       -0.800
+ATOM N3     NH_0     -0.701
+ATOM N4     NH       -0.400
+ATOM N5     NB       -0.645
+ATOM C      C33      -0.284
+ATOM C1     CC        0.555
+ATOM C2     CD        0.682
+ATOM C3     CD       -0.469
+ATOM C4     CA        0.664
+ATOM C5     CA       -0.605
+ATOM C6     CA        0.417
+ATOM C7     CA        0.977
+ATOM C8     CA_0      0.231
+ATOM C9     CA       -0.174
+ATOM C10    CA       -0.265
+ATOM C11    CA        0.263
+ATOM C12    C33       0.131
+ATOM C13    C33       0.131
+ATOM C14    CA       -0.265
+ATOM C15    CA       -0.174
+ATOM S      SS       -0.126
+ATOM H      HC33      0.088
+ATOM H1     HC33      0.088
+ATOM H2     HC33      0.088
+ATOM H3     HN        0.416
+ATOM H4     HN        0.416
+ATOM H5     HN        0.365
+ATOM H6     HA        0.217
+ATOM H7     H4        0.084
+ATOM H8     HA        0.155
+ATOM H9     HA        0.153
+ATOM H10    H1        0.016
+ATOM H11    H1        0.016
+ATOM H12    H1        0.016
+ATOM H13    H1        0.016
+ATOM H14    H1        0.016
+ATOM H15    H1        0.016
+ATOM H16    HA        0.153
+ATOM H17    HA        0.155
+
+
+! Chi^2 =   0.1689           Chi^2(ESP) =   0.1570           Chi^2(RSTR_CG) =   0.0119 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0629 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.677
+ATOM N1     NH       -0.937
+ATOM N2     NB       -0.800
+ATOM N3     NH_0     -0.701
+ATOM N4     NH       -0.400
+ATOM N5     NB       -0.648
+ATOM C      C33      -0.286
+ATOM C1     CC        0.558
+ATOM C2     CD        0.681
+ATOM C3     CD       -0.470
+ATOM C4     CA        0.666
+ATOM C5     CA       -0.606
+ATOM C6     CA        0.417
+ATOM C7     CA        0.979
+ATOM C8     CA_0      0.232
+ATOM C9     CA       -0.175
+ATOM C10    CA       -0.265
+ATOM C11    CA        0.263
+ATOM C12    C33       0.129
+ATOM C13    C33       0.129
+ATOM C14    CA       -0.265
+ATOM C15    CA       -0.175
+ATOM S      SS       -0.127
+ATOM H      HC33      0.089
+ATOM H1     HC33      0.089
+ATOM H2     HC33      0.089
+ATOM H3     HN        0.416
+ATOM H4     HN        0.416
+ATOM H5     HN        0.364
+ATOM H6     HA        0.217
+ATOM H7     H4        0.084
+ATOM H8     HA        0.155
+ATOM H9     HA        0.154
+ATOM H10    H1        0.016
+ATOM H11    H1        0.016
+ATOM H12    H1        0.016
+ATOM H13    H1        0.016
+ATOM H14    H1        0.016
+ATOM H15    H1        0.016
+ATOM H16    HA        0.154
+ATOM H17    HA        0.155
+
+
+! Chi^2 =   0.1688           Chi^2(ESP) =   0.1568           Chi^2(RSTR_CG) =   0.0120 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0633 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.681
+ATOM N1     NH       -0.936
+ATOM N2     NB       -0.800
+ATOM N3     NH_0     -0.701
+ATOM N4     NH       -0.400
+ATOM N5     NB       -0.650
+ATOM C      C33      -0.287
+ATOM C1     CC        0.560
+ATOM C2     CD        0.681
+ATOM C3     CD       -0.471
+ATOM C4     CA        0.668
+ATOM C5     CA       -0.607
+ATOM C6     CA        0.417
+ATOM C7     CA        0.981
+ATOM C8     CA_0      0.233
+ATOM C9     CA       -0.176
+ATOM C10    CA       -0.265
+ATOM C11    CA        0.262
+ATOM C12    C33       0.128
+ATOM C13    C33       0.128
+ATOM C14    CA       -0.265
+ATOM C15    CA       -0.176
+ATOM S      SS       -0.128
+ATOM H      HC33      0.089
+ATOM H1     HC33      0.089
+ATOM H2     HC33      0.089
+ATOM H3     HN        0.416
+ATOM H4     HN        0.416
+ATOM H5     HN        0.363
+ATOM H6     HA        0.218
+ATOM H7     H4        0.083
+ATOM H8     HA        0.156
+ATOM H9     HA        0.154
+ATOM H10    H1        0.017
+ATOM H11    H1        0.017
+ATOM H12    H1        0.017
+ATOM H13    H1        0.017
+ATOM H14    H1        0.017
+ATOM H15    H1        0.017
+ATOM H16    HA        0.154
+ATOM H17    HA        0.156
+
+
+! Chi^2 =   0.1688           Chi^2(ESP) =   0.1566           Chi^2(RSTR_CG) =   0.0122 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0637 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.682
+ATOM N1     NH       -0.933
+ATOM N2     NB       -0.801
+ATOM N3     NH_0     -0.700
+ATOM N4     NH       -0.399
+ATOM N5     NB       -0.654
+ATOM C      C33      -0.290
+ATOM C1     CC        0.563
+ATOM C2     CD        0.680
+ATOM C3     CD       -0.473
+ATOM C4     CA        0.672
+ATOM C5     CA       -0.607
+ATOM C6     CA        0.416
+ATOM C7     CA        0.984
+ATOM C8     CA_0      0.234
+ATOM C9     CA       -0.177
+ATOM C10    CA       -0.264
+ATOM C11    CA        0.261
+ATOM C12    C33       0.126
+ATOM C13    C33       0.126
+ATOM C14    CA       -0.264
+ATOM C15    CA       -0.177
+ATOM S      SS       -0.129
+ATOM H      HC33      0.089
+ATOM H1     HC33      0.089
+ATOM H2     HC33      0.089
+ATOM H3     HN        0.415
+ATOM H4     HN        0.415
+ATOM H5     HN        0.362
+ATOM H6     HA        0.218
+ATOM H7     H4        0.083
+ATOM H8     HA        0.156
+ATOM H9     HA        0.154
+ATOM H10    H1        0.018
+ATOM H11    H1        0.018
+ATOM H12    H1        0.018
+ATOM H13    H1        0.018
+ATOM H14    H1        0.018
+ATOM H15    H1        0.018
+ATOM H16    HA        0.154
+ATOM H17    HA        0.156
+
+
+! Chi^2 =   0.1686           Chi^2(ESP) =   0.1562           Chi^2(RSTR_CG) =   0.0124 
+!                        Std_Error(ESP) =   0.0040       Std_Error(RSTR_CG) =   0.0643 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.929
+ATOM N2     NB       -0.803
+ATOM N3     NH_0     -0.698
+ATOM N4     NH       -0.398
+ATOM N5     NB       -0.662
+ATOM C      C33      -0.293
+ATOM C1     CC        0.566
+ATOM C2     CD        0.679
+ATOM C3     CD       -0.474
+ATOM C4     CA        0.675
+ATOM C5     CA       -0.608
+ATOM C6     CA        0.416
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.235
+ATOM C9     CA       -0.178
+ATOM C10    CA       -0.263
+ATOM C11    CA        0.260
+ATOM C12    C33       0.122
+ATOM C13    C33       0.122
+ATOM C14    CA       -0.263
+ATOM C15    CA       -0.178
+ATOM S      SS       -0.130
+ATOM H      HC33      0.090
+ATOM H1     HC33      0.090
+ATOM H2     HC33      0.090
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.218
+ATOM H7     H4        0.084
+ATOM H8     HA        0.156
+ATOM H9     HA        0.153
+ATOM H10    H1        0.019
+ATOM H11    H1        0.019
+ATOM H12    H1        0.019
+ATOM H13    H1        0.019
+ATOM H14    H1        0.019
+ATOM H15    H1        0.019
+ATOM H16    HA        0.153
+ATOM H17    HA        0.156
+
+
+! Chi^2 =   0.1684           Chi^2(ESP) =   0.1558           Chi^2(RSTR_CG) =   0.0127 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0650 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.682
+ATOM N1     NH       -0.925
+ATOM N2     NB       -0.806
+ATOM N3     NH_0     -0.695
+ATOM N4     NH       -0.394
+ATOM N5     NB       -0.669
+ATOM C      C33      -0.295
+ATOM C1     CC        0.568
+ATOM C2     CD        0.678
+ATOM C3     CD       -0.473
+ATOM C4     CA        0.677
+ATOM C5     CA       -0.607
+ATOM C6     CA        0.416
+ATOM C7     CA        0.995
+ATOM C8     CA_0      0.235
+ATOM C9     CA       -0.177
+ATOM C10    CA       -0.261
+ATOM C11    CA        0.257
+ATOM C12    C33       0.118
+ATOM C13    C33       0.118
+ATOM C14    CA       -0.261
+ATOM C15    CA       -0.177
+ATOM S      SS       -0.129
+ATOM H      HC33      0.091
+ATOM H1     HC33      0.091
+ATOM H2     HC33      0.091
+ATOM H3     HN        0.412
+ATOM H4     HN        0.412
+ATOM H5     HN        0.358
+ATOM H6     HA        0.217
+ATOM H7     H4        0.085
+ATOM H8     HA        0.156
+ATOM H9     HA        0.153
+ATOM H10    H1        0.019
+ATOM H11    H1        0.019
+ATOM H12    H1        0.019
+ATOM H13    H1        0.019
+ATOM H14    H1        0.019
+ATOM H15    H1        0.019
+ATOM H16    HA        0.153
+ATOM H17    HA        0.156
+
+
+! Chi^2 =   0.1682           Chi^2(ESP) =   0.1554           Chi^2(RSTR_CG) =   0.0128 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0654 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.681
+ATOM N1     NH       -0.923
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.692
+ATOM N4     NH       -0.392
+ATOM N5     NB       -0.673
+ATOM C      C33      -0.295
+ATOM C1     CC        0.567
+ATOM C2     CD        0.676
+ATOM C3     CD       -0.472
+ATOM C4     CA        0.677
+ATOM C5     CA       -0.606
+ATOM C6     CA        0.416
+ATOM C7     CA        0.998
+ATOM C8     CA_0      0.233
+ATOM C9     CA       -0.177
+ATOM C10    CA       -0.260
+ATOM C11    CA        0.256
+ATOM C12    C33       0.116
+ATOM C13    C33       0.116
+ATOM C14    CA       -0.260
+ATOM C15    CA       -0.177
+ATOM S      SS       -0.128
+ATOM H      HC33      0.091
+ATOM H1     HC33      0.091
+ATOM H2     HC33      0.091
+ATOM H3     HN        0.411
+ATOM H4     HN        0.411
+ATOM H5     HN        0.358
+ATOM H6     HA        0.216
+ATOM H7     H4        0.085
+ATOM H8     HA        0.155
+ATOM H9     HA        0.152
+ATOM H10    H1        0.020
+ATOM H11    H1        0.020
+ATOM H12    H1        0.020
+ATOM H13    H1        0.020
+ATOM H14    H1        0.020
+ATOM H15    H1        0.020
+ATOM H16    HA        0.152
+ATOM H17    HA        0.155
+
+
+! Chi^2 =   0.1681           Chi^2(ESP) =   0.1553           Chi^2(RSTR_CG) =   0.0128 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0653 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.683
+ATOM N1     NH       -0.924
+ATOM N2     NB       -0.808
+ATOM N3     NH_0     -0.691
+ATOM N4     NH       -0.391
+ATOM N5     NB       -0.673
+ATOM C      C33      -0.294
+ATOM C1     CC        0.565
+ATOM C2     CD        0.675
+ATOM C3     CD       -0.471
+ATOM C4     CA        0.677
+ATOM C5     CA       -0.605
+ATOM C6     CA        0.416
+ATOM C7     CA        0.998
+ATOM C8     CA_0      0.232
+ATOM C9     CA       -0.176
+ATOM C10    CA       -0.260
+ATOM C11    CA        0.255
+ATOM C12    C33       0.116
+ATOM C13    C33       0.116
+ATOM C14    CA       -0.260
+ATOM C15    CA       -0.176
+ATOM S      SS       -0.126
+ATOM H      HC33      0.091
+ATOM H1     HC33      0.091
+ATOM H2     HC33      0.091
+ATOM H3     HN        0.412
+ATOM H4     HN        0.412
+ATOM H5     HN        0.358
+ATOM H6     HA        0.215
+ATOM H7     H4        0.086
+ATOM H8     HA        0.154
+ATOM H9     HA        0.152
+ATOM H10    H1        0.020
+ATOM H11    H1        0.020
+ATOM H12    H1        0.020
+ATOM H13    H1        0.020
+ATOM H14    H1        0.020
+ATOM H15    H1        0.020
+ATOM H16    HA        0.152
+ATOM H17    HA        0.154
+
+
+! Chi^2 =   0.1681           Chi^2(ESP) =   0.1554           Chi^2(RSTR_CG) =   0.0127 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0651 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.677
+ATOM N1     NH       -0.925
+ATOM N2     NB       -0.809
+ATOM N3     NH_0     -0.691
+ATOM N4     NH       -0.389
+ATOM N5     NB       -0.674
+ATOM C      C33      -0.293
+ATOM C1     CC        0.563
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.470
+ATOM C4     CA        0.676
+ATOM C5     CA       -0.604
+ATOM C6     CA        0.416
+ATOM C7     CA        0.998
+ATOM C8     CA_0      0.230
+ATOM C9     CA       -0.175
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.253
+ATOM C12    C33       0.115
+ATOM C13    C33       0.115
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.175
+ATOM S      SS       -0.125
+ATOM H      HC33      0.091
+ATOM H1     HC33      0.091
+ATOM H2     HC33      0.091
+ATOM H3     HN        0.412
+ATOM H4     HN        0.412
+ATOM H5     HN        0.358
+ATOM H6     HA        0.213
+ATOM H7     H4        0.086
+ATOM H8     HA        0.154
+ATOM H9     HA        0.152
+ATOM H10    H1        0.020
+ATOM H11    H1        0.020
+ATOM H12    H1        0.020
+ATOM H13    H1        0.020
+ATOM H14    H1        0.020
+ATOM H15    H1        0.020
+ATOM H16    HA        0.152
+ATOM H17    HA        0.154
+
+
+! Chi^2 =   0.1680           Chi^2(ESP) =   0.1554           Chi^2(RSTR_CG) =   0.0126 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0649 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.680
+ATOM N1     NH       -0.927
+ATOM N2     NB       -0.810
+ATOM N3     NH_0     -0.691
+ATOM N4     NH       -0.387
+ATOM N5     NB       -0.675
+ATOM C      C33      -0.294
+ATOM C1     CC        0.562
+ATOM C2     CD        0.671
+ATOM C3     CD       -0.470
+ATOM C4     CA        0.678
+ATOM C5     CA       -0.603
+ATOM C6     CA        0.417
+ATOM C7     CA        1.000
+ATOM C8     CA_0      0.229
+ATOM C9     CA       -0.174
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.252
+ATOM C12    C33       0.112
+ATOM C13    C33       0.112
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.174
+ATOM S      SS       -0.123
+ATOM H      HC33      0.091
+ATOM H1     HC33      0.091
+ATOM H2     HC33      0.091
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.358
+ATOM H6     HA        0.212
+ATOM H7     H4        0.086
+ATOM H8     HA        0.154
+ATOM H9     HA        0.152
+ATOM H10    H1        0.021
+ATOM H11    H1        0.021
+ATOM H12    H1        0.021
+ATOM H13    H1        0.021
+ATOM H14    H1        0.021
+ATOM H15    H1        0.021
+ATOM H16    HA        0.152
+ATOM H17    HA        0.154
+
+
+! Chi^2 =   0.1679           Chi^2(ESP) =   0.1552           Chi^2(RSTR_CG) =   0.0127 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0650 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.677
+ATOM N1     NH       -0.929
+ATOM N2     NB       -0.812
+ATOM N3     NH_0     -0.691
+ATOM N4     NH       -0.382
+ATOM N5     NB       -0.677
+ATOM C      C33      -0.295
+ATOM C1     CC        0.561
+ATOM C2     CD        0.668
+ATOM C3     CD       -0.470
+ATOM C4     CA        0.680
+ATOM C5     CA       -0.604
+ATOM C6     CA        0.417
+ATOM C7     CA        1.002
+ATOM C8     CA_0      0.227
+ATOM C9     CA       -0.172
+ATOM C10    CA       -0.258
+ATOM C11    CA        0.248
+ATOM C12    C33       0.107
+ATOM C13    C33       0.107
+ATOM C14    CA       -0.258
+ATOM C15    CA       -0.172
+ATOM S      SS       -0.122
+ATOM H      HC33      0.092
+ATOM H1     HC33      0.092
+ATOM H2     HC33      0.092
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.358
+ATOM H6     HA        0.212
+ATOM H7     H4        0.086
+ATOM H8     HA        0.153
+ATOM H9     HA        0.152
+ATOM H10    H1        0.022
+ATOM H11    H1        0.022
+ATOM H12    H1        0.022
+ATOM H13    H1        0.022
+ATOM H14    H1        0.022
+ATOM H15    H1        0.022
+ATOM H16    HA        0.152
+ATOM H17    HA        0.153
+
+
+! Chi^2 =   0.1678           Chi^2(ESP) =   0.1549           Chi^2(RSTR_CG) =   0.0129 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0656 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.674
+ATOM N1     NH       -0.930
+ATOM N2     NB       -0.813
+ATOM N3     NH_0     -0.693
+ATOM N4     NH       -0.376
+ATOM N5     NB       -0.679
+ATOM C      C33      -0.298
+ATOM C1     CC        0.562
+ATOM C2     CD        0.666
+ATOM C3     CD       -0.470
+ATOM C4     CA        0.683
+ATOM C5     CA       -0.606
+ATOM C6     CA        0.417
+ATOM C7     CA        1.006
+ATOM C8     CA_0      0.224
+ATOM C9     CA       -0.170
+ATOM C10    CA       -0.257
+ATOM C11    CA        0.242
+ATOM C12    C33       0.100
+ATOM C13    C33       0.100
+ATOM C14    CA       -0.257
+ATOM C15    CA       -0.170
+ATOM S      SS       -0.122
+ATOM H      HC33      0.092
+ATOM H1     HC33      0.092
+ATOM H2     HC33      0.092
+ATOM H3     HN        0.415
+ATOM H4     HN        0.415
+ATOM H5     HN        0.359
+ATOM H6     HA        0.212
+ATOM H7     H4        0.086
+ATOM H8     HA        0.153
+ATOM H9     HA        0.151
+ATOM H10    H1        0.024
+ATOM H11    H1        0.024
+ATOM H12    H1        0.024
+ATOM H13    H1        0.024
+ATOM H14    H1        0.024
+ATOM H15    H1        0.024
+ATOM H16    HA        0.151
+ATOM H17    HA        0.153
+
+
+! Chi^2 =   0.1676           Chi^2(ESP) =   0.1543           Chi^2(RSTR_CG) =   0.0133 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0665 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.670
+ATOM N1     NH       -0.930
+ATOM N2     NB       -0.813
+ATOM N3     NH_0     -0.695
+ATOM N4     NH       -0.372
+ATOM N5     NB       -0.679
+ATOM C      C33      -0.300
+ATOM C1     CC        0.562
+ATOM C2     CD        0.666
+ATOM C3     CD       -0.471
+ATOM C4     CA        0.684
+ATOM C5     CA       -0.608
+ATOM C6     CA        0.417
+ATOM C7     CA        1.008
+ATOM C8     CA_0      0.222
+ATOM C9     CA       -0.168
+ATOM C10    CA       -0.256
+ATOM C11    CA        0.239
+ATOM C12    C33       0.094
+ATOM C13    C33       0.094
+ATOM C14    CA       -0.256
+ATOM C15    CA       -0.168
+ATOM S      SS       -0.123
+ATOM H      HC33      0.092
+ATOM H1     HC33      0.092
+ATOM H2     HC33      0.092
+ATOM H3     HN        0.415
+ATOM H4     HN        0.415
+ATOM H5     HN        0.359
+ATOM H6     HA        0.214
+ATOM H7     H4        0.086
+ATOM H8     HA        0.153
+ATOM H9     HA        0.151
+ATOM H10    H1        0.025
+ATOM H11    H1        0.025
+ATOM H12    H1        0.025
+ATOM H13    H1        0.025
+ATOM H14    H1        0.025
+ATOM H15    H1        0.025
+ATOM H16    HA        0.151
+ATOM H17    HA        0.153
+
+
+! Chi^2 =   0.1675           Chi^2(ESP) =   0.1540           Chi^2(RSTR_CG) =   0.0135 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0672 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.674
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.813
+ATOM N3     NH_0     -0.698
+ATOM N4     NH       -0.366
+ATOM N5     NB       -0.677
+ATOM C      C33      -0.300
+ATOM C1     CC        0.562
+ATOM C2     CD        0.667
+ATOM C3     CD       -0.470
+ATOM C4     CA        0.685
+ATOM C5     CA       -0.611
+ATOM C6     CA        0.418
+ATOM C7     CA        1.010
+ATOM C8     CA_0      0.217
+ATOM C9     CA       -0.165
+ATOM C10    CA       -0.253
+ATOM C11    CA        0.234
+ATOM C12    C33       0.086
+ATOM C13    C33       0.086
+ATOM C14    CA       -0.253
+ATOM C15    CA       -0.165
+ATOM S      SS       -0.125
+ATOM H      HC33      0.092
+ATOM H1     HC33      0.092
+ATOM H2     HC33      0.092
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.361
+ATOM H6     HA        0.216
+ATOM H7     H4        0.086
+ATOM H8     HA        0.152
+ATOM H9     HA        0.150
+ATOM H10    H1        0.027
+ATOM H11    H1        0.027
+ATOM H12    H1        0.027
+ATOM H13    H1        0.027
+ATOM H14    H1        0.027
+ATOM H15    H1        0.027
+ATOM H16    HA        0.150
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1673           Chi^2(ESP) =   0.1535           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0678 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.927
+ATOM N2     NB       -0.812
+ATOM N3     NH_0     -0.701
+ATOM N4     NH       -0.361
+ATOM N5     NB       -0.673
+ATOM C      C33      -0.299
+ATOM C1     CC        0.560
+ATOM C2     CD        0.670
+ATOM C3     CD       -0.468
+ATOM C4     CA        0.682
+ATOM C5     CA       -0.614
+ATOM C6     CA        0.418
+ATOM C7     CA        1.010
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.161
+ATOM C10    CA       -0.251
+ATOM C11    CA        0.229
+ATOM C12    C33       0.080
+ATOM C13    C33       0.080
+ATOM C14    CA       -0.251
+ATOM C15    CA       -0.161
+ATOM S      SS       -0.126
+ATOM H      HC33      0.092
+ATOM H1     HC33      0.092
+ATOM H2     HC33      0.092
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.363
+ATOM H6     HA        0.218
+ATOM H7     H4        0.086
+ATOM H8     HA        0.151
+ATOM H9     HA        0.149
+ATOM H10    H1        0.029
+ATOM H11    H1        0.029
+ATOM H12    H1        0.029
+ATOM H13    H1        0.029
+ATOM H14    H1        0.029
+ATOM H15    H1        0.029
+ATOM H16    HA        0.149
+ATOM H17    HA        0.151
+
+
+! Chi^2 =   0.1671           Chi^2(ESP) =   0.1532           Chi^2(RSTR_CG) =   0.0139 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0680 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.675
+ATOM N1     NH       -0.926
+ATOM N2     NB       -0.812
+ATOM N3     NH_0     -0.702
+ATOM N4     NH       -0.359
+ATOM N5     NB       -0.669
+ATOM C      C33      -0.295
+ATOM C1     CC        0.557
+ATOM C2     CD        0.672
+ATOM C3     CD       -0.466
+ATOM C4     CA        0.678
+ATOM C5     CA       -0.614
+ATOM C6     CA        0.419
+ATOM C7     CA        1.008
+ATOM C8     CA_0      0.207
+ATOM C9     CA       -0.158
+ATOM C10    CA       -0.250
+ATOM C11    CA        0.227
+ATOM C12    C33       0.075
+ATOM C13    C33       0.075
+ATOM C14    CA       -0.250
+ATOM C15    CA       -0.158
+ATOM S      SS       -0.127
+ATOM H      HC33      0.091
+ATOM H1     HC33      0.091
+ATOM H2     HC33      0.091
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.365
+ATOM H6     HA        0.218
+ATOM H7     H4        0.085
+ATOM H8     HA        0.150
+ATOM H9     HA        0.148
+ATOM H10    H1        0.030
+ATOM H11    H1        0.030
+ATOM H12    H1        0.030
+ATOM H13    H1        0.030
+ATOM H14    H1        0.030
+ATOM H15    H1        0.030
+ATOM H16    HA        0.148
+ATOM H17    HA        0.150
+
+
+! Chi^2 =   0.1670           Chi^2(ESP) =   0.1532           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.677
+ATOM N1     NH       -0.926
+ATOM N2     NB       -0.812
+ATOM N3     NH_0     -0.701
+ATOM N4     NH       -0.358
+ATOM N5     NB       -0.667
+ATOM C      C33      -0.292
+ATOM C1     CC        0.554
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.464
+ATOM C4     CA        0.675
+ATOM C5     CA       -0.613
+ATOM C6     CA        0.420
+ATOM C7     CA        1.006
+ATOM C8     CA_0      0.205
+ATOM C9     CA       -0.157
+ATOM C10    CA       -0.250
+ATOM C11    CA        0.228
+ATOM C12    C33       0.075
+ATOM C13    C33       0.075
+ATOM C14    CA       -0.250
+ATOM C15    CA       -0.157
+ATOM S      SS       -0.126
+ATOM H      HC33      0.091
+ATOM H1     HC33      0.091
+ATOM H2     HC33      0.091
+ATOM H3     HN        0.412
+ATOM H4     HN        0.412
+ATOM H5     HN        0.365
+ATOM H6     HA        0.218
+ATOM H7     H4        0.085
+ATOM H8     HA        0.149
+ATOM H9     HA        0.148
+ATOM H10    H1        0.030
+ATOM H11    H1        0.030
+ATOM H12    H1        0.030
+ATOM H13    H1        0.030
+ATOM H14    H1        0.030
+ATOM H15    H1        0.030
+ATOM H16    HA        0.148
+ATOM H17    HA        0.149
+
+
+! Chi^2 =   0.1670           Chi^2(ESP) =   0.1534           Chi^2(RSTR_CG) =   0.0136 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0673 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.675
+ATOM N1     NH       -0.926
+ATOM N2     NB       -0.812
+ATOM N3     NH_0     -0.700
+ATOM N4     NH       -0.359
+ATOM N5     NB       -0.666
+ATOM C      C33      -0.291
+ATOM C1     CC        0.553
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.463
+ATOM C4     CA        0.673
+ATOM C5     CA       -0.612
+ATOM C6     CA        0.420
+ATOM C7     CA        1.005
+ATOM C8     CA_0      0.205
+ATOM C9     CA       -0.157
+ATOM C10    CA       -0.250
+ATOM C11    CA        0.229
+ATOM C12    C33       0.075
+ATOM C13    C33       0.075
+ATOM C14    CA       -0.250
+ATOM C15    CA       -0.157
+ATOM S      SS       -0.126
+ATOM H      HC33      0.090
+ATOM H1     HC33      0.090
+ATOM H2     HC33      0.090
+ATOM H3     HN        0.412
+ATOM H4     HN        0.412
+ATOM H5     HN        0.365
+ATOM H6     HA        0.217
+ATOM H7     H4        0.085
+ATOM H8     HA        0.149
+ATOM H9     HA        0.148
+ATOM H10    H1        0.030
+ATOM H11    H1        0.030
+ATOM H12    H1        0.030
+ATOM H13    H1        0.030
+ATOM H14    H1        0.030
+ATOM H15    H1        0.030
+ATOM H16    HA        0.148
+ATOM H17    HA        0.149
+
+
+! Chi^2 =   0.1669           Chi^2(ESP) =   0.1535           Chi^2(RSTR_CG) =   0.0135 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0670 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.677
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.813
+ATOM N3     NH_0     -0.698
+ATOM N4     NH       -0.360
+ATOM N5     NB       -0.665
+ATOM C      C33      -0.288
+ATOM C1     CC        0.552
+ATOM C2     CD        0.675
+ATOM C3     CD       -0.462
+ATOM C4     CA        0.670
+ATOM C5     CA       -0.610
+ATOM C6     CA        0.422
+ATOM C7     CA        1.004
+ATOM C8     CA_0      0.206
+ATOM C9     CA       -0.158
+ATOM C10    CA       -0.251
+ATOM C11    CA        0.231
+ATOM C12    C33       0.074
+ATOM C13    C33       0.074
+ATOM C14    CA       -0.251
+ATOM C15    CA       -0.158
+ATOM S      SS       -0.125
+ATOM H      HC33      0.090
+ATOM H1     HC33      0.090
+ATOM H2     HC33      0.090
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.365
+ATOM H6     HA        0.216
+ATOM H7     H4        0.085
+ATOM H8     HA        0.149
+ATOM H9     HA        0.148
+ATOM H10    H1        0.030
+ATOM H11    H1        0.030
+ATOM H12    H1        0.030
+ATOM H13    H1        0.030
+ATOM H14    H1        0.030
+ATOM H15    H1        0.030
+ATOM H16    HA        0.148
+ATOM H17    HA        0.149
+
+
+! Chi^2 =   0.1669           Chi^2(ESP) =   0.1536           Chi^2(RSTR_CG) =   0.0133 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0666 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.677
+ATOM N1     NH       -0.929
+ATOM N2     NB       -0.814
+ATOM N3     NH_0     -0.695
+ATOM N4     NH       -0.361
+ATOM N5     NB       -0.663
+ATOM C      C33      -0.283
+ATOM C1     CC        0.551
+ATOM C2     CD        0.676
+ATOM C3     CD       -0.461
+ATOM C4     CA        0.665
+ATOM C5     CA       -0.608
+ATOM C6     CA        0.424
+ATOM C7     CA        1.001
+ATOM C8     CA_0      0.207
+ATOM C9     CA       -0.160
+ATOM C10    CA       -0.252
+ATOM C11    CA        0.236
+ATOM C12    C33       0.071
+ATOM C13    C33       0.071
+ATOM C14    CA       -0.252
+ATOM C15    CA       -0.160
+ATOM S      SS       -0.125
+ATOM H      HC33      0.089
+ATOM H1     HC33      0.089
+ATOM H2     HC33      0.089
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.364
+ATOM H6     HA        0.215
+ATOM H7     H4        0.084
+ATOM H8     HA        0.150
+ATOM H9     HA        0.148
+ATOM H10    H1        0.031
+ATOM H11    H1        0.031
+ATOM H12    H1        0.031
+ATOM H13    H1        0.031
+ATOM H14    H1        0.031
+ATOM H15    H1        0.031
+ATOM H16    HA        0.148
+ATOM H17    HA        0.150
+
+
+! Chi^2 =   0.1667           Chi^2(ESP) =   0.1536           Chi^2(RSTR_CG) =   0.0132 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0662 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.932
+ATOM N2     NB       -0.815
+ATOM N3     NH_0     -0.692
+ATOM N4     NH       -0.360
+ATOM N5     NB       -0.661
+ATOM C      C33      -0.278
+ATOM C1     CC        0.551
+ATOM C2     CD        0.678
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.659
+ATOM C5     CA       -0.605
+ATOM C6     CA        0.427
+ATOM C7     CA        0.999
+ATOM C8     CA_0      0.208
+ATOM C9     CA       -0.162
+ATOM C10    CA       -0.253
+ATOM C11    CA        0.241
+ATOM C12    C33       0.063
+ATOM C13    C33       0.063
+ATOM C14    CA       -0.253
+ATOM C15    CA       -0.162
+ATOM S      SS       -0.125
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.363
+ATOM H6     HA        0.214
+ATOM H7     H4        0.082
+ATOM H8     HA        0.151
+ATOM H9     HA        0.148
+ATOM H10    H1        0.033
+ATOM H11    H1        0.033
+ATOM H12    H1        0.033
+ATOM H13    H1        0.033
+ATOM H14    H1        0.033
+ATOM H15    H1        0.033
+ATOM H16    HA        0.148
+ATOM H17    HA        0.151
+
+
+! Chi^2 =   0.1666           Chi^2(ESP) =   0.1534           Chi^2(RSTR_CG) =   0.0132 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0664 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.683
+ATOM N1     NH       -0.932
+ATOM N2     NB       -0.815
+ATOM N3     NH_0     -0.690
+ATOM N4     NH       -0.359
+ATOM N5     NB       -0.660
+ATOM C      C33      -0.276
+ATOM C1     CC        0.551
+ATOM C2     CD        0.678
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.658
+ATOM C5     CA       -0.604
+ATOM C6     CA        0.429
+ATOM C7     CA        0.998
+ATOM C8     CA_0      0.209
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.254
+ATOM C11    CA        0.245
+ATOM C12    C33       0.055
+ATOM C13    C33       0.055
+ATOM C14    CA       -0.254
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.362
+ATOM H6     HA        0.214
+ATOM H7     H4        0.081
+ATOM H8     HA        0.152
+ATOM H9     HA        0.148
+ATOM H10    H1        0.036
+ATOM H11    H1        0.036
+ATOM H12    H1        0.036
+ATOM H13    H1        0.036
+ATOM H14    H1        0.036
+ATOM H15    H1        0.036
+ATOM H16    HA        0.148
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1665           Chi^2(ESP) =   0.1530           Chi^2(RSTR_CG) =   0.0135 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0671 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.680
+ATOM N1     NH       -0.932
+ATOM N2     NB       -0.815
+ATOM N3     NH_0     -0.690
+ATOM N4     NH       -0.358
+ATOM N5     NB       -0.661
+ATOM C      C33      -0.277
+ATOM C1     CC        0.552
+ATOM C2     CD        0.678
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.659
+ATOM C5     CA       -0.605
+ATOM C6     CA        0.429
+ATOM C7     CA        0.999
+ATOM C8     CA_0      0.210
+ATOM C9     CA       -0.165
+ATOM C10    CA       -0.255
+ATOM C11    CA        0.245
+ATOM C12    C33       0.052
+ATOM C13    C33       0.052
+ATOM C14    CA       -0.255
+ATOM C15    CA       -0.165
+ATOM S      SS       -0.127
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.361
+ATOM H6     HA        0.215
+ATOM H7     H4        0.081
+ATOM H8     HA        0.152
+ATOM H9     HA        0.148
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.148
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1527           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.677
+ATOM N1     NH       -0.931
+ATOM N2     NB       -0.815
+ATOM N3     NH_0     -0.691
+ATOM N4     NH       -0.358
+ATOM N5     NB       -0.661
+ATOM C      C33      -0.278
+ATOM C1     CC        0.553
+ATOM C2     CD        0.677
+ATOM C3     CD       -0.460
+ATOM C4     CA        0.660
+ATOM C5     CA       -0.605
+ATOM C6     CA        0.428
+ATOM C7     CA        0.999
+ATOM C8     CA_0      0.210
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.255
+ATOM C11    CA        0.244
+ATOM C12    C33       0.051
+ATOM C13    C33       0.051
+ATOM C14    CA       -0.255
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.127
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.361
+ATOM H6     HA        0.215
+ATOM H7     H4        0.081
+ATOM H8     HA        0.152
+ATOM H9     HA        0.148
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.148
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0679 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.931
+ATOM N2     NB       -0.814
+ATOM N3     NH_0     -0.691
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.661
+ATOM C      C33      -0.279
+ATOM C1     CC        0.552
+ATOM C2     CD        0.677
+ATOM C3     CD       -0.460
+ATOM C4     CA        0.662
+ATOM C5     CA       -0.606
+ATOM C6     CA        0.427
+ATOM C7     CA        0.999
+ATOM C8     CA_0      0.210
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.255
+ATOM C11    CA        0.244
+ATOM C12    C33       0.051
+ATOM C13    C33       0.051
+ATOM C14    CA       -0.255
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.127
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.361
+ATOM H6     HA        0.215
+ATOM H7     H4        0.082
+ATOM H8     HA        0.152
+ATOM H9     HA        0.148
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.148
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0139 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0679 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.930
+ATOM N2     NB       -0.813
+ATOM N3     NH_0     -0.691
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.662
+ATOM C      C33      -0.279
+ATOM C1     CC        0.551
+ATOM C2     CD        0.675
+ATOM C3     CD       -0.460
+ATOM C4     CA        0.663
+ATOM C5     CA       -0.606
+ATOM C6     CA        0.425
+ATOM C7     CA        0.998
+ATOM C8     CA_0      0.210
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.255
+ATOM C11    CA        0.244
+ATOM C12    C33       0.051
+ATOM C13    C33       0.051
+ATOM C14    CA       -0.255
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.127
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.414
+ATOM H4     HN        0.414
+ATOM H5     HN        0.361
+ATOM H6     HA        0.215
+ATOM H7     H4        0.082
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1525           Chi^2(RSTR_CG) =   0.0139 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0680 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.675
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.810
+ATOM N3     NH_0     -0.691
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.661
+ATOM C      C33      -0.278
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.458
+ATOM C4     CA        0.664
+ATOM C5     CA       -0.605
+ATOM C6     CA        0.423
+ATOM C7     CA        0.995
+ATOM C8     CA_0      0.212
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.257
+ATOM C11    CA        0.246
+ATOM C12    C33       0.050
+ATOM C13    C33       0.050
+ATOM C14    CA       -0.257
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.127
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.361
+ATOM H6     HA        0.215
+ATOM H7     H4        0.083
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1525           Chi^2(RSTR_CG) =   0.0139 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0680 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.666
+ATOM N1     NH       -0.927
+ATOM N2     NB       -0.809
+ATOM N3     NH_0     -0.689
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.276
+ATOM C1     CC        0.546
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.458
+ATOM C4     CA        0.662
+ATOM C5     CA       -0.603
+ATOM C6     CA        0.421
+ATOM C7     CA        0.992
+ATOM C8     CA_0      0.212
+ATOM C9     CA       -0.165
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.249
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.165
+ATOM S      SS       -0.127
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.214
+ATOM H7     H4        0.083
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0678 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.669
+ATOM N1     NH       -0.927
+ATOM N2     NB       -0.809
+ATOM N3     NH_0     -0.688
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.275
+ATOM C1     CC        0.546
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.457
+ATOM C4     CA        0.662
+ATOM C5     CA       -0.602
+ATOM C6     CA        0.421
+ATOM C7     CA        0.991
+ATOM C8     CA_0      0.213
+ATOM C9     CA       -0.165
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.165
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.214
+ATOM H7     H4        0.083
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.668
+ATOM N1     NH       -0.927
+ATOM N2     NB       -0.809
+ATOM N3     NH_0     -0.688
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.275
+ATOM C1     CC        0.546
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.457
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.602
+ATOM C6     CA        0.421
+ATOM C7     CA        0.991
+ATOM C8     CA_0      0.213
+ATOM C9     CA       -0.165
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.165
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.214
+ATOM H7     H4        0.083
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.667
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.809
+ATOM N3     NH_0     -0.688
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.275
+ATOM C1     CC        0.546
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.457
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.602
+ATOM C6     CA        0.421
+ATOM C7     CA        0.991
+ATOM C8     CA_0      0.213
+ATOM C9     CA       -0.165
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.165
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.214
+ATOM H7     H4        0.083
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.668
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.809
+ATOM N3     NH_0     -0.688
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.275
+ATOM C1     CC        0.547
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.457
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.602
+ATOM C6     CA        0.421
+ATOM C7     CA        0.991
+ATOM C8     CA_0      0.213
+ATOM C9     CA       -0.165
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.165
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.214
+ATOM H7     H4        0.083
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.667
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.809
+ATOM N3     NH_0     -0.688
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.275
+ATOM C1     CC        0.547
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.457
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.602
+ATOM C6     CA        0.420
+ATOM C7     CA        0.991
+ATOM C8     CA_0      0.213
+ATOM C9     CA       -0.165
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.165
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.214
+ATOM H7     H4        0.083
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.037
+ATOM H11    H1        0.037
+ATOM H12    H1        0.037
+ATOM H13    H1        0.037
+ATOM H14    H1        0.037
+ATOM H15    H1        0.037
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1664           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.675
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.808
+ATOM N3     NH_0     -0.688
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.275
+ATOM C1     CC        0.547
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.458
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.602
+ATOM C6     CA        0.420
+ATOM C7     CA        0.991
+ATOM C8     CA_0      0.212
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.214
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.675
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.808
+ATOM N3     NH_0     -0.688
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.275
+ATOM C1     CC        0.548
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.458
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.601
+ATOM C6     CA        0.419
+ATOM C7     CA        0.991
+ATOM C8     CA_0      0.212
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.808
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.275
+ATOM C1     CC        0.548
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.600
+ATOM C6     CA        0.418
+ATOM C7     CA        0.991
+ATOM C8     CA_0      0.212
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0138 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.659
+ATOM C      C33      -0.275
+ATOM C1     CC        0.549
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.417
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.275
+ATOM C1     CC        0.549
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.808
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.275
+ATOM C1     CC        0.548
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.808
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.275
+ATOM C1     CC        0.548
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.808
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.275
+ATOM C1     CC        0.548
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.676
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.808
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.275
+ATOM C1     CC        0.548
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.086
+ATOM H1     HC33      0.086
+ATOM H2     HC33      0.086
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.360
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.678
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.687
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.680
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.680
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.674
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+
+RESI MOL           0.000 ! 
+GROUP
+ATOM N      NC       -0.679
+ATOM N1     NH       -0.928
+ATOM N2     NB       -0.807
+ATOM N3     NH_0     -0.686
+ATOM N4     NH       -0.357
+ATOM N5     NB       -0.658
+ATOM C      C33      -0.276
+ATOM C1     CC        0.549
+ATOM C2     CD        0.673
+ATOM C3     CD       -0.459
+ATOM C4     CA        0.661
+ATOM C5     CA       -0.599
+ATOM C6     CA        0.418
+ATOM C7     CA        0.990
+ATOM C8     CA_0      0.211
+ATOM C9     CA       -0.164
+ATOM C10    CA       -0.259
+ATOM C11    CA        0.250
+ATOM C12    C33       0.048
+ATOM C13    C33       0.048
+ATOM C14    CA       -0.259
+ATOM C15    CA       -0.164
+ATOM S      SS       -0.126
+ATOM H      HC33      0.087
+ATOM H1     HC33      0.087
+ATOM H2     HC33      0.087
+ATOM H3     HN        0.413
+ATOM H4     HN        0.413
+ATOM H5     HN        0.359
+ATOM H6     HA        0.213
+ATOM H7     H4        0.084
+ATOM H8     HA        0.152
+ATOM H9     HA        0.149
+ATOM H10    H1        0.038
+ATOM H11    H1        0.038
+ATOM H12    H1        0.038
+ATOM H13    H1        0.038
+ATOM H14    H1        0.038
+ATOM H15    H1        0.038
+ATOM H16    HA        0.149
+ATOM H17    HA        0.152
+
+
+! Chi^2 =   0.1663           Chi^2(ESP) =   0.1526           Chi^2(RSTR_CG) =   0.0137 
+!                        Std_Error(ESP) =   0.0039       Std_Error(RSTR_CG) =   0.0677 
+
+
+

@@ -1,0 +1,45 @@
+#!/bin/sh
+
+source $GAAMPSCRIPTS/routines
+
+cp $GAAMPRUN/020-initial_parameters/mol.rtf .
+cp $GAAMPRUN/020-initial_parameters/mol.prm .
+cp $GAAMPRUN/020-initial_parameters/mol-opt.pdb .
+
+if [ "$Equivalent" == "noneprovided" ]; then
+  echo "	Equivalent atoms are automaticaly determined"
+  Gexe equiv_atom mol.rtf
+else
+  echo "	Reading equivalent atoms from $Equivalent"
+  cp ../../$Equivalent ./equiv-org.txt
+fi
+
+cat equiv-org.txt >> $LOGFILE
+
+if [ "$Neutral" == "noneprovided" ]; then
+  echo "	No neutral group will be used"
+  touch neutral.txt
+else 
+  echo "	Will read neutral groups from $Neutral"
+  cp ../../$Neutral ./neutral.txt
+  cat neutral.txt >> $LOGFILE
+fi
+
+if [ "$FixCharges" == "noneprovided" ]; then
+  echo "	No charge will be fixed"
+  touch fixq.txt
+else
+  echo "	Will read fixed charges from $FixCharges"
+  cp ../../$FixCharges ./fixq.txt
+  cat fixq.txt >> $LOGFILE
+fi
+
+cp mol.rtf org-mol.rtf
+cp mol.prm org-mol.prm
+
+Gexe add-tip3 mol.rtf mol.prm $NetCharge $E14FAC
+Gexe gen_xpsf mol.rtf mol.xpsf MOL
+Gexe gen_xpsf mol.rtf mol-wat.xpsf MOL TIP3
+Gexe pdb_to_crd
+
+exit 0

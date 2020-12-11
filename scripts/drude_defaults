@@ -1,0 +1,7 @@
+#!/bin/sh
+w_H_Donor_Acceptor="2.0"         # Weight for grid poitns around H-donor/acceptor
+w_charge="1.0"                   # Weight for charges restraints
+w_water_E_min="0.4"              # Weight for mol-water interactions, Emin
+w_water_R_min="8.0"              # Weight for mol-water interactions, Rmin
+w_alpha="0.4"                  # Weight for constraints on polarizability
+w_thole="0.2"                  # Weight for constraints on thole

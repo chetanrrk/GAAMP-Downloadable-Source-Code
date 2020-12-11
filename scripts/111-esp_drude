@@ -1,0 +1,16 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+
+cp $GAAMPRUN/031-generate_drude/mol* .
+cp $GAAMPRUN/031-generate_drude/elem-list.txt .
+cp $GAAMPRUN/030-generate_structure/mol.inp .
+cp $GAAMPRUN/030-generate_structure/mol.crd .
+cp $GAAMPRUN/110-esp/mol-opt.out .
+
+Gexe gen-esp-drude mol.inp mol.xpsf $NetCharge
+
+cp cal-esp.out qm-mol-esp-drude.out
+
+
+exit 0

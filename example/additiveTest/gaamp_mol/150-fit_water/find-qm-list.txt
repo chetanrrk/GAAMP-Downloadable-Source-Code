@@ -1,0 +1,7 @@
+./dat-donor-1-27/QM/opt-output.out
+./dat-donor-2-28/QM/opt-output.out
+./dat-acceptor-1-1/QM/opt-output.out
+./dat-acceptor-3-3/QM/opt-output.out
+./dat-acceptor-4-5/QM/opt-output.out
+./dat-acceptor-2-2/QM/opt-output.out
+./dat-donor-3-29/QM/opt-output.out

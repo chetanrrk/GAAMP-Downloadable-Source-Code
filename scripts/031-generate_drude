@@ -1,0 +1,21 @@
+#!/bin/sh
+
+source $GAAMPSCRIPTS/routines
+cp ../030-generate_structure/org-mol.rtf .
+cp ../030-generate_structure/org-mol.prm .
+cp ../030-generate_structure/mol.xpsf .
+cp ../030-generate_structure/mol.rtf .
+cp ../030-generate_structure/mol.prm .
+
+##Gexe drude-ff org-mol.rtf org-mol.prm mol.xpsf $E14FAC
+Gexe drude-ff org-mol.rtf org-mol.prm mol.xpsf $E14FAC
+
+Gexe check_lj drude-mol.prm
+
+#Gexe drude-gen_xpsf drude-mol.rtf drude-mol.xpsf MOL test
+Gexe drude-xpsf drude-mol.rtf drude-mol.xpsf MOL test
+
+#Gexe drude-gen_xpsf drude-mol.rtf drude-mol-wat.xpsf MOL SWM4
+Gexe drude-xpsf drude-mol.rtf drude-mol-wat.xpsf MOL SWM4
+
+exit 0

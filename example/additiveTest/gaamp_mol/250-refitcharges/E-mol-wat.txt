@@ -1,0 +1,21 @@
+#Energy      1 acceptor  1 atom   N QM    -6.355109    2.0833 
+Acceptor     1    -6.355109    2.0833 
+Saved_MM_Parameters   0     1.8203753742434412    -2.4295747130650445
+#Energy      2 acceptor  2 atom   N QM    -3.120141    2.3002 
+Acceptor     2    -3.120141    2.3002 
+Saved_MM_Parameters   0     1.8667807297941434    -0.9829740011490817
+#Energy      3 acceptor  3 atom   N QM    -6.444215    2.0561 
+Acceptor     3    -6.444215    2.0561 
+Saved_MM_Parameters   0     1.7822851297486981     5.4056683273832480
+#Energy      4 acceptor  5 atom   N QM    -4.257985    2.1806 
+Acceptor     5    -4.257985    2.1806 
+Saved_MM_Parameters   0     1.9807152041154510     4.6740029987452498
+#Energy      1 donor 27 atom   N QM    -5.680630    2.0638 
+Donor    27    -5.680630    2.0638 
+Saved_MM_Parameters   0     1.8567925619604240     1.0584836244883327
+#Energy      2 donor 28 atom   N QM    -4.540126    2.0603 
+Donor    28    -4.540126    2.0603 
+Saved_MM_Parameters   0     1.8592854751898005     1.4922085858016931
+#Energy      3 donor 29 atom   N QM    -3.442599    2.0767 
+Donor    29    -3.442599    2.0767 
+Saved_MM_Parameters   0     1.8854422907725941     4.6481899861014124

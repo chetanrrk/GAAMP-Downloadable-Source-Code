@@ -1,0 +1,137 @@
+#!/bin/sh
+
+GAAMPDIR=`dirname $0`/..
+export GAAMPDIR=`readlink -f $GAAMPDIR`
+export GAAMPSCRIPTS="$GAAMPDIR/scripts"
+source $GAAMPSCRIPTS/routines
+source $GAAMPSCRIPTS/defaults
+
+source $GAAMPDIR/opt/PATHS
+
+export WORKDIR=$PWD
+export LOGFILE="$WORKDIR/gaamp.log"
+
+if [ "$#" -eq 0 ]; then
+  Message "usage" 
+  exit 1
+fi
+
+Check_input $PWD/$1
+CheckError "ERROR in input file: $1"
+source $PWD/$1
+
+if [ "$DrudeModel" -eq 1 ]; then
+  source $GAAMPSCRIPTS/drude_defaults 
+  source $PWD/$1
+fi
+
+mkdir -p $WORKDIR/gaamp_$JobName
+export GAAMPRUN="$WORKDIR/gaamp_$JobName"
+export RUNFOLDER="gaamp_$JobName"
+export LOGFILE="$WORKDIR/$JobName-gaamp.log"
+
+for key in `cat $GAAMPSCRIPTS/keywordlist`; do
+  export $key
+done
+
+ 
+# Use User Defined QM Calc Settings
+python $GAAMPSCRIPTS/AssignQMParams.py $GAAMPRUN $QM_MEM $QM_NPROC
+
+mkdir -p $GAAMPRUN/results
+
+############################################
+Message hello >> $LOGFILE
+
+# Initialization
+GRun 010-preoptimize
+GRun 020-initial_parameters
+
+# Use Optimized LJ Parameters/Atom Types?
+if [ "$UseLJOptPara" == 1 ] && [ "Ini_Parameters" == "GAFF" ]; then
+  #python $GAAMPSCRIPTS/updateLJPrm.py $GAAMPDIR mol-opt.mol2 mol.rtf mol.prm
+  python $GAAMPSCRIPTS/updateLJPrm_RDKIT.py $GAAMPSCRIPTS mol-opt.pdb mol.rtf mol.prm
+fi
+
+GRun 030-generate_structure
+if [ "$DrudeModel" == 1 ]; then
+  GRun 031-generate_drude
+fi
+
+# Fit charges
+GRun 110-esp
+GRun 120-fit_esp
+if [ "$DrudeModel" -eq 1 ]; then
+  GRun 111-esp_drude
+  GRun 121-fit_esp_drude
+fi
+
+# Fit charges with water
+WaterFit=0
+if [ "$To_Fit_E_Wat" -eq 1 ]; then
+  GRun 150-fit_water 
+  if [ -e 150-fit_water/E-mol-wat.txt ]; then
+    WaterFit=1
+    if [ "$DrudeModel" -eq 1 ]; then
+      GRun 151-fit_water_drude
+    fi
+  fi
+fi
+export WaterFit
+
+
+# Fit torsions
+
+GRun 210-detect_soft_torsion
+export NumTorsion=`wc -l 210-detect_soft_torsion/soft-dih-list.txt | awk '{print $1}'`
+
+if [ "$NumTorsion" -gt 0 ] && [ "$TorsionFitting" -eq 1 ]; then
+
+  if [ "$NumTorsion" -gt 1 ]; then
+    GRun 220-pes
+  fi
+  GRun 230-qm_1d_scan
+  GRun 240-1d-fitting
+
+  # Refit torsion with water molecules
+  if [ "$WaterFit" -eq 1 ]; then
+    GRun 250-refitcharges
+    GRun 260-refittorsions 
+  fi
+
+  if [ "$DrudeModel" -eq 1 ]; then
+    GRun 241-1d-fitting_drude
+    if [ "$WaterFit" -eq 1 ]; then
+      GRun 251-refitcharges_drude
+      GRun 261-refittorsions_drude	
+    fi
+  fi 
+
+  if [ "$NumTorsion" -gt 1 ] && [ "$NumTorsion" -lt "$MaxTorsion" ]; then
+    GRun 270-rotamer
+    GRun 280-fit_rotamer
+
+    if [ "$DrudeModel" -eq 1 ]; then
+      GRun 271-fit_rotamer_drude	
+    fi	
+  fi
+
+fi
+
+# Update atomtypes to make it CHARMM-GUI Compatible
+if [ "$UpdateAtomType" == 1 ]; then
+  python $GAAMPSCRIPTS/UpdateAtomTypes.py $GAAMPRUN
+  if [ "$DrudeModel" -eq 1 ]; then
+    python $GAAMPSCRIPTS/UpdateAtomTypesDrude.py $GAAMPRUN	
+  fi
+fi
+
+###GRun 999-Results
+
+exit
+cd $WORKDIR
+/bin/tar -zcvf $RUNFOLDER.tgz ./$RUNFOLDER
+chmod a+rx $RUNFOLDER.tgz
+
+exit
+

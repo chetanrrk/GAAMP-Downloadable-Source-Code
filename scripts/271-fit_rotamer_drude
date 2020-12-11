@@ -1,0 +1,39 @@
+#!/bin/sh
+source $GAAMPSCRIPTS/routines
+
+cp $GAAMPRUN/261-refittorsions_drude/drude-mol.prm .
+cp $GAAMPRUN/261-refittorsions_drude/drude-mol.xpsf .
+cp $GAAMPRUN/261-refittorsions_drude/mm-tor-1D-idx-*.dat .
+cp $GAAMPRUN/261-refittorsions_drude/torsion-para-*.dat .
+cp $GAAMPRUN/261-refittorsions_drude/soft-dih-list.txt .
+cp $GAAMPRUN/270-rotamer/all-rotamer.dat .
+cp $GAAMPRUN/151-fit_water_drude/drude-fit-mol.conf .
+
+Gexe 1d-rotamer-fitting-drude drude-fit-mol.conf
+
+$GAAMPSCRIPTS/rotamer-plot-1d-result.sh
+
+if [ -e $GAAMPRUN/251-refitcharges_drude ]; then
+   cp $GAAMPRUN/251-refitcharges_drude/drude-esp-mol.rtf mol-tor.rtf
+elif [ -e $GAAMPRUN/151-fit_water_drude ]; then
+   cp $GAAMPRUN/151-fit_water_drude/drude-esp-mol.rtf mol-tor.rtf
+else
+   cp $GAAMPRUN/121-fit_esp_drude/drude-esp-mol.rtf mol-tor.rtf
+fi
+
+cp $GAAMPRUN/110-esp/mol-opt.crd .
+
+Gexe update-tor-para-drude
+
+cp *.png $GAAMPRUN/drude_results/
+cp result-1D.html $GAAMPRUN/drude_results/
+cp 1d-qm-mm-*.dat $GAAMPRUN/drude_results/
+
+cp mol-*m.pdb $GAAMPRUN/results/
+cp mol-*m.pdb $GAAMPRUN/drude_results/
+cp mol-tor.rtf $GAAMPRUN/drude_results/drude-mol-tor.rtf
+cp drude-mol.prm $GAAMPRUN/drude_results/drude-mol-tor.prm
+cp drude-mol.xpsf $GAAMPRUN/drude_results/drude-mol-tor.xpsf
+cp rotamer-E.dat $GAAMPRUN/drude_results/
+
+
